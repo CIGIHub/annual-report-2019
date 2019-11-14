@@ -17,17 +17,17 @@ export default Controller.extend({
       icon: 'file-alt',
       link: 'https://www.cigionline.org/publications/regional-arrangements-and-imf-75-defending-global-financial-governance-anniversary',
       title: get(this, 'intl').t('multilateralInstitutionsMarkATumultuousYear.link1'),
-      type: get(this, 'intl').t('paper'),
+      type: get(this, 'intl').t('publication'),
     }, {
       icon: 'file-alt',
       link: 'https://www.cigionline.org/publications/trump-trade-policy-exchange-rate-surveillance-and-imf-back-future',
       title: get(this, 'intl').t('multilateralInstitutionsMarkATumultuousYear.link2'),
-      type: get(this, 'intl').t('paper'),
+      type: get(this, 'intl').t('publication'),
     }, {
-      icon: 'comment-alt-lines',
+      icon: 'film',
       link: 'https://www.cigionline.org/articles/can-g20-save-globalizations-waning-reputation',
       title: get(this, 'intl').t('multilateralInstitutionsMarkATumultuousYear.link3'),
-      type: get(this, 'intl').t('articleAndVideo'),
+      type: get(this, 'intl').t('multimedia'),
     }];
   }),
 
