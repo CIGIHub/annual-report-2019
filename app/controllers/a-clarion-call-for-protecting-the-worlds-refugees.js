@@ -17,17 +17,17 @@ export default Controller.extend({
       icon: 'file-alt',
       link: 'https://www.cigionline.org/publications/call-action-transforming-global-refugee-system',
       title: get(this, 'intl').t('aClarionCallForProtectingTheWorldsRefugees.link1'),
-      type: get(this, 'intl').t('report'),
+      type: get(this, 'intl').t('publication'),
     }, {
       icon: 'film',
-      link: 'https://www.cigionline.org/publications/no-strangers-gate-collective-responsibility-and-regions-response-venezuelan-refugee',
+      link: 'https://www.cigionline.org/multimedia/concrete-solutions-transform-global-refugee-system',
       title: get(this, 'intl').t('aClarionCallForProtectingTheWorldsRefugees.link2'),
       type: get(this, 'intl').t('video'),
     }, {
       icon: 'file-alt',
       link: 'https://www.cigionline.org/publications/no-strangers-gate-collective-responsibility-and-regions-response-venezuelan-refugee',
       title: get(this, 'intl').t('aClarionCallForProtectingTheWorldsRefugees.link3'),
-      type: get(this, 'intl').t('report'),
+      type: get(this, 'intl').t('publication'),
     }];
   }),
 
