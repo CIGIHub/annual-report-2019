@@ -35,9 +35,9 @@ export default Service.extend({
     subRoutes: [],
     title: 'governingCyberspaceDuringACrisisInTrust.title',
   }, {
-    route: 'governing-the-digital-public-sphere',
+    route: 'disinformation-and-social-media-a-global-governance-challenge',
     subRoutes: [],
-    title: 'governingTheDigitalPublicSphere.title',
+    title: 'disinformationAndSocialMedia.title',
   }, {
     route: 'media-and-mass-atrocity-the-rwanda-genocide-and-beyond',
     subRoutes: [],

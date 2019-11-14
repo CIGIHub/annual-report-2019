@@ -44,7 +44,7 @@ module('Acceptance | media and mass atrocity the rwanda genocide and beyond', fu
     );
   });
 
-  test('should transition to /governing-the-digital-public-sphere on scroll-arrow-up-btn click', async function(assert) {
+  test('should transition to /disinformation-and-social-media-a-global-governance-challenge on scroll-arrow-up-btn click', async function(assert) {
     await visit('/media-and-mass-atrocity-the-rwanda-genocide-and-beyond');
 
     assert.ok(
@@ -54,7 +54,7 @@ module('Acceptance | media and mass atrocity the rwanda genocide and beyond', fu
     await click('.scroll-arrow-up-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/governing-the-digital-public-sphere');
+    assert.strictEqual(currentURL(), '/disinformation-and-social-media-a-global-governance-challenge');
   });
 
   test('should transition to /braiding-legal-orders on scroll-arrow-down-btn click', async function(assert) {

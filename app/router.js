@@ -13,6 +13,7 @@ Router.map(function() {
   this.route('building-closer-ties-between-canada-and-india');
   this.route('chairs-message');
   this.route('curbing-cultural-appropriation-through-intellectual-property-law');
+  this.route('disinformation-and-social-media-a-global-governance-challenge');
   this.route('exploring-the-four-internets-and-the-geopolitics-of-digital-governance');
   this.route('financials', function() {
     this.route('auditors-report');
@@ -21,7 +22,6 @@ Router.map(function() {
     this.route('revenue-and-expenses');
   });
   this.route('governing-cyberspace-during-a-crisis-in-trust');
-  this.route('governing-the-digital-public-sphere');
   this.route('informing-the-debate-around-internet-security-and-trust');
   this.route('media-and-mass-atrocity-the-rwanda-genocide-and-beyond');
   this.route('models-for-data-governance');

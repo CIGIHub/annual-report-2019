@@ -101,6 +101,17 @@ curbingCulturalAppropriationThroughIntellectualPropertyLaw:
   title: 'Curbing Cultural Appropriation Through Intellectual Property Law'
 currency: '$'
 description: 'Explore a year of research, opinion and expertise in CIGI’s interactive annual report.'
+disinformationAndSocialMedia:
+  description: 'The 2016 US election was marked by malicious uses of technology, including new forms of “fake news” on social media platforms designed to sway voters. Since then, there has been a striking number of cases of commercially and politically driven disinformation, foreign interference in elections, data breaches, cyber attacks, the proliferation of harmful speech, data exploitation and surveillance abuses.'
+  link1: 'Read Robert Fay’s call for an international framework for data governance.'
+  link2: 'Watch Eric Jardine’s video about the scale, severity and impact of fake news.'
+  link3: 'Jim Balsillie’s remarks to the International Grand Committee ignited social media discussions.'
+  paragraph1: 'The 2016 US election was marked by malicious uses of technology, including new forms of “fake news” on social media platforms designed to sway voters. Since then, there has been a striking number of cases of commercially and politically driven disinformation, foreign interference in elections, data breaches, cyber attacks, the proliferation of harmful speech, data exploitation and surveillance abuses.'
+  paragraph2: 'At this inflection point — in which democracies are strained by technologies — there is a pressing need for policy makers, civil society and the private sector alike to put forth a coordinated effort to govern the digital public sphere. In response to this gap in regulation, CIGI has led discussions in Canada and internationally on frameworks for social media regulation and the impacts of disinformation. At a May 2019 hearing in Ottawa, CIGI founder and Chair Jim Balsillie and Senior Fellow Taylor Owen appeared before the International Grand Committee on Big Data, Privacy and Democracy. Balsillie made specific recommendations designed to address the threats to democracy posed by a “toxic” social media business model.'
+  quote:
+    quote: '“The reach and implications of big data and artificial intelligence are global. Their governing frameworks, though, are not. In fact, they scarcely exist.”'
+    source: 'Global Economy Director Robert Fay'
+  title: 'Disinformation and Social Media: A Global Governance Challenge'
 download: 'Download'
 downloadPdf: 'Download PDF'
 essay: 'Essay'
@@ -308,13 +319,6 @@ governingCyberspaceDuringACrisisInTrust:
     quote: '“Cyberspace presents both threats and opportunities — at the same time — and the collective challenge is to advance policy that can best maximize the opportunities while mitigating the threats in a constantly changing global environment.”'
     source: 'Aaron Shull, in the Governing Cyberspace during a Crisis in Trust essay series'
   title: 'Governing Cyberspace during a Crisis in Trust'
-governingTheDigitalPublicSphere:
-  description: 'The 2016 US election revealed both malicious uses of technology and structural problems in the digital infrastructure itself. Since then, there have been a striking number of cases of commercially and politically driven misinformation, foreign interference in elections, data breaches, cyber attacks, the proliferation of harmful speech, data exploitation and surveillance abuses.'
-  paragraph1: 'The 2016 US election revealed both malicious uses of technology and structural problems in the digital infrastructure itself. Since then, there have been a striking number of cases of commercially and politically driven misinformation, foreign interference in elections, data breaches, cyber attacks, the proliferation of harmful speech, data exploitation and surveillance abuses.'
-  paragraph2: 'At this inflection point — in which democracies are strained by technologies — there is a pressing need for policy makers, civil society and the private sector alike to put forth a coordinated effort to govern the digital public sphere. In response to this gap in regulation, CIGI has led discussion in Canada and internationally on frameworks for social media regulation and the impacts of misinformation, including testimony before the Grand Committee on Big Data, Privacy and Democracy.'
-  quote:
-    quote: 'At this inflection point — in which democracies are strained by technologies — there is a pressing need for a coordinated and comprehensive effort to govern the digital public sphere.'
-  title: 'Governing the Digital Public Sphere'
 home: 'Home'
 index:
   annual: 'Annual'
@@ -410,6 +414,7 @@ publications: 'Publications'
 qa: 'Q&A'
 report: 'Report'
 resource: 'Resource'
+socialMedia: 'Social Media'
 subscribe: 'Subscribe'
 survey: 'Survey'
 tableOfContents:

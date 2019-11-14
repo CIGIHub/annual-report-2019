@@ -155,7 +155,7 @@ export default /* istanbul ignore next */ function() {
   /* istanbul ignore next */
   this.transition(
     this.fromRoute('index'),
-    this.toRoute('governing-the-digital-public-sphere'),
+    this.toRoute('disinformation-and-social-media-a-global-governance-challenge'),
     this.use('explode', {
       pickNew: '.background-row',
       use: ['crossFadeSlide', false, {
@@ -605,7 +605,7 @@ export default /* istanbul ignore next */ function() {
   /* istanbul ignore next */
   this.transition(
     this.fromRoute('table-of-contents'),
-    this.toRoute('governing-the-digital-public-sphere'),
+    this.toRoute('disinformation-and-social-media-a-global-governance-challenge'),
     this.use('explode', {
       pickNew: '.background-row',
       use: ['crossFadeSlide', false, {
@@ -1005,7 +1005,7 @@ export default /* istanbul ignore next */ function() {
   /* istanbul ignore next */
   this.transition(
     this.fromRoute('chairs-message'),
-    this.toRoute('governing-the-digital-public-sphere'),
+    this.toRoute('disinformation-and-social-media-a-global-governance-challenge'),
     this.use('explode', {
       pickNew: '.background-row',
       use: ['crossFadeSlide', false, {
@@ -1405,7 +1405,7 @@ export default /* istanbul ignore next */ function() {
   /* istanbul ignore next */
   this.transition(
     this.fromRoute('presidents-message'),
-    this.toRoute('governing-the-digital-public-sphere'),
+    this.toRoute('disinformation-and-social-media-a-global-governance-challenge'),
     this.use('explode', {
       pickNew: '.background-row',
       use: ['crossFadeSlide', false, {
@@ -1780,7 +1780,7 @@ export default /* istanbul ignore next */ function() {
   /* istanbul ignore next */
   this.transition(
     this.fromRoute('building-closer-ties-between-canada-and-india'),
-    this.toRoute('governing-the-digital-public-sphere'),
+    this.toRoute('disinformation-and-social-media-a-global-governance-challenge'),
     this.use('explode', {
       pickNew: '.background-row',
       use: ['crossFadeSlide', false, {
@@ -2130,7 +2130,7 @@ export default /* istanbul ignore next */ function() {
   /* istanbul ignore next */
   this.transition(
     this.fromRoute('a-clarion-call-for-protecting-the-worlds-refugees'),
-    this.toRoute('governing-the-digital-public-sphere'),
+    this.toRoute('disinformation-and-social-media-a-global-governance-challenge'),
     this.use('explode', {
       pickNew: '.background-row',
       use: ['crossFadeSlide', false, {
@@ -2455,7 +2455,7 @@ export default /* istanbul ignore next */ function() {
   /* istanbul ignore next */
   this.transition(
     this.fromRoute('governing-cyberspace-during-a-crisis-in-trust'),
-    this.toRoute('governing-the-digital-public-sphere'),
+    this.toRoute('disinformation-and-social-media-a-global-governance-challenge'),
     this.use('explode', {
       pickNew: '.background-row',
       use: ['crossFadeSlide', false, {
@@ -2779,7 +2779,7 @@ export default /* istanbul ignore next */ function() {
   );
   /* istanbul ignore next */
   this.transition(
-    this.fromRoute('governing-the-digital-public-sphere'),
+    this.fromRoute('disinformation-and-social-media-a-global-governance-challenge'),
     this.toRoute('media-and-mass-atrocity-the-rwanda-genocide-and-beyond'),
     this.use('explode', {
       pickNew: '.background-row',
@@ -2804,7 +2804,7 @@ export default /* istanbul ignore next */ function() {
   );
   /* istanbul ignore next */
   this.transition(
-    this.fromRoute('governing-the-digital-public-sphere'),
+    this.fromRoute('disinformation-and-social-media-a-global-governance-challenge'),
     this.toRoute('braiding-legal-orders'),
     this.use('explode', {
       pickNew: '.background-row',
@@ -2829,7 +2829,7 @@ export default /* istanbul ignore next */ function() {
   );
   /* istanbul ignore next */
   this.transition(
-    this.fromRoute('governing-the-digital-public-sphere'),
+    this.fromRoute('disinformation-and-social-media-a-global-governance-challenge'),
     this.toRoute('models-for-data-governance'),
     this.use('explode', {
       pickNew: '.background-row',
@@ -2854,7 +2854,7 @@ export default /* istanbul ignore next */ function() {
   );
   /* istanbul ignore next */
   this.transition(
-    this.fromRoute('governing-the-digital-public-sphere'),
+    this.fromRoute('disinformation-and-social-media-a-global-governance-challenge'),
     this.toRoute('protecting-elections-from-foreign-interference'),
     this.use('explode', {
       pickNew: '.background-row',
@@ -2879,7 +2879,7 @@ export default /* istanbul ignore next */ function() {
   );
   /* istanbul ignore next */
   this.transition(
-    this.fromRoute('governing-the-digital-public-sphere'),
+    this.fromRoute('disinformation-and-social-media-a-global-governance-challenge'),
     this.toRoute('a-bretton-woods-moment-for-the-digital-age'),
     this.use('explode', {
       pickNew: '.background-row',
@@ -2904,7 +2904,7 @@ export default /* istanbul ignore next */ function() {
   );
   /* istanbul ignore next */
   this.transition(
-    this.fromRoute('governing-the-digital-public-sphere'),
+    this.fromRoute('disinformation-and-social-media-a-global-governance-challenge'),
     this.toRoute('informing-the-debate-around-internet-security-and-trust'),
     this.use('explode', {
       pickNew: '.background-row',
@@ -2929,7 +2929,7 @@ export default /* istanbul ignore next */ function() {
   );
   /* istanbul ignore next */
   this.transition(
-    this.fromRoute('governing-the-digital-public-sphere'),
+    this.fromRoute('disinformation-and-social-media-a-global-governance-challenge'),
     this.toRoute('exploring-the-four-internets-and-the-geopolitics-of-digital-governance'),
     this.use('explode', {
       pickNew: '.background-row',
@@ -2954,7 +2954,7 @@ export default /* istanbul ignore next */ function() {
   );
   /* istanbul ignore next */
   this.transition(
-    this.fromRoute('governing-the-digital-public-sphere'),
+    this.fromRoute('disinformation-and-social-media-a-global-governance-challenge'),
     this.toRoute('curbing-cultural-appropriation-through-intellectual-property-law'),
     this.use('explode', {
       pickNew: '.background-row',
@@ -2979,7 +2979,7 @@ export default /* istanbul ignore next */ function() {
   );
   /* istanbul ignore next */
   this.transition(
-    this.fromRoute('governing-the-digital-public-sphere'),
+    this.fromRoute('disinformation-and-social-media-a-global-governance-challenge'),
     this.toRoute('outputs-and-activities'),
     this.use('explode', {
       pickNew: '.background-row',
@@ -3004,7 +3004,7 @@ export default /* istanbul ignore next */ function() {
   );
   /* istanbul ignore next */
   this.transition(
-    this.fromRoute('governing-the-digital-public-sphere'),
+    this.fromRoute('disinformation-and-social-media-a-global-governance-challenge'),
     this.toRoute('timeline'),
     this.use('explode', {
       pickNew: '.background-row',
@@ -3029,7 +3029,7 @@ export default /* istanbul ignore next */ function() {
   );
   /* istanbul ignore next */
   this.transition(
-    this.fromRoute('governing-the-digital-public-sphere'),
+    this.fromRoute('disinformation-and-social-media-a-global-governance-challenge'),
     this.toRoute('financials'),
     this.use('explode', {
       pickNew: '.background-row',
@@ -3054,7 +3054,7 @@ export default /* istanbul ignore next */ function() {
   );
   /* istanbul ignore next */
   this.transition(
-    this.fromRoute('governing-the-digital-public-sphere'),
+    this.fromRoute('disinformation-and-social-media-a-global-governance-challenge'),
     this.toRoute('thank-you'),
     this.use('explode', {
       pickNew: '.background-row',

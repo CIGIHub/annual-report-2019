@@ -308,13 +308,13 @@ module('Unit | Component | dot-nav', function(hooks) {
     });
   });
 
-  test('should have correct menu items for /governing-the-digital-public-sphere', function(assert) {
+  test('should have correct menu items for /disinformation-and-social-media-a-global-governance-challenge', function(assert) {
     const component = this.owner.factoryFor('component:dot-nav').create();
-    set(component, 'router.currentRouteName', 'governing-the-digital-public-sphere');
+    set(component, 'router.currentRouteName', 'disinformation-and-social-media-a-global-governance-challenge');
 
     const menuItems = get(component, 'menuItems');
     menuItems.forEach(function(menuItem) {
-      if (menuItem.route === 'governing-the-digital-public-sphere') {
+      if (menuItem.route === 'disinformation-and-social-media-a-global-governance-challenge') {
         assert.strictEqual(
           menuItem.current,
           true,
