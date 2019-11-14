@@ -17,12 +17,12 @@ export default Controller.extend({
       icon: 'comment-alt-lines',
       link: 'https://www.cigionline.org/cyberspace',
       title: get(this, 'intl').t('governingCyberspaceDuringACrisisInTrust.link1'),
-      type: get(this, 'intl').t('essaySeries'),
+      type: get(this, 'intl').t('opinion'),
     }, {
       icon: 'comment-alt-lines',
       link: 'https://www.cigionline.org/articles/patching-our-digital-future-unsustainable-and-dangerous',
       title: get(this, 'intl').t('governingCyberspaceDuringACrisisInTrust.link2'),
-      type: get(this, 'intl').t('essay'),
+      type: get(this, 'intl').t('opinion'),
     }, {
       icon: 'film',
       link: 'https://www.cigionline.org/multimedia/video-crime-and-policing-cyber-enabled-world',
