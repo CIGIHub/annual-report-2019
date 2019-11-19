@@ -353,11 +353,15 @@ innovationNation:
 media: 'Media'
 mediaAndMassAtrocityTheRwandaGenocideAndBeyond:
   description: 'Published in April 2019 to coincide with the twenty-fifth anniversary of the Rwanda genocide, this book revisits the key issues of the media-genocide nexus in Rwanda and how reporting has changed with social media. Media and Mass Atrocity provides a critical, and often grim, review of the Rwanda genocide.'
-  link2: 'Read Allan Thompson’s long form exploration of the relationship between technology and war reporting'
-  link3: 'Watch Allan Thompson’s reflection on the coverage of the Rwandan genocide'
-  paragraph1: 'Published in April 2019 to coincide with the twenty-fifth anniversary of the Rwanda genocide, this book revisits the key issues of the media-genocide nexus in Rwanda and how reporting has changed with social media. Media and Mass Atrocity provides a critical, and often grim, review of the Rwanda genocide. It also reviews other cases of mass violence and the role of terror organizations such as ISIS, which uses media, particularly social media, to their own advantage.'
-  paragraph2: 'Edited by veteran foreign affairs journalist and CIGI Senior Fellow Allan Thompson, with contributions from frontline war correspondents and academic researchers, with a chapter and foreword by General Roméo Dallaire, the book received a great deal of media interest. Thompson was interviewed on CTV News, Global News and The Agenda, and was interviewed on CBC Radio Syndication from Halifax to Victoria.'
-  paragraph3: 'Launch events with contributors were held in Rwanda, Johannesburg, London, UK, Washington, DC, and Ottawa.'
+  link1: 'Watch the book trailer and read more about <em>Media and Mass Atrocity</em>.'
+  link2: 'Read Allan Thompson’s long-form exploration of the relationship between technology and war reporting. '
+  link3: 'Watch Allan Thompson’s reflection on the coverage of the Rwandan genocide.'
+  quote:
+    quote: '“Social media tools can be used to inform and engage, but — in an echo of hate radio in Rwanda — can also be used to demonize opponents and mobilize extremism.”'
+    source: 'General Roméo Dallaire in the foreword to <em>Media and Mass Atrocity</em>'
+  paragraph1: 'Published in April 2019 to coincide with the twenty-fifth anniversary of the Rwanda genocide, this book revisits the key issues of the media-genocide nexus in Rwanda and how reporting has changed with social media. <em>Media and Mass Atrocity</em> provides a critical, and often grim, review of the Rwanda genocide. It also examines other cases of mass violence and the role of terrorist organizations, such as ISIS, which use media, in particular social media, to their own advantage.'
+  paragraph2: 'Edited by veteran foreign affairs journalist and CIGI Senior Fellow Allan Thompson, with contributions from frontline war correspondents and academic researchers and including a chapter and foreword by General Roméo Dallaire, the book received a great deal of media interest. Thompson was interviewed on CTV News, Global News and TVO’s <em>The Agenda</em>, and was interviewed on CBC Radio Syndication from Halifax to Victoria.'
+  paragraph3: 'Launch events with contributors were held in Kigali, Rwanda; Johannesburg, South Africa; London, UK; Washington, DC; and Ottawa, Canada.'
   title: 'Media and Mass Atrocity: The Rwanda Genocide and Beyond'
 modelsForDataGovernance:
   description: 'Data trusts are occupying a politically contested space and the private sector is taking note. As a result, the public dialogue is being shaped by large, well-financed interests trying to maximize data sharing. But, large-scale privately-driven data sharing is not the only way — or even the most important way — to use data trusts.'
