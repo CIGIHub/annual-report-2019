@@ -64,11 +64,6 @@ export default Service.extend({
       ogUrl: '5891adf417e60b71/slides/presidents-message-og.jpg',
       thumbnailUrl: '5891adf417e60b71/slides/presidents-message-thumbnail.jpg',
     },
-    'protecting-elections-from-foreign-interference': {
-      fullSizeUrl: '5891adf417e60b71/slides/protecting-elections-from-foreign-interference.jpg',
-      ogUrl: '5891adf417e60b71/slides/protecting-elections-from-foreign-interference-og.jpg',
-      thumbnailUrl: '5891adf417e60b71/slides/protecting-elections-from-foreign-interference-thumbnail.jpg',
-    },
     'thank-you': {
       fullSizeUrl: '5891adf417e60b71/slides/thank-you.jpg',
       ogUrl: '5891adf417e60b71/slides/thank-you-og.jpg',

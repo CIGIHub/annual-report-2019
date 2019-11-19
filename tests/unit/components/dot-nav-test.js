@@ -462,28 +462,6 @@ module('Unit | Component | dot-nav', function(hooks) {
     });
   });
 
-  test('should have correct menu items for /protecting-elections-from-foreign-interference', function(assert) {
-    const component = this.owner.factoryFor('component:dot-nav').create();
-    set(component, 'router.currentRouteName', 'protecting-elections-from-foreign-interference');
-
-    const menuItems = get(component, 'menuItems');
-    menuItems.forEach(function(menuItem) {
-      if (menuItem.route === 'protecting-elections-from-foreign-interference') {
-        assert.strictEqual(
-          menuItem.current,
-          true,
-          `should have current=true for ${menuItem.route} route`,
-        );
-      } else {
-        assert.strictEqual(
-          menuItem.current,
-          false,
-          `should have current=false for ${menuItem.route} route`,
-        );
-      }
-    });
-  });
-
   test('should have correct menu items for /table-of-contents', function(assert) {
     const component = this.owner.factoryFor('component:dot-nav').create();
     set(component, 'router.currentRouteName', 'table-of-contents');

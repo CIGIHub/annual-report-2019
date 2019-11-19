@@ -55,10 +55,6 @@ export default Service.extend({
     subRoutes: [],
     title: 'modelsForDataGovernance.title',
   }, {
-    route: 'protecting-elections-from-foreign-interference',
-    subRoutes: [],
-    title: 'protectingElectionsFromForeignInterference.title',
-  }, {
     route: 'a-bretton-woods-moment-for-the-digital-age',
     subRoutes: [],
     title: 'aBrettonWoodsMomentForTheDigitalAge.title',

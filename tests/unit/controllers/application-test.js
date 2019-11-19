@@ -171,13 +171,6 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'bounceScrollArrowDown'), false);
   });
 
-  test('should have bounceScrollArrowDown=false for /protecting-elections-from-foreign-interference', function(assert) {
-    const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'protecting-elections-from-foreign-interference');
-
-    assert.strictEqual(get(controller, 'bounceScrollArrowDown'), false);
-  });
-
   test('should have bounceScrollArrowDown=false for /table-of-contents', function(assert) {
     const controller = this.owner.lookup('controller:application');
     set(controller, 'router.currentRouteName', 'table-of-contents');
@@ -344,13 +337,6 @@ module('Unit | Controller | application', function(hooks) {
     set(controller, 'router.currentRouteName', 'presidents-message');
 
     assert.strictEqual(get(controller, 'hideMobileOverlay'), true);
-  });
-
-  test('should have hideMobileOverlay=false for /protecting-elections-from-foreign-interference', function(assert) {
-    const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'protecting-elections-from-foreign-interference');
-
-    assert.strictEqual(get(controller, 'hideMobileOverlay'), false);
   });
 
   test('should have hideMobileOverlay=true for /table-of-contents', function(assert) {
@@ -576,14 +562,6 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'lightBackground'), false);
   });
 
-  test('should have lightBackground=false for /protecting-elections-from-foreign-interference', function(assert) {
-    const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'protecting-elections-from-foreign-interference');
-    set(controller, 'lightbox.showLightbox', null);
-
-    assert.strictEqual(get(controller, 'lightBackground'), false);
-  });
-
   test('should have lightBackground=false for /table-of-contents', function(assert) {
     const controller = this.owner.lookup('controller:application');
     set(controller, 'router.currentRouteName', 'table-of-contents');
@@ -753,13 +731,6 @@ module('Unit | Controller | application', function(hooks) {
   test('should have scrollableContentPage=true for /presidents-message', function(assert) {
     const controller = this.owner.lookup('controller:application');
     set(controller, 'router.currentRouteName', 'presidents-message');
-
-    assert.strictEqual(get(controller, 'scrollableContentPage'), true);
-  });
-
-  test('should have scrollableContentPage=true for /protecting-elections-from-foreign-interference', function(assert) {
-    const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'protecting-elections-from-foreign-interference');
 
     assert.strictEqual(get(controller, 'scrollableContentPage'), true);
   });
@@ -938,13 +909,6 @@ module('Unit | Controller | application', function(hooks) {
   test('should have showDotNav=true for /presidents-message', function(assert) {
     const controller = this.owner.lookup('controller:application');
     set(controller, 'router.currentRouteName', 'presidents-message');
-
-    assert.strictEqual(get(controller, 'showDotNav'), true);
-  });
-
-  test('should have showDotNav=true for /protecting-elections-from-foreign-interference', function(assert) {
-    const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'protecting-elections-from-foreign-interference');
 
     assert.strictEqual(get(controller, 'showDotNav'), true);
   });

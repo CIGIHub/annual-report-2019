@@ -29,7 +29,6 @@ Router.map(function() {
   this.route('multilateral-institutions-mark-a-tumultuous-year');
   this.route('outputs-and-activities');
   this.route('presidents-message');
-  this.route('protecting-elections-from-foreign-interference');
   this.route('table-of-contents');
   this.route('thank-you');
   this.route('timeline');
