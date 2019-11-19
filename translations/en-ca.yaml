@@ -371,12 +371,15 @@ mediaAndMassAtrocityTheRwandaGenocideAndBeyond:
   title: 'Media and Mass Atrocity: The Rwanda Genocide and Beyond'
 modelsForDataGovernance:
   description: 'Data trusts are occupying a politically contested space and the private sector is taking note. As a result, the public dialogue is being shaped by large, well-financed interests trying to maximize data sharing. But, large-scale privately-driven data sharing is not the only way — or even the most important way — to use data trusts.'
-  link1: 'Read Sean McDonald’s long form article on the application of data trusts'
-  link2: 'Watch Bianca Wylie and Sean McDonald explain the make-up and role of a data trust'
-  paragraph1: 'Data trusts are occupying a politically contested space and the private sector is taking note. As a result, the public dialogue is being shaped by large, well-financed interests trying to maximize data sharing. But, large-scale privately-driven data sharing is not the only way — or even the most important way — to use data trusts.'
-  paragraph2: 'In response to the data trust’s move away from obscurity, CIGI has contributed to the discussion on what, exactly, a data trust is, and how it can be used as a tool for effective data governance. A recent federal proposal to modernize PIPEDA cited Bianca Wylie and Sean McDonald’s multimedia approach to defining the role of a data trust in modern governance. Amid global calls for improved data governance frameworks, rethinking the data trust is just one step toward improved data use and management.'
+  link1: 'Read Michel Girard’s paper <em>Big Data Analytics Need Standards to Thrive</em>.'
+  link2: 'Read Sean McDonald’s long-form article on the application of data trusts.'
+  link3: 'Watch Bianca Wylie and Sean McDonald explain the makeup and role of a data trust.'
+  paragraph1: 'Data has become one of the world’s most valuable assets, but we are still in the early stages of developing governance frameworks that foster innovation while building and maintaining trust. CIGI’s work on the development of data standards and the role for a data trust in modern governance offers solutions to this dilemma.'
+  paragraph2: 'The current lack of data standards is a significant barrier to growth for Canada’s data analytics sector. Senior Fellow Michel Girard argues standardization has the potential to increase competitiveness and set benchmarks for data governance and security. Complacency would exacerbate threats to safety and security, fundamental human rights, public institutions and democracy.'
+  paragraph3: 'Public trust will be vital to the sustainability of the data economy. CIGI has contributed to the discussion on what, exactly, a data trust is, and how it can be used. A recent federal proposal to modernize Canada’s Personal Information Protection and Electronic Documents Act cited Senior Fellows Bianca Wylie and Sean McDonald’s approach to defining the role of a data trust.'
   quote:
-    quote: 'Large-scale data sharing is not the only way — or even the most important way — to use data trusts in the public interest.'
+    quote: '“The need for common standards, reliable norms and accessible institutional infrastructure has galvanized people around the world, and their leaders, to act on the importance of, and opportunity for, international data governance.”'
+    source: 'Sean McDonald in his article “Reclaiming Data Trusts”'
   title: 'Models for Data Governance'
 multilateralInstitutionsMarkATumultuousYear:
   description: 'In advance of the G20 summit in Buenos Aires, CIGI published an in-depth interview and companion video with former Canadian Prime Minister Paul Martin to discuss the history and future of the G20.'
