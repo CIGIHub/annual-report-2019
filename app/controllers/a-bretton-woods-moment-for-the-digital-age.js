@@ -29,7 +29,10 @@ export default Controller.extend({
   }),
 
   paragraphs: computed('intl.locale', function() {
-    return [];
+    return [
+      get(this, 'intl').t('aBrettonWoodsMomentForTheDigitalAge.paragraph1'),
+      get(this, 'intl').t('aBrettonWoodsMomentForTheDigitalAge.paragraph2'),
+    ];
   }),
 
   title: computed('intl.locale', function() {
