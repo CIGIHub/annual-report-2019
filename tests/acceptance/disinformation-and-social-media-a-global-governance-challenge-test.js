@@ -57,7 +57,7 @@ module('Acceptance | disinformation and social media a global governance challen
     assert.strictEqual(currentURL(), '/governing-cyberspace-during-a-crisis-in-trust');
   });
 
-  test('should transition to /media-and-mass-atrocity-the-rwanda-genocide-and-beyond on scroll-arrow-down-btn click', async function(assert) {
+  test('should transition to /innovation-nation-making-canada-a-leader-in-the-global-ideas-economy on scroll-arrow-down-btn click', async function(assert) {
     await visit('/disinformation-and-social-media-a-global-governance-challenge');
 
     assert.ok(
@@ -67,6 +67,6 @@ module('Acceptance | disinformation and social media a global governance challen
     await click('.scroll-arrow-down-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/media-and-mass-atrocity-the-rwanda-genocide-and-beyond');
+    assert.strictEqual(currentURL(), '/innovation-nation-making-canada-a-leader-in-the-global-ideas-economy');
   });
 });

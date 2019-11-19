@@ -23,6 +23,7 @@ Router.map(function() {
   });
   this.route('governing-cyberspace-during-a-crisis-in-trust');
   this.route('informing-the-debate-around-internet-security-and-trust');
+  this.route('innovation-nation-making-canada-a-leader-in-the-global-ideas-economy');
   this.route('media-and-mass-atrocity-the-rwanda-genocide-and-beyond');
   this.route('models-for-data-governance');
   this.route('multilateral-institutions-mark-a-tumultuous-year');

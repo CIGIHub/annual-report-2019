@@ -39,6 +39,10 @@ export default Service.extend({
     subRoutes: [],
     title: 'disinformationAndSocialMedia.title',
   }, {
+    route: 'innovation-nation-making-canada-a-leader-in-the-global-ideas-economy',
+    subRoutes: [],
+    title: 'innovationNation.title',
+  }, {
     route: 'media-and-mass-atrocity-the-rwanda-genocide-and-beyond',
     subRoutes: [],
     title: 'mediaAndMassAtrocityTheRwandaGenocideAndBeyond.title',

@@ -129,6 +129,13 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'bounceScrollArrowDown'), false);
   });
 
+  test('should have bounceScrollArrowDown=false for /innovation-nation-making-canada-a-leader-in-the-global-ideas-economy', function(assert) {
+    const controller = this.owner.lookup('controller:application');
+    set(controller, 'router.currentRouteName', 'innovation-nation-making-canada-a-leader-in-the-global-ideas-economy');
+
+    assert.strictEqual(get(controller, 'bounceScrollArrowDown'), false);
+  });
+
   test('should have bounceScrollArrowDown=false for /media-and-mass-atrocity-the-rwanda-genocide-and-beyond', function(assert) {
     const controller = this.owner.lookup('controller:application');
     set(controller, 'router.currentRouteName', 'media-and-mass-atrocity-the-rwanda-genocide-and-beyond');
@@ -293,6 +300,13 @@ module('Unit | Controller | application', function(hooks) {
   test('should have hideMobileOverlay=false for /informing-the-debate-around-internet-security-and-trust', function(assert) {
     const controller = this.owner.lookup('controller:application');
     set(controller, 'router.currentRouteName', 'informing-the-debate-around-internet-security-and-trust');
+
+    assert.strictEqual(get(controller, 'hideMobileOverlay'), false);
+  });
+
+  test('should have hideMobileOverlay=false for /innovation-nation-making-canada-a-leader-in-the-global-ideas-economy', function(assert) {
+    const controller = this.owner.lookup('controller:application');
+    set(controller, 'router.currentRouteName', 'innovation-nation-making-canada-a-leader-in-the-global-ideas-economy');
 
     assert.strictEqual(get(controller, 'hideMobileOverlay'), false);
   });
@@ -498,6 +512,14 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'lightBackground'), false);
   });
 
+  test('should have lightBackground=false for /innovation-nation-making-canada-a-leader-in-the-global-ideas-economy', function(assert) {
+    const controller = this.owner.lookup('controller:application');
+    set(controller, 'router.currentRouteName', 'innovation-nation-making-canada-a-leader-in-the-global-ideas-economy');
+    set(controller, 'lightbox.showLightbox', null);
+
+    assert.strictEqual(get(controller, 'lightBackground'), false);
+  });
+
   test('should have lightBackground=false for /media-and-mass-atrocity-the-rwanda-genocide-and-beyond', function(assert) {
     const controller = this.owner.lookup('controller:application');
     set(controller, 'router.currentRouteName', 'media-and-mass-atrocity-the-rwanda-genocide-and-beyond');
@@ -693,6 +715,13 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'scrollableContentPage'), true);
   });
 
+  test('should have scrollableContentPage=true for /innovation-nation-making-canada-a-leader-in-the-global-ideas-economy', function(assert) {
+    const controller = this.owner.lookup('controller:application');
+    set(controller, 'router.currentRouteName', 'innovation-nation-making-canada-a-leader-in-the-global-ideas-economy');
+
+    assert.strictEqual(get(controller, 'scrollableContentPage'), true);
+  });
+
   test('should have scrollableContentPage=true for /media-and-mass-atrocity-the-rwanda-genocide-and-beyond', function(assert) {
     const controller = this.owner.lookup('controller:application');
     set(controller, 'router.currentRouteName', 'media-and-mass-atrocity-the-rwanda-genocide-and-beyond');
@@ -867,6 +896,13 @@ module('Unit | Controller | application', function(hooks) {
   test('should have showDotNav=true for /informing-the-debate-around-internet-security-and-trust', function(assert) {
     const controller = this.owner.lookup('controller:application');
     set(controller, 'router.currentRouteName', 'informing-the-debate-around-internet-security-and-trust');
+
+    assert.strictEqual(get(controller, 'showDotNav'), true);
+  });
+
+  test('should have showDotNav=true for /innovation-nation-making-canada-a-leader-in-the-global-ideas-economy', function(assert) {
+    const controller = this.owner.lookup('controller:application');
+    set(controller, 'router.currentRouteName', 'innovation-nation-making-canada-a-leader-in-the-global-ideas-economy');
 
     assert.strictEqual(get(controller, 'showDotNav'), true);
   });
