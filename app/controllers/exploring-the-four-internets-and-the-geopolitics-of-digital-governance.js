@@ -24,7 +24,7 @@ export default Controller.extend({
       iconPrefix: 'fal',
       link: 'https://www.cigionline.org/articles/four-visions-shaping-way-we-use-internet',
       title: get(this, 'intl').t('exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.link2'),
-      type: get(this, 'intl').t('qa'),
+      type: get(this, 'intl').t('opinion'),
     }];
   }),
 
@@ -33,7 +33,6 @@ export default Controller.extend({
       get(this, 'intl').t('exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.paragraph1'),
       get(this, 'intl').t('exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.paragraph2'),
       get(this, 'intl').t('exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.paragraph3'),
-      get(this, 'intl').t('exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.paragraph4'),
     ];
   }),
 
