@@ -10,7 +10,7 @@
         {{#each links as |link|}}
           <a class="clearfix content-link show-for-large" href={{link.link}} target="_blank" rel="noopener">
             <div class="float-left content-link-icon">
-              {{fa-icon link.icon prefix="fal" size="lg"}}
+              {{fa-icon link.icon prefix=link.iconPrefix size="lg"}}
             </div>
             <div class="content-copy">
               <h4>{{link.type}}</h4>

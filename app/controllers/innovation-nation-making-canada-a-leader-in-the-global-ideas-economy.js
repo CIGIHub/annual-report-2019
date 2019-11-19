@@ -15,16 +15,19 @@ export default Controller.extend({
   links: computed('intl.locale', function() {
     return [{
       icon: 'newspaper',
+      iconPrefix: 'fal',
       link: 'http://innovation.financialpost.com/',
       title: get(this, 'intl').t('innovationNation.link1'),
       type: get(this, 'intl').t('media'),
     }, {
       icon: 'comment-alt-lines',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/articles/it-time-reboot-canadas-tax-and-benefit-system',
       title: get(this, 'intl').t('innovationNation.link2'),
       type: get(this, 'intl').t('opinion'),
     }, {
-      icon: '',
+      icon: 'twitter',
+      iconPrefix: 'fab',
       link: 'https://twitter.com/CIGIonline/status/1091043474344943616',
       title: get(this, 'intl').t('innovationNation.link3'),
       type: get(this, 'intl').t('socialMedia'),

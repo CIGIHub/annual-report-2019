@@ -15,11 +15,13 @@ export default Controller.extend({
   links: computed('intl.locale', function() {
     return [{
       icon: 'newspaper',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/articles/survey-cyber-criminals-social-media-lack-security-increasingly-fuelling-internet-distrust',
       title: get(this, 'intl').t('informingTheDebateAroundInternetSecurityAndTrust.link1'),
       type: get(this, 'intl').t('media'),
     }, {
       icon: 'chart-bar',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/internet-survey-2019',
       title: get(this, 'intl').t('informingTheDebateAroundInternetSecurityAndTrust.link2'),
       type: get(this, 'intl').t('survey'),

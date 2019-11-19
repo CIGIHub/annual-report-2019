@@ -15,16 +15,19 @@ export default Controller.extend({
   links: computed('intl.locale', function() {
     return [{
       icon: 'file-alt',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/publications/election-risk-monitor-canada',
       title: get(this, 'intl').t('protectingElectionsFromForeignInterference.link1'),
       type: get(this, 'intl').t('publication'),
     }, {
       icon: 'film',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/multimedia/video-election-risk-canada',
       title: get(this, 'intl').t('protectingElectionsFromForeignInterference.link2'),
       type: get(this, 'intl').t('video'),
     }, {
       icon: 'comment-alt-lines',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/articles/are-democracies-prepared-foreign-interference',
       title: get(this, 'intl').t('protectingElectionsFromForeignInterference.link3'),
       type: get(this, 'intl').t('article'),

@@ -15,16 +15,19 @@ export default Controller.extend({
   links: computed('intl.locale', function() {
     return [{
       icon: 'file-alt',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/publications/call-action-transforming-global-refugee-system',
       title: get(this, 'intl').t('aClarionCallForProtectingTheWorldsRefugees.link1'),
       type: get(this, 'intl').t('publication'),
     }, {
       icon: 'film',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/multimedia/concrete-solutions-transform-global-refugee-system',
       title: get(this, 'intl').t('aClarionCallForProtectingTheWorldsRefugees.link2'),
       type: get(this, 'intl').t('video'),
     }, {
       icon: 'file-alt',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/publications/no-strangers-gate-collective-responsibility-and-regions-response-venezuelan-refugee',
       title: get(this, 'intl').t('aClarionCallForProtectingTheWorldsRefugees.link3'),
       type: get(this, 'intl').t('publication'),

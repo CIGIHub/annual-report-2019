@@ -15,11 +15,13 @@ export default Controller.extend({
   links: computed('intl.locale', function() {
     return [{
       icon: 'comment-alt-lines',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/articles/reclaiming-data-trusts',
       title: get(this, 'intl').t('modelsForDataGovernance.link1'),
       type: get(this, 'intl').t('article'),
     }, {
       icon: 'film',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/multimedia/data-trusts-defining-what-how-and-who-can-use-your-data',
       title: get(this, 'intl').t('modelsForDataGovernance.link2'),
       type: get(this, 'intl').t('video'),

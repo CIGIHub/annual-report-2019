@@ -15,11 +15,13 @@ export default Controller.extend({
   links: computed('intl.locale', function() {
     return [{
       icon: 'film',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/multimedia/jim-balsillie-imf-statistical-forum-and-q-christine-lagarde',
       title: get(this, 'intl').t('aBrettonWoodsMomentForTheDigitalAge.link1'),
       type: get(this, 'intl').t('video'),
     }, {
       icon: 'file-alt',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/publications/rethinking-policy-digital-world',
       title: get(this, 'intl').t('aBrettonWoodsMomentForTheDigitalAge.link2'),
       type: get(this, 'intl').t('publication'),

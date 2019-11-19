@@ -15,16 +15,19 @@ export default Controller.extend({
   links: computed('intl.locale', function() {
     return [{
       icon: 'file-alt',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/publications/media-and-mass-atrocity-rwanda-genocide-and-beyond',
       title: get(this, 'intl').t('mediaAndMassAtrocityTheRwandaGenocideAndBeyond.link1'),
       type: get(this, 'intl').t('publication'),
     }, {
       icon: 'comment-alt-lines',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/articles/reporting-atrocity',
       title: get(this, 'intl').t('mediaAndMassAtrocityTheRwandaGenocideAndBeyond.link2'),
       type: get(this, 'intl').t('opinion'),
     }, {
       icon: 'film',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/multimedia/video-reporting-atrocity',
       title: get(this, 'intl').t('mediaAndMassAtrocityTheRwandaGenocideAndBeyond.link3'),
       type: get(this, 'intl').t('video'),
