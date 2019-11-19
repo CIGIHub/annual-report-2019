@@ -230,7 +230,7 @@ export default /* istanbul ignore next */ function() {
   /* istanbul ignore next */
   this.transition(
     this.fromRoute('index'),
-    this.toRoute('braiding-legal-orders'),
+    this.toRoute('braiding-legal-orders-implementing-undrip-in-canada'),
     this.use('explode', {
       pickNew: '.background-row',
       use: ['crossFadeSlide', false, {
@@ -705,7 +705,7 @@ export default /* istanbul ignore next */ function() {
   /* istanbul ignore next */
   this.transition(
     this.fromRoute('table-of-contents'),
-    this.toRoute('braiding-legal-orders'),
+    this.toRoute('braiding-legal-orders-implementing-undrip-in-canada'),
     this.use('explode', {
       pickNew: '.background-row',
       use: ['crossFadeSlide', false, {
@@ -1130,7 +1130,7 @@ export default /* istanbul ignore next */ function() {
   /* istanbul ignore next */
   this.transition(
     this.fromRoute('chairs-message'),
-    this.toRoute('braiding-legal-orders'),
+    this.toRoute('braiding-legal-orders-implementing-undrip-in-canada'),
     this.use('explode', {
       pickNew: '.background-row',
       use: ['crossFadeSlide', false, {
@@ -1555,7 +1555,7 @@ export default /* istanbul ignore next */ function() {
   /* istanbul ignore next */
   this.transition(
     this.fromRoute('presidents-message'),
-    this.toRoute('braiding-legal-orders'),
+    this.toRoute('braiding-legal-orders-implementing-undrip-in-canada'),
     this.use('explode', {
       pickNew: '.background-row',
       use: ['crossFadeSlide', false, {
@@ -1955,7 +1955,7 @@ export default /* istanbul ignore next */ function() {
   /* istanbul ignore next */
   this.transition(
     this.fromRoute('building-closer-ties-between-canada-and-india'),
-    this.toRoute('braiding-legal-orders'),
+    this.toRoute('braiding-legal-orders-implementing-undrip-in-canada'),
     this.use('explode', {
       pickNew: '.background-row',
       use: ['crossFadeSlide', false, {
@@ -2330,7 +2330,7 @@ export default /* istanbul ignore next */ function() {
   /* istanbul ignore next */
   this.transition(
     this.fromRoute('a-clarion-call-for-protecting-the-worlds-refugees'),
-    this.toRoute('braiding-legal-orders'),
+    this.toRoute('braiding-legal-orders-implementing-undrip-in-canada'),
     this.use('explode', {
       pickNew: '.background-row',
       use: ['crossFadeSlide', false, {
@@ -2680,7 +2680,7 @@ export default /* istanbul ignore next */ function() {
   /* istanbul ignore next */
   this.transition(
     this.fromRoute('governing-cyberspace-during-a-crisis-in-trust'),
-    this.toRoute('braiding-legal-orders'),
+    this.toRoute('braiding-legal-orders-implementing-undrip-in-canada'),
     this.use('explode', {
       pickNew: '.background-row',
       use: ['crossFadeSlide', false, {
@@ -3005,7 +3005,7 @@ export default /* istanbul ignore next */ function() {
   /* istanbul ignore next */
   this.transition(
     this.fromRoute('disinformation-and-social-media-a-global-governance-challenge'),
-    this.toRoute('braiding-legal-orders'),
+    this.toRoute('braiding-legal-orders-implementing-undrip-in-canada'),
     this.use('explode', {
       pickNew: '.background-row',
       use: ['crossFadeSlide', false, {
@@ -3305,7 +3305,7 @@ export default /* istanbul ignore next */ function() {
   /* istanbul ignore next */
   this.transition(
     this.fromRoute('innovation-nation-making-canada-a-leader-in-the-global-ideas-economy'),
-    this.toRoute('braiding-legal-orders'),
+    this.toRoute('braiding-legal-orders-implementing-undrip-in-canada'),
     this.use('explode', {
       pickNew: '.background-row',
       use: ['crossFadeSlide', false, {
@@ -3580,7 +3580,7 @@ export default /* istanbul ignore next */ function() {
   /* istanbul ignore next */
   this.transition(
     this.fromRoute('media-and-mass-atrocity-the-rwanda-genocide-and-beyond'),
-    this.toRoute('braiding-legal-orders'),
+    this.toRoute('braiding-legal-orders-implementing-undrip-in-canada'),
     this.use('explode', {
       pickNew: '.background-row',
       use: ['crossFadeSlide', false, {
@@ -3854,7 +3854,7 @@ export default /* istanbul ignore next */ function() {
   );
   /* istanbul ignore next */
   this.transition(
-    this.fromRoute('braiding-legal-orders'),
+    this.fromRoute('braiding-legal-orders-implementing-undrip-in-canada'),
     this.toRoute('models-for-data-governance'),
     this.use('explode', {
       pickNew: '.background-row',
@@ -3879,7 +3879,7 @@ export default /* istanbul ignore next */ function() {
   );
   /* istanbul ignore next */
   this.transition(
-    this.fromRoute('braiding-legal-orders'),
+    this.fromRoute('braiding-legal-orders-implementing-undrip-in-canada'),
     this.toRoute('protecting-elections-from-foreign-interference'),
     this.use('explode', {
       pickNew: '.background-row',
@@ -3904,7 +3904,7 @@ export default /* istanbul ignore next */ function() {
   );
   /* istanbul ignore next */
   this.transition(
-    this.fromRoute('braiding-legal-orders'),
+    this.fromRoute('braiding-legal-orders-implementing-undrip-in-canada'),
     this.toRoute('a-bretton-woods-moment-for-the-digital-age'),
     this.use('explode', {
       pickNew: '.background-row',
@@ -3929,7 +3929,7 @@ export default /* istanbul ignore next */ function() {
   );
   /* istanbul ignore next */
   this.transition(
-    this.fromRoute('braiding-legal-orders'),
+    this.fromRoute('braiding-legal-orders-implementing-undrip-in-canada'),
     this.toRoute('informing-the-debate-around-internet-security-and-trust'),
     this.use('explode', {
       pickNew: '.background-row',
@@ -3954,7 +3954,7 @@ export default /* istanbul ignore next */ function() {
   );
   /* istanbul ignore next */
   this.transition(
-    this.fromRoute('braiding-legal-orders'),
+    this.fromRoute('braiding-legal-orders-implementing-undrip-in-canada'),
     this.toRoute('exploring-the-four-internets-and-the-geopolitics-of-digital-governance'),
     this.use('explode', {
       pickNew: '.background-row',
@@ -3979,7 +3979,7 @@ export default /* istanbul ignore next */ function() {
   );
   /* istanbul ignore next */
   this.transition(
-    this.fromRoute('braiding-legal-orders'),
+    this.fromRoute('braiding-legal-orders-implementing-undrip-in-canada'),
     this.toRoute('curbing-cultural-appropriation-through-intellectual-property-law'),
     this.use('explode', {
       pickNew: '.background-row',
@@ -4004,7 +4004,7 @@ export default /* istanbul ignore next */ function() {
   );
   /* istanbul ignore next */
   this.transition(
-    this.fromRoute('braiding-legal-orders'),
+    this.fromRoute('braiding-legal-orders-implementing-undrip-in-canada'),
     this.toRoute('outputs-and-activities'),
     this.use('explode', {
       pickNew: '.background-row',
@@ -4029,7 +4029,7 @@ export default /* istanbul ignore next */ function() {
   );
   /* istanbul ignore next */
   this.transition(
-    this.fromRoute('braiding-legal-orders'),
+    this.fromRoute('braiding-legal-orders-implementing-undrip-in-canada'),
     this.toRoute('timeline'),
     this.use('explode', {
       pickNew: '.background-row',
@@ -4054,7 +4054,7 @@ export default /* istanbul ignore next */ function() {
   );
   /* istanbul ignore next */
   this.transition(
-    this.fromRoute('braiding-legal-orders'),
+    this.fromRoute('braiding-legal-orders-implementing-undrip-in-canada'),
     this.toRoute('financials'),
     this.use('explode', {
       pickNew: '.background-row',
@@ -4079,7 +4079,7 @@ export default /* istanbul ignore next */ function() {
   );
   /* istanbul ignore next */
   this.transition(
-    this.fromRoute('braiding-legal-orders'),
+    this.fromRoute('braiding-legal-orders-implementing-undrip-in-canada'),
     this.toRoute('thank-you'),
     this.use('explode', {
       pickNew: '.background-row',

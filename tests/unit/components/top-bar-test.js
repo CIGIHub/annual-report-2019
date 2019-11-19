@@ -122,23 +122,23 @@ module('Unit | Component | top-bar', function(hooks) {
     );
   });
 
-  test('should have correct share links for /braiding-legal-orders', function(assert) {
+  test('should have correct share links for /braiding-legal-orders-implementing-undrip-in-canada', function(assert) {
     const component = this.owner.factoryFor('component:top-bar').create();
-    set(component, 'router.currentRouteName', 'braiding-legal-orders');
+    set(component, 'router.currentRouteName', 'braiding-legal-orders-implementing-undrip-in-canada');
 
     assert.strictEqual(
       get(component, 'shareRoute'),
-      'https://www.cigionline.org/interactives/2019annualreport/braiding-legal-orders',
+      'https://www.cigionline.org/interactives/2019annualreport/braiding-legal-orders-implementing-undrip-in-canada',
       'should have correct shareRoute',
     );
     assert.strictEqual(
       get(component, 'linkedInShareLink'),
-      'https://www.linkedin.com/shareArticle?mini=true&url=https://www.cigionline.org/interactives/2019annualreport/braiding-legal-orders',
+      'https://www.linkedin.com/shareArticle?mini=true&url=https://www.cigionline.org/interactives/2019annualreport/braiding-legal-orders-implementing-undrip-in-canada',
       'should have correct linkedInShareLink',
     );
     assert.strictEqual(
       get(component, 'twitterShareLink'),
-      'https://twitter.com/intent/tweet?status=2019+CIGI+Annual+Report+https://www.cigionline.org/interactives/2019annualreport/braiding-legal-orders',
+      'https://twitter.com/intent/tweet?status=2019+CIGI+Annual+Report+https://www.cigionline.org/interactives/2019annualreport/braiding-legal-orders-implementing-undrip-in-canada',
       'should have correct twitterShareLink',
     );
   });

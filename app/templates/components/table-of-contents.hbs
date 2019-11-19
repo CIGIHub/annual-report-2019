@@ -177,7 +177,7 @@
                     </div>
                     <div class="cell small-11 medium-11">
                       {{#if leftLink.current}}
-                        <span>{{leftLink.title}}</span>
+                        <span>{{{leftLink.title}}}</span>
                       {{else}}
                         {{#link-to leftLink.route}} {{leftLink.title}} {{/link-to}}
                       {{/if}}
@@ -196,7 +196,7 @@
                     </div>
                     <div class="cell small-11 medium-11">
                       {{#if rightLink.current}}
-                        <span>{{rightLink.title}}</span>
+                        <span>{{{rightLink.title}}}</span>
                       {{else}}
                         {{#link-to rightLink.route}} {{rightLink.title}} {{/link-to}}
                       {{/if}}

@@ -57,7 +57,7 @@ module('Acceptance | media and mass atrocity the rwanda genocide and beyond', fu
     assert.strictEqual(currentURL(), '/innovation-nation-making-canada-a-leader-in-the-global-ideas-economy');
   });
 
-  test('should transition to /braiding-legal-orders on scroll-arrow-down-btn click', async function(assert) {
+  test('should transition to /braiding-legal-orders-implementing-undrip-in-canada on scroll-arrow-down-btn click', async function(assert) {
     await visit('/media-and-mass-atrocity-the-rwanda-genocide-and-beyond');
 
     assert.ok(
@@ -67,6 +67,6 @@ module('Acceptance | media and mass atrocity the rwanda genocide and beyond', fu
     await click('.scroll-arrow-down-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/braiding-legal-orders');
+    assert.strictEqual(currentURL(), '/braiding-legal-orders-implementing-undrip-in-canada');
   });
 });

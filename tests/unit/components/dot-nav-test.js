@@ -88,13 +88,13 @@ module('Unit | Component | dot-nav', function(hooks) {
     });
   });
 
-  test('should have correct menu items for /braiding-legal-orders', function(assert) {
+  test('should have correct menu items for /braiding-legal-orders-implementing-undrip-in-canada', function(assert) {
     const component = this.owner.factoryFor('component:dot-nav').create();
-    set(component, 'router.currentRouteName', 'braiding-legal-orders');
+    set(component, 'router.currentRouteName', 'braiding-legal-orders-implementing-undrip-in-canada');
 
     const menuItems = get(component, 'menuItems');
     menuItems.forEach(function(menuItem) {
-      if (menuItem.route === 'braiding-legal-orders') {
+      if (menuItem.route === 'braiding-legal-orders-implementing-undrip-in-canada') {
         assert.strictEqual(
           menuItem.current,
           true,

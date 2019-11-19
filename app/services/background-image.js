@@ -14,7 +14,7 @@ export default Service.extend({
       ogUrl: '5891adf417e60b71/slides/a-clarion-call-for-protecting-the-worlds-refugees-og.png',
       thumbnailUrl: '5891adf417e60b71/slides/a-clarion-call-for-protecting-the-worlds-refugees-thumbnail.png',
     },
-    'braiding-legal-orders': {
+    'braiding-legal-orders-implementing-undrip-in-canada': {
       fullSizeUrl: '5891adf417e60b71/slides/braiding-legal-orders.jpg',
       ogUrl: '5891adf417e60b71/slides/braiding-legal-orders-og.jpg',
       thumbnailUrl: '5891adf417e60b71/slides/braiding-legal-orders-thumbnail.jpg',

@@ -47,9 +47,9 @@ export default Service.extend({
     subRoutes: [],
     title: 'mediaAndMassAtrocityTheRwandaGenocideAndBeyond.title',
   }, {
-    route: 'braiding-legal-orders',
+    route: 'braiding-legal-orders-implementing-undrip-in-canada',
     subRoutes: [],
-    title: 'braidingLegalOrders.title',
+    title: 'braidingLegalOrders.htmlTitle',
   }, {
     route: 'models-for-data-governance',
     subRoutes: [],

@@ -45,9 +45,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'bounceScrollArrowDown'), false);
   });
 
-  test('should have bounceScrollArrowDown=false for /braiding-legal-orders', function(assert) {
+  test('should have bounceScrollArrowDown=false for /braiding-legal-orders-implementing-undrip-in-canada', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'braiding-legal-orders');
+    set(controller, 'router.currentRouteName', 'braiding-legal-orders-implementing-undrip-in-canada');
 
     assert.strictEqual(get(controller, 'bounceScrollArrowDown'), false);
   });
@@ -220,9 +220,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'hideMobileOverlay'), false);
   });
 
-  test('should have hideMobileOverlay=false for /braiding-legal-orders', function(assert) {
+  test('should have hideMobileOverlay=false for /braiding-legal-orders-implementing-undrip-in-canada', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'braiding-legal-orders');
+    set(controller, 'router.currentRouteName', 'braiding-legal-orders-implementing-undrip-in-canada');
 
     assert.strictEqual(get(controller, 'hideMobileOverlay'), false);
   });
@@ -400,9 +400,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'lightBackground'), false);
   });
 
-  test('should have lightBackground=false for /braiding-legal-orders', function(assert) {
+  test('should have lightBackground=false for /braiding-legal-orders-implementing-undrip-in-canada', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'braiding-legal-orders');
+    set(controller, 'router.currentRouteName', 'braiding-legal-orders-implementing-undrip-in-canada');
     set(controller, 'lightbox.showLightbox', null);
 
     assert.strictEqual(get(controller, 'lightBackground'), false);
@@ -631,9 +631,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'scrollableContentPage'), true);
   });
 
-  test('should have scrollableContentPage=true for /braiding-legal-orders', function(assert) {
+  test('should have scrollableContentPage=true for /braiding-legal-orders-implementing-undrip-in-canada', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'braiding-legal-orders');
+    set(controller, 'router.currentRouteName', 'braiding-legal-orders-implementing-undrip-in-canada');
 
     assert.strictEqual(get(controller, 'scrollableContentPage'), true);
   });
@@ -816,9 +816,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'showDotNav'), true);
   });
 
-  test('should have showDotNav=true for /braiding-legal-orders', function(assert) {
+  test('should have showDotNav=true for /braiding-legal-orders-implementing-undrip-in-canada', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'braiding-legal-orders');
+    set(controller, 'router.currentRouteName', 'braiding-legal-orders-implementing-undrip-in-canada');
 
     assert.strictEqual(get(controller, 'showDotNav'), true);
   });

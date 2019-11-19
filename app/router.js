@@ -9,7 +9,7 @@ const Router = EmberRouter.extend({
 Router.map(function() {
   this.route('a-bretton-woods-moment-for-the-digital-age');
   this.route('a-clarion-call-for-protecting-the-worlds-refugees');
-  this.route('braiding-legal-orders');
+  this.route('braiding-legal-orders-implementing-undrip-in-canada');
   this.route('building-closer-ties-between-canada-and-india');
   this.route('chairs-message');
   this.route('curbing-cultural-appropriation-through-intellectual-property-law');
