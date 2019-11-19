@@ -185,23 +185,23 @@ module('Unit | Component | top-bar', function(hooks) {
     );
   });
 
-  test('should have correct share links for /curbing-cultural-appropriation-through-intellectual-property-law', function(assert) {
+  test('should have correct share links for /curbing-cultural-appropriation-through-ip-law', function(assert) {
     const component = this.owner.factoryFor('component:top-bar').create();
-    set(component, 'router.currentRouteName', 'curbing-cultural-appropriation-through-intellectual-property-law');
+    set(component, 'router.currentRouteName', 'curbing-cultural-appropriation-through-ip-law');
 
     assert.strictEqual(
       get(component, 'shareRoute'),
-      'https://www.cigionline.org/interactives/2019annualreport/curbing-cultural-appropriation-through-intellectual-property-law',
+      'https://www.cigionline.org/interactives/2019annualreport/curbing-cultural-appropriation-through-ip-law',
       'should have correct shareRoute',
     );
     assert.strictEqual(
       get(component, 'linkedInShareLink'),
-      'https://www.linkedin.com/shareArticle?mini=true&url=https://www.cigionline.org/interactives/2019annualreport/curbing-cultural-appropriation-through-intellectual-property-law',
+      'https://www.linkedin.com/shareArticle?mini=true&url=https://www.cigionline.org/interactives/2019annualreport/curbing-cultural-appropriation-through-ip-law',
       'should have correct linkedInShareLink',
     );
     assert.strictEqual(
       get(component, 'twitterShareLink'),
-      'https://twitter.com/intent/tweet?status=2019+CIGI+Annual+Report+https://www.cigionline.org/interactives/2019annualreport/curbing-cultural-appropriation-through-intellectual-property-law',
+      'https://twitter.com/intent/tweet?status=2019+CIGI+Annual+Report+https://www.cigionline.org/interactives/2019annualreport/curbing-cultural-appropriation-through-ip-law',
       'should have correct twitterShareLink',
     );
   });

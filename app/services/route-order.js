@@ -67,7 +67,7 @@ export default Service.extend({
     subRoutes: [],
     title: 'exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.title',
   }, {
-    route: 'curbing-cultural-appropriation-through-intellectual-property-law',
+    route: 'curbing-cultural-appropriation-through-ip-law',
     subRoutes: [],
     title: 'curbingCulturalAppropriationThroughIntellectualPropertyLaw.title',
   }, {

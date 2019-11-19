@@ -12,7 +12,7 @@ Router.map(function() {
   this.route('braiding-legal-orders-implementing-undrip-in-canada');
   this.route('building-closer-ties-between-canada-and-india');
   this.route('chairs-message');
-  this.route('curbing-cultural-appropriation-through-intellectual-property-law');
+  this.route('curbing-cultural-appropriation-through-ip-law');
   this.route('disinformation-and-social-media-a-global-governance-challenge');
   this.route('exploring-the-four-internets-and-the-geopolitics-of-digital-governance');
   this.route('financials', function() {

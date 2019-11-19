@@ -102,11 +102,15 @@ chairsMessage:
 clear: 'Clear'
 curbingCulturalAppropriationThroughIntellectualPropertyLaw:
   description: 'CIGI fellow Brigitte Vézina’s paper, Curbing Cultural Appropriation in the Fashion Industry calls on reform to intellectual property laws, as well as practical solutions for designers and consumers to put an end of cultural appropriation.'
-  paragraph1: 'From luxury brands like Gucci and Louis Vuitton to mainstream retailers like Urban Outfitters, many brands have developed a noticeable appetite for all things traditional, ethnic and folklore. When traditional cultural expressions (TCEs)—a term developed by the World Intellectual Property Organization that describes patterns, motifs and other design features created by traditional or Indigenous cultures—are appropriated it can cause profound cultural, social and economic harm for those who the TCE belongs to.'
-  paragraph2: 'CIGI fellow Brigitte Vézina’s paper, <em>Curbing Cultural Appropriation in the Fashion Industry</em> calls on reform to intellectual property laws, as well as practical solutions for designers and consumers to put an end of cultural appropriation. The paper garnered interest from engaged citizens to media interviews with the <em>Canadian Press</em> and <em>The Telegraph</em>.'
+  link1: 'Read Brigitte Vézina’s paper on cultural appropriation and IP law.'
+  link2: 'Infographic: What Are Traditional Cultural Expressions?'
+  link3: 'Watch Brigitte Vézina explain the concept of cultural appropriation using examples from the fashion industry.'
+  paragraph1: 'From luxury brands such as Gucci and Louis Vuitton to mainstream retailers such as Urban Outfitters, the fashion industry has developed a noticeable appetite for all things traditional, Indigenous, ethnic or folkloric. When traditional cultural expressions (TCEs) — a term developed by the World Intellectual Property Organization that includes patterns, motifs and other design features created by traditional or Indigenous cultures — are appropriated, it can cause profound cultural, social and economic harm for those who hold the TCEs.'
+  paragraph2: 'CIGI Fellow Brigitte Vézina’s paper <em>Curbing Cultural Appropriation in the Fashion Industry</em> calls for reform to IP laws, as well as practical solutions for designers and consumers to put an end to cultural appropriation. The paper generated interest on social media as well as interviews with the Canadian Press and <em>The Telegraph</em>.'
   quote:
-    quote: 'There is a gray zone between harmful misuse and permissible inspiration that creates an ideal breeding ground for cultural appropriation. Putting an end to cultural appropriation would require reform to IP laws, principles and systems to better control cultural representation.'
-  title: 'Curbing Cultural Appropriation Through Intellectual Property Law'
+    quote: '“There is a gray zone between harmful misuse and permissible inspiration that creates an ideal breeding ground for cultural appropriation. Putting an end to cultural appropriation would require reform to IP laws, principles and systems to better control cultural representation.”'
+    source: 'Brigitte Vézina at a CIGI public lecture'
+  title: 'Curbing Cultural Appropriation through IP Law'
 currency: '$'
 description: 'Explore a year of research, opinion and expertise in CIGI’s interactive annual report.'
 disinformationAndSocialMedia:

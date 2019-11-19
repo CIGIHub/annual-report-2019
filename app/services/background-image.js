@@ -29,7 +29,7 @@ export default Service.extend({
       ogUrl: '5891adf417e60b71/slides/chairs-message-og.jpg',
       thumbnailUrl: '5891adf417e60b71/slides/chairs-message-thumbnail.jpg',
     },
-    'curbing-cultural-appropriation-through-intellectual-property-law': {
+    'curbing-cultural-appropriation-through-ip-law': {
       fullSizeUrl: '5891adf417e60b71/slides/curbing-cultural-appropriation-through-intellectual-property-law.jpg',
       ogUrl: '5891adf417e60b71/slides/curbing-cultural-appropriation-through-intellectual-property-law-og.jpg',
       thumbnailUrl: '5891adf417e60b71/slides/curbing-cultural-appropriation-through-intellectual-property-law-thumbnail.jpg',

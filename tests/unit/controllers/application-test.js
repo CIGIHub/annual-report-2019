@@ -66,9 +66,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'bounceScrollArrowDown'), false);
   });
 
-  test('should have bounceScrollArrowDown=false for /curbing-cultural-appropriation-through-intellectual-property-law', function(assert) {
+  test('should have bounceScrollArrowDown=false for /curbing-cultural-appropriation-through-ip-law', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'curbing-cultural-appropriation-through-intellectual-property-law');
+    set(controller, 'router.currentRouteName', 'curbing-cultural-appropriation-through-ip-law');
 
     assert.strictEqual(get(controller, 'bounceScrollArrowDown'), false);
   });
@@ -234,9 +234,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'hideMobileOverlay'), true);
   });
 
-  test('should have hideMobileOverlay=false for /curbing-cultural-appropriation-through-intellectual-property-law', function(assert) {
+  test('should have hideMobileOverlay=false for /curbing-cultural-appropriation-through-ip-law', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'curbing-cultural-appropriation-through-intellectual-property-law');
+    set(controller, 'router.currentRouteName', 'curbing-cultural-appropriation-through-ip-law');
 
     assert.strictEqual(get(controller, 'hideMobileOverlay'), false);
   });
@@ -418,9 +418,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'lightBackground'), false);
   });
 
-  test('should have lightBackground=false for /curbing-cultural-appropriation-through-intellectual-property-law', function(assert) {
+  test('should have lightBackground=false for /curbing-cultural-appropriation-through-ip-law', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'curbing-cultural-appropriation-through-intellectual-property-law');
+    set(controller, 'router.currentRouteName', 'curbing-cultural-appropriation-through-ip-law');
     set(controller, 'lightbox.showLightbox', null);
 
     assert.strictEqual(get(controller, 'lightBackground'), false);
@@ -630,9 +630,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'scrollableContentPage'), true);
   });
 
-  test('should have scrollableContentPage=true for /curbing-cultural-appropriation-through-intellectual-property-law', function(assert) {
+  test('should have scrollableContentPage=true for /curbing-cultural-appropriation-through-ip-law', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'curbing-cultural-appropriation-through-intellectual-property-law');
+    set(controller, 'router.currentRouteName', 'curbing-cultural-appropriation-through-ip-law');
 
     assert.strictEqual(get(controller, 'scrollableContentPage'), true);
   });
@@ -808,9 +808,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'showDotNav'), true);
   });
 
-  test('should have showDotNav=true for /curbing-cultural-appropriation-through-intellectual-property-law', function(assert) {
+  test('should have showDotNav=true for /curbing-cultural-appropriation-through-ip-law', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'curbing-cultural-appropriation-through-intellectual-property-law');
+    set(controller, 'router.currentRouteName', 'curbing-cultural-appropriation-through-ip-law');
 
     assert.strictEqual(get(controller, 'showDotNav'), true);
   });
