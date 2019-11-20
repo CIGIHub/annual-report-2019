@@ -14,14 +14,22 @@ export default Controller.extend({
 
   links: computed('intl.locale', function() {
     return [{
-      icon: 'comment-alt-lines',
-      link: 'https://www.cigionline.org/articles/reclaiming-data-trusts',
+      icon: 'file-alt',
+      iconPrefix: 'fal',
+      link: 'https://www.cigionline.org/publications/big-data-analytics-need-standards-thrive-what-standards-are-and-why-they-matter',
       title: get(this, 'intl').t('modelsForDataGovernance.link1'),
-      type: get(this, 'intl').t('article'),
+      type: get(this, 'intl').t('publication'),
+    }, {
+      icon: 'comment-alt-lines',
+      iconPrefix: 'fal',
+      link: 'https://www.cigionline.org/articles/reclaiming-data-trusts',
+      title: get(this, 'intl').t('modelsForDataGovernance.link2'),
+      type: get(this, 'intl').t('opinion'),
     }, {
       icon: 'film',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/multimedia/data-trusts-defining-what-how-and-who-can-use-your-data',
-      title: get(this, 'intl').t('modelsForDataGovernance.link2'),
+      title: get(this, 'intl').t('modelsForDataGovernance.link3'),
       type: get(this, 'intl').t('video'),
     }];
   }),
@@ -30,6 +38,7 @@ export default Controller.extend({
     return [
       get(this, 'intl').t('modelsForDataGovernance.paragraph1'),
       get(this, 'intl').t('modelsForDataGovernance.paragraph2'),
+      get(this, 'intl').t('modelsForDataGovernance.paragraph3'),
     ];
   }),
 

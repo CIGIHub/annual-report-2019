@@ -35,25 +35,25 @@ export default Service.extend({
     subRoutes: [],
     title: 'governingCyberspaceDuringACrisisInTrust.title',
   }, {
-    route: 'governing-the-digital-public-sphere',
+    route: 'disinformation-and-social-media-a-global-governance-challenge',
     subRoutes: [],
-    title: 'governingTheDigitalPublicSphere.title',
+    title: 'disinformationAndSocialMedia.title',
+  }, {
+    route: 'innovation-nation-making-canada-a-leader-in-the-global-ideas-economy',
+    subRoutes: [],
+    title: 'innovationNation.title',
   }, {
     route: 'media-and-mass-atrocity-the-rwanda-genocide-and-beyond',
     subRoutes: [],
     title: 'mediaAndMassAtrocityTheRwandaGenocideAndBeyond.title',
   }, {
-    route: 'braiding-legal-orders',
+    route: 'braiding-legal-orders-implementing-undrip-in-canada',
     subRoutes: [],
-    title: 'braidingLegalOrders.title',
+    title: 'braidingLegalOrders.htmlTitle',
   }, {
     route: 'models-for-data-governance',
     subRoutes: [],
     title: 'modelsForDataGovernance.title',
-  }, {
-    route: 'protecting-elections-from-foreign-interference',
-    subRoutes: [],
-    title: 'protectingElectionsFromForeignInterference.title',
   }, {
     route: 'a-bretton-woods-moment-for-the-digital-age',
     subRoutes: [],
@@ -67,7 +67,7 @@ export default Service.extend({
     subRoutes: [],
     title: 'exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.title',
   }, {
-    route: 'curbing-cultural-appropriation-through-intellectual-property-law',
+    route: 'curbing-cultural-appropriation-through-ip-law',
     subRoutes: [],
     title: 'curbingCulturalAppropriationThroughIntellectualPropertyLaw.title',
   }, {

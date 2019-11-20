@@ -88,13 +88,13 @@ module('Unit | Component | dot-nav', function(hooks) {
     });
   });
 
-  test('should have correct menu items for /braiding-legal-orders', function(assert) {
+  test('should have correct menu items for /braiding-legal-orders-implementing-undrip-in-canada', function(assert) {
     const component = this.owner.factoryFor('component:dot-nav').create();
-    set(component, 'router.currentRouteName', 'braiding-legal-orders');
+    set(component, 'router.currentRouteName', 'braiding-legal-orders-implementing-undrip-in-canada');
 
     const menuItems = get(component, 'menuItems');
     menuItems.forEach(function(menuItem) {
-      if (menuItem.route === 'braiding-legal-orders') {
+      if (menuItem.route === 'braiding-legal-orders-implementing-undrip-in-canada') {
         assert.strictEqual(
           menuItem.current,
           true,
@@ -154,13 +154,13 @@ module('Unit | Component | dot-nav', function(hooks) {
     });
   });
 
-  test('should have correct menu items for /curbing-cultural-appropriation-through-intellectual-property-law', function(assert) {
+  test('should have correct menu items for /curbing-cultural-appropriation-through-ip-law', function(assert) {
     const component = this.owner.factoryFor('component:dot-nav').create();
-    set(component, 'router.currentRouteName', 'curbing-cultural-appropriation-through-intellectual-property-law');
+    set(component, 'router.currentRouteName', 'curbing-cultural-appropriation-through-ip-law');
 
     const menuItems = get(component, 'menuItems');
     menuItems.forEach(function(menuItem) {
-      if (menuItem.route === 'curbing-cultural-appropriation-through-intellectual-property-law') {
+      if (menuItem.route === 'curbing-cultural-appropriation-through-ip-law') {
         assert.strictEqual(
           menuItem.current,
           true,
@@ -308,13 +308,13 @@ module('Unit | Component | dot-nav', function(hooks) {
     });
   });
 
-  test('should have correct menu items for /governing-the-digital-public-sphere', function(assert) {
+  test('should have correct menu items for /disinformation-and-social-media-a-global-governance-challenge', function(assert) {
     const component = this.owner.factoryFor('component:dot-nav').create();
-    set(component, 'router.currentRouteName', 'governing-the-digital-public-sphere');
+    set(component, 'router.currentRouteName', 'disinformation-and-social-media-a-global-governance-challenge');
 
     const menuItems = get(component, 'menuItems');
     menuItems.forEach(function(menuItem) {
-      if (menuItem.route === 'governing-the-digital-public-sphere') {
+      if (menuItem.route === 'disinformation-and-social-media-a-global-governance-challenge') {
         assert.strictEqual(
           menuItem.current,
           true,
@@ -337,6 +337,28 @@ module('Unit | Component | dot-nav', function(hooks) {
     const menuItems = get(component, 'menuItems');
     menuItems.forEach(function(menuItem) {
       if (menuItem.route === 'informing-the-debate-around-internet-security-and-trust') {
+        assert.strictEqual(
+          menuItem.current,
+          true,
+          `should have current=true for ${menuItem.route} route`,
+        );
+      } else {
+        assert.strictEqual(
+          menuItem.current,
+          false,
+          `should have current=false for ${menuItem.route} route`,
+        );
+      }
+    });
+  });
+
+  test('should have correct menu items for /innovation-nation-making-canada-a-leader-in-the-global-ideas-economy', function(assert) {
+    const component = this.owner.factoryFor('component:dot-nav').create();
+    set(component, 'router.currentRouteName', 'innovation-nation-making-canada-a-leader-in-the-global-ideas-economy');
+
+    const menuItems = get(component, 'menuItems');
+    menuItems.forEach(function(menuItem) {
+      if (menuItem.route === 'innovation-nation-making-canada-a-leader-in-the-global-ideas-economy') {
         assert.strictEqual(
           menuItem.current,
           true,
@@ -425,28 +447,6 @@ module('Unit | Component | dot-nav', function(hooks) {
     const menuItems = get(component, 'menuItems');
     menuItems.forEach(function(menuItem) {
       if (menuItem.route === 'presidents-message') {
-        assert.strictEqual(
-          menuItem.current,
-          true,
-          `should have current=true for ${menuItem.route} route`,
-        );
-      } else {
-        assert.strictEqual(
-          menuItem.current,
-          false,
-          `should have current=false for ${menuItem.route} route`,
-        );
-      }
-    });
-  });
-
-  test('should have correct menu items for /protecting-elections-from-foreign-interference', function(assert) {
-    const component = this.owner.factoryFor('component:dot-nav').create();
-    set(component, 'router.currentRouteName', 'protecting-elections-from-foreign-interference');
-
-    const menuItems = get(component, 'menuItems');
-    menuItems.forEach(function(menuItem) {
-      if (menuItem.route === 'protecting-elections-from-foreign-interference') {
         assert.strictEqual(
           menuItem.current,
           true,

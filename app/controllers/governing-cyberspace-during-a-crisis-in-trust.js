@@ -15,16 +15,19 @@ export default Controller.extend({
   links: computed('intl.locale', function() {
     return [{
       icon: 'comment-alt-lines',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/cyberspace',
       title: get(this, 'intl').t('governingCyberspaceDuringACrisisInTrust.link1'),
-      type: get(this, 'intl').t('essaySeries'),
+      type: get(this, 'intl').t('opinion'),
     }, {
       icon: 'comment-alt-lines',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/articles/patching-our-digital-future-unsustainable-and-dangerous',
       title: get(this, 'intl').t('governingCyberspaceDuringACrisisInTrust.link2'),
-      type: get(this, 'intl').t('essay'),
+      type: get(this, 'intl').t('opinion'),
     }, {
       icon: 'film',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/multimedia/video-crime-and-policing-cyber-enabled-world',
       title: get(this, 'intl').t('governingCyberspaceDuringACrisisInTrust.link3'),
       type: get(this, 'intl').t('video'),

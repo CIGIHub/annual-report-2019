@@ -14,15 +14,17 @@ export default Controller.extend({
 
   links: computed('intl.locale', function() {
     return [{
-      icon: 'newspaper',
-      link: 'https://www.cigionline.org/articles/survey-cyber-criminals-social-media-lack-security-increasingly-fuelling-internet-distrust',
-      title: get(this, 'intl').t('informingTheDebateAroundInternetSecurityAndTrust.link1'),
-      type: get(this, 'intl').t('media'),
-    }, {
       icon: 'chart-bar',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/internet-survey-2019',
-      title: get(this, 'intl').t('informingTheDebateAroundInternetSecurityAndTrust.link2'),
+      title: get(this, 'intl').t('informingTheDebateAroundInternetSecurityAndTrust.link1'),
       type: get(this, 'intl').t('survey'),
+    }, {
+      icon: 'twitter',
+      iconPrefix: 'fab',
+      link: 'https://twitter.com/CIGIonline/status/1143232825413554177',
+      title: get(this, 'intl').t('informingTheDebateAroundInternetSecurityAndTrust.link2'),
+      type: get(this, 'intl').t('socialMedia'),
     }];
   }),
 
@@ -30,8 +32,6 @@ export default Controller.extend({
     return [
       get(this, 'intl').t('informingTheDebateAroundInternetSecurityAndTrust.paragraph1'),
       get(this, 'intl').t('informingTheDebateAroundInternetSecurityAndTrust.paragraph2'),
-      get(this, 'intl').t('informingTheDebateAroundInternetSecurityAndTrust.paragraph3'),
-      get(this, 'intl').t('informingTheDebateAroundInternetSecurityAndTrust.paragraph4'),
     ];
   }),
 

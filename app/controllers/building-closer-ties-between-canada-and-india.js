@@ -15,19 +15,16 @@ export default Controller.extend({
   links: computed('intl.locale', function() {
     return [{
       icon: 'film',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/multimedia/video-canada-india-track-15-dialogue-innovation-growth-and-prosperity',
       title: get(this, 'intl').t('buildingCloserTiesBetweenCanadaAndIndia.link1'),
       type: get(this, 'intl').t('video'),
     }, {
       icon: 'file-alt',
+      iconPrefix: 'fal',
       link: 'https://www.cigionline.org/series/canada-india-track-15-dialogue',
       title: get(this, 'intl').t('buildingCloserTiesBetweenCanadaAndIndia.link2'),
-      type: get(this, 'intl').t('paperSeries'),
-    }, {
-      icon: 'file-alt',
-      link: 'https://www.cigionline.org/activity/canada-india-track-15-dialogue-innovation-growth-and-prosperity',
-      title: get(this, 'intl').t('buildingCloserTiesBetweenCanadaAndIndia.link3'),
-      type: get(this, 'intl').t('resource'),
+      type: get(this, 'intl').t('publication'),
     }];
   }),
 

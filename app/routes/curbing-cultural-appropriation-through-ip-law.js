@@ -20,17 +20,17 @@ export default Route.extend(GoogleAnalyticsMixin, ResetScrollMixin, {
   },
 
   afterModel() {
-    const title = `${get(this, 'intl').t('braidingLegalOrders.title')} | ${get(this, 'intl').t('title')}`;
+    const title = `${get(this, 'intl').t('curbingCulturalAppropriationThroughIntellectualPropertyLaw.title')} | ${get(this, 'intl').t('title')}`;
     set(this, 'headData.title', title);
-    set(this, 'headData.description', get(this, 'intl').t('braidingLegalOrders.description'));
-    set(this, 'headData.url', `${ENV.host}${ENV.rootURL}braiding-legal-orders/`);
-    const backgroundImage = get(this, 'backgroundImage').getSlideBackgroundImage('braiding-legal-orders');
+    set(this, 'headData.description', get(this, 'intl').t('curbingCulturalAppropriationThroughIntellectualPropertyLaw.description'));
+    set(this, 'headData.url', `${ENV.host}${ENV.rootURL}curbing-cultural-appropriation-through-ip-law/`);
+    const backgroundImage = get(this, 'backgroundImage').getSlideBackgroundImage('curbing-cultural-appropriation-through-ip-law');
     if (backgroundImage && backgroundImage.ogUrl) {
       set(this, 'headData.image', backgroundImage.ogUrl);
     }
 
     // Load next route background
-    const nextRoute = get(this, 'routeOrder').getNextRoute('braiding-legal-orders');
+    const nextRoute = get(this, 'routeOrder').getNextRoute('curbing-cultural-appropriation-through-ip-law');
     if (nextRoute) {
       const { fullSizeUrl } = get(this, 'backgroundImage').getSlideBackgroundImage(nextRoute);
       if (fullSizeUrl) {

@@ -122,23 +122,23 @@ module('Unit | Component | top-bar', function(hooks) {
     );
   });
 
-  test('should have correct share links for /braiding-legal-orders', function(assert) {
+  test('should have correct share links for /braiding-legal-orders-implementing-undrip-in-canada', function(assert) {
     const component = this.owner.factoryFor('component:top-bar').create();
-    set(component, 'router.currentRouteName', 'braiding-legal-orders');
+    set(component, 'router.currentRouteName', 'braiding-legal-orders-implementing-undrip-in-canada');
 
     assert.strictEqual(
       get(component, 'shareRoute'),
-      'https://www.cigionline.org/interactives/2019annualreport/braiding-legal-orders',
+      'https://www.cigionline.org/interactives/2019annualreport/braiding-legal-orders-implementing-undrip-in-canada',
       'should have correct shareRoute',
     );
     assert.strictEqual(
       get(component, 'linkedInShareLink'),
-      'https://www.linkedin.com/shareArticle?mini=true&url=https://www.cigionline.org/interactives/2019annualreport/braiding-legal-orders',
+      'https://www.linkedin.com/shareArticle?mini=true&url=https://www.cigionline.org/interactives/2019annualreport/braiding-legal-orders-implementing-undrip-in-canada',
       'should have correct linkedInShareLink',
     );
     assert.strictEqual(
       get(component, 'twitterShareLink'),
-      'https://twitter.com/intent/tweet?status=2019+CIGI+Annual+Report+https://www.cigionline.org/interactives/2019annualreport/braiding-legal-orders',
+      'https://twitter.com/intent/tweet?status=2019+CIGI+Annual+Report+https://www.cigionline.org/interactives/2019annualreport/braiding-legal-orders-implementing-undrip-in-canada',
       'should have correct twitterShareLink',
     );
   });
@@ -185,23 +185,44 @@ module('Unit | Component | top-bar', function(hooks) {
     );
   });
 
-  test('should have correct share links for /curbing-cultural-appropriation-through-intellectual-property-law', function(assert) {
+  test('should have correct share links for /curbing-cultural-appropriation-through-ip-law', function(assert) {
     const component = this.owner.factoryFor('component:top-bar').create();
-    set(component, 'router.currentRouteName', 'curbing-cultural-appropriation-through-intellectual-property-law');
+    set(component, 'router.currentRouteName', 'curbing-cultural-appropriation-through-ip-law');
 
     assert.strictEqual(
       get(component, 'shareRoute'),
-      'https://www.cigionline.org/interactives/2019annualreport/curbing-cultural-appropriation-through-intellectual-property-law',
+      'https://www.cigionline.org/interactives/2019annualreport/curbing-cultural-appropriation-through-ip-law',
       'should have correct shareRoute',
     );
     assert.strictEqual(
       get(component, 'linkedInShareLink'),
-      'https://www.linkedin.com/shareArticle?mini=true&url=https://www.cigionline.org/interactives/2019annualreport/curbing-cultural-appropriation-through-intellectual-property-law',
+      'https://www.linkedin.com/shareArticle?mini=true&url=https://www.cigionline.org/interactives/2019annualreport/curbing-cultural-appropriation-through-ip-law',
       'should have correct linkedInShareLink',
     );
     assert.strictEqual(
       get(component, 'twitterShareLink'),
-      'https://twitter.com/intent/tweet?status=2019+CIGI+Annual+Report+https://www.cigionline.org/interactives/2019annualreport/curbing-cultural-appropriation-through-intellectual-property-law',
+      'https://twitter.com/intent/tweet?status=2019+CIGI+Annual+Report+https://www.cigionline.org/interactives/2019annualreport/curbing-cultural-appropriation-through-ip-law',
+      'should have correct twitterShareLink',
+    );
+  });
+
+  test('should have correct share links for /disinformation-and-social-media-a-global-governance-challenge', function(assert) {
+    const component = this.owner.factoryFor('component:top-bar').create();
+    set(component, 'router.currentRouteName', 'disinformation-and-social-media-a-global-governance-challenge');
+
+    assert.strictEqual(
+      get(component, 'shareRoute'),
+      'https://www.cigionline.org/interactives/2019annualreport/disinformation-and-social-media-a-global-governance-challenge',
+      'should have correct shareRoute',
+    );
+    assert.strictEqual(
+      get(component, 'linkedInShareLink'),
+      'https://www.linkedin.com/shareArticle?mini=true&url=https://www.cigionline.org/interactives/2019annualreport/disinformation-and-social-media-a-global-governance-challenge',
+      'should have correct linkedInShareLink',
+    );
+    assert.strictEqual(
+      get(component, 'twitterShareLink'),
+      'https://twitter.com/intent/tweet?status=2019+CIGI+Annual+Report+https://www.cigionline.org/interactives/2019annualreport/disinformation-and-social-media-a-global-governance-challenge',
       'should have correct twitterShareLink',
     );
   });
@@ -332,27 +353,6 @@ module('Unit | Component | top-bar', function(hooks) {
     );
   });
 
-  test('should have correct share links for /governing-the-digital-public-sphere', function(assert) {
-    const component = this.owner.factoryFor('component:top-bar').create();
-    set(component, 'router.currentRouteName', 'governing-the-digital-public-sphere');
-
-    assert.strictEqual(
-      get(component, 'shareRoute'),
-      'https://www.cigionline.org/interactives/2019annualreport/governing-the-digital-public-sphere',
-      'should have correct shareRoute',
-    );
-    assert.strictEqual(
-      get(component, 'linkedInShareLink'),
-      'https://www.linkedin.com/shareArticle?mini=true&url=https://www.cigionline.org/interactives/2019annualreport/governing-the-digital-public-sphere',
-      'should have correct linkedInShareLink',
-    );
-    assert.strictEqual(
-      get(component, 'twitterShareLink'),
-      'https://twitter.com/intent/tweet?status=2019+CIGI+Annual+Report+https://www.cigionline.org/interactives/2019annualreport/governing-the-digital-public-sphere',
-      'should have correct twitterShareLink',
-    );
-  });
-
   test('should have correct share links for /informing-the-debate-around-internet-security-and-trust', function(assert) {
     const component = this.owner.factoryFor('component:top-bar').create();
     set(component, 'router.currentRouteName', 'informing-the-debate-around-internet-security-and-trust');
@@ -370,6 +370,27 @@ module('Unit | Component | top-bar', function(hooks) {
     assert.strictEqual(
       get(component, 'twitterShareLink'),
       'https://twitter.com/intent/tweet?status=2019+CIGI+Annual+Report+https://www.cigionline.org/interactives/2019annualreport/informing-the-debate-around-internet-security-and-trust',
+      'should have correct twitterShareLink',
+    );
+  });
+
+  test('should have correct share links for /innovation-nation-making-canada-a-leader-in-the-global-ideas-economy', function(assert) {
+    const component = this.owner.factoryFor('component:top-bar').create();
+    set(component, 'router.currentRouteName', 'innovation-nation-making-canada-a-leader-in-the-global-ideas-economy');
+
+    assert.strictEqual(
+      get(component, 'shareRoute'),
+      'https://www.cigionline.org/interactives/2019annualreport/innovation-nation-making-canada-a-leader-in-the-global-ideas-economy',
+      'should have correct shareRoute',
+    );
+    assert.strictEqual(
+      get(component, 'linkedInShareLink'),
+      'https://www.linkedin.com/shareArticle?mini=true&url=https://www.cigionline.org/interactives/2019annualreport/innovation-nation-making-canada-a-leader-in-the-global-ideas-economy',
+      'should have correct linkedInShareLink',
+    );
+    assert.strictEqual(
+      get(component, 'twitterShareLink'),
+      'https://twitter.com/intent/tweet?status=2019+CIGI+Annual+Report+https://www.cigionline.org/interactives/2019annualreport/innovation-nation-making-canada-a-leader-in-the-global-ideas-economy',
       'should have correct twitterShareLink',
     );
   });
@@ -454,27 +475,6 @@ module('Unit | Component | top-bar', function(hooks) {
     assert.strictEqual(
       get(component, 'twitterShareLink'),
       'https://twitter.com/intent/tweet?status=2019+CIGI+Annual+Report+https://www.cigionline.org/interactives/2019annualreport/presidents-message',
-      'should have correct twitterShareLink',
-    );
-  });
-
-  test('should have correct share links for /protecting-elections-from-foreign-interference', function(assert) {
-    const component = this.owner.factoryFor('component:top-bar').create();
-    set(component, 'router.currentRouteName', 'protecting-elections-from-foreign-interference');
-
-    assert.strictEqual(
-      get(component, 'shareRoute'),
-      'https://www.cigionline.org/interactives/2019annualreport/protecting-elections-from-foreign-interference',
-      'should have correct shareRoute',
-    );
-    assert.strictEqual(
-      get(component, 'linkedInShareLink'),
-      'https://www.linkedin.com/shareArticle?mini=true&url=https://www.cigionline.org/interactives/2019annualreport/protecting-elections-from-foreign-interference',
-      'should have correct linkedInShareLink',
-    );
-    assert.strictEqual(
-      get(component, 'twitterShareLink'),
-      'https://twitter.com/intent/tweet?status=2019+CIGI+Annual+Report+https://www.cigionline.org/interactives/2019annualreport/protecting-elections-from-foreign-interference',
       'should have correct twitterShareLink',
     );
   });

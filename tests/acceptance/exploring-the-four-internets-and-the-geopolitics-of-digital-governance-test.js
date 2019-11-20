@@ -57,7 +57,7 @@ module('Acceptance | exploring the four internets and the geopolitics of digital
     assert.strictEqual(currentURL(), '/informing-the-debate-around-internet-security-and-trust');
   });
 
-  test('should transition to /curbing-cultural-appropriation-through-intellectual-property-law on scroll-arrow-down-btn click', async function(assert) {
+  test('should transition to /curbing-cultural-appropriation-through-ip-law on scroll-arrow-down-btn click', async function(assert) {
     await visit('/exploring-the-four-internets-and-the-geopolitics-of-digital-governance');
 
     assert.ok(
@@ -67,6 +67,6 @@ module('Acceptance | exploring the four internets and the geopolitics of digital
     await click('.scroll-arrow-down-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/curbing-cultural-appropriation-through-intellectual-property-law');
+    assert.strictEqual(currentURL(), '/curbing-cultural-appropriation-through-ip-law');
   });
 });

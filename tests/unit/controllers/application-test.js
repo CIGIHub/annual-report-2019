@@ -45,9 +45,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'bounceScrollArrowDown'), false);
   });
 
-  test('should have bounceScrollArrowDown=false for /braiding-legal-orders', function(assert) {
+  test('should have bounceScrollArrowDown=false for /braiding-legal-orders-implementing-undrip-in-canada', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'braiding-legal-orders');
+    set(controller, 'router.currentRouteName', 'braiding-legal-orders-implementing-undrip-in-canada');
 
     assert.strictEqual(get(controller, 'bounceScrollArrowDown'), false);
   });
@@ -66,9 +66,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'bounceScrollArrowDown'), false);
   });
 
-  test('should have bounceScrollArrowDown=false for /curbing-cultural-appropriation-through-intellectual-property-law', function(assert) {
+  test('should have bounceScrollArrowDown=false for /curbing-cultural-appropriation-through-ip-law', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'curbing-cultural-appropriation-through-intellectual-property-law');
+    set(controller, 'router.currentRouteName', 'curbing-cultural-appropriation-through-ip-law');
 
     assert.strictEqual(get(controller, 'bounceScrollArrowDown'), false);
   });
@@ -115,9 +115,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'bounceScrollArrowDown'), false);
   });
 
-  test('should have bounceScrollArrowDown=false for /governing-the-digital-public-sphere', function(assert) {
+  test('should have bounceScrollArrowDown=false for /disinformation-and-social-media-a-global-governance-challenge-public-sphere', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'governing-the-digital-public-sphere');
+    set(controller, 'router.currentRouteName', 'disinformation-and-social-media-a-global-governance-challenge-public-sphere');
 
     assert.strictEqual(get(controller, 'bounceScrollArrowDown'), false);
   });
@@ -125,6 +125,13 @@ module('Unit | Controller | application', function(hooks) {
   test('should have bounceScrollArrowDown=false for /informing-the-debate-around-internet-security-and-trust', function(assert) {
     const controller = this.owner.lookup('controller:application');
     set(controller, 'router.currentRouteName', 'informing-the-debate-around-internet-security-and-trust');
+
+    assert.strictEqual(get(controller, 'bounceScrollArrowDown'), false);
+  });
+
+  test('should have bounceScrollArrowDown=false for /innovation-nation-making-canada-a-leader-in-the-global-ideas-economy', function(assert) {
+    const controller = this.owner.lookup('controller:application');
+    set(controller, 'router.currentRouteName', 'innovation-nation-making-canada-a-leader-in-the-global-ideas-economy');
 
     assert.strictEqual(get(controller, 'bounceScrollArrowDown'), false);
   });
@@ -160,13 +167,6 @@ module('Unit | Controller | application', function(hooks) {
   test('should have bounceScrollArrowDown=false for /presidents-message', function(assert) {
     const controller = this.owner.lookup('controller:application');
     set(controller, 'router.currentRouteName', 'presidents-message');
-
-    assert.strictEqual(get(controller, 'bounceScrollArrowDown'), false);
-  });
-
-  test('should have bounceScrollArrowDown=false for /protecting-elections-from-foreign-interference', function(assert) {
-    const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'protecting-elections-from-foreign-interference');
 
     assert.strictEqual(get(controller, 'bounceScrollArrowDown'), false);
   });
@@ -213,9 +213,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'hideMobileOverlay'), false);
   });
 
-  test('should have hideMobileOverlay=false for /braiding-legal-orders', function(assert) {
+  test('should have hideMobileOverlay=false for /braiding-legal-orders-implementing-undrip-in-canada', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'braiding-legal-orders');
+    set(controller, 'router.currentRouteName', 'braiding-legal-orders-implementing-undrip-in-canada');
 
     assert.strictEqual(get(controller, 'hideMobileOverlay'), false);
   });
@@ -234,9 +234,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'hideMobileOverlay'), true);
   });
 
-  test('should have hideMobileOverlay=false for /curbing-cultural-appropriation-through-intellectual-property-law', function(assert) {
+  test('should have hideMobileOverlay=false for /curbing-cultural-appropriation-through-ip-law', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'curbing-cultural-appropriation-through-intellectual-property-law');
+    set(controller, 'router.currentRouteName', 'curbing-cultural-appropriation-through-ip-law');
 
     assert.strictEqual(get(controller, 'hideMobileOverlay'), false);
   });
@@ -283,9 +283,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'hideMobileOverlay'), false);
   });
 
-  test('should have hideMobileOverlay=false for /governing-the-digital-public-sphere', function(assert) {
+  test('should have hideMobileOverlay=false for /disinformation-and-social-media-a-global-governance-challenge-public-sphere', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'governing-the-digital-public-sphere');
+    set(controller, 'router.currentRouteName', 'disinformation-and-social-media-a-global-governance-challenge-public-sphere');
 
     assert.strictEqual(get(controller, 'hideMobileOverlay'), false);
   });
@@ -293,6 +293,13 @@ module('Unit | Controller | application', function(hooks) {
   test('should have hideMobileOverlay=false for /informing-the-debate-around-internet-security-and-trust', function(assert) {
     const controller = this.owner.lookup('controller:application');
     set(controller, 'router.currentRouteName', 'informing-the-debate-around-internet-security-and-trust');
+
+    assert.strictEqual(get(controller, 'hideMobileOverlay'), false);
+  });
+
+  test('should have hideMobileOverlay=false for /innovation-nation-making-canada-a-leader-in-the-global-ideas-economy', function(assert) {
+    const controller = this.owner.lookup('controller:application');
+    set(controller, 'router.currentRouteName', 'innovation-nation-making-canada-a-leader-in-the-global-ideas-economy');
 
     assert.strictEqual(get(controller, 'hideMobileOverlay'), false);
   });
@@ -330,13 +337,6 @@ module('Unit | Controller | application', function(hooks) {
     set(controller, 'router.currentRouteName', 'presidents-message');
 
     assert.strictEqual(get(controller, 'hideMobileOverlay'), true);
-  });
-
-  test('should have hideMobileOverlay=false for /protecting-elections-from-foreign-interference', function(assert) {
-    const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'protecting-elections-from-foreign-interference');
-
-    assert.strictEqual(get(controller, 'hideMobileOverlay'), false);
   });
 
   test('should have hideMobileOverlay=true for /table-of-contents', function(assert) {
@@ -386,9 +386,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'lightBackground'), false);
   });
 
-  test('should have lightBackground=false for /braiding-legal-orders', function(assert) {
+  test('should have lightBackground=false for /braiding-legal-orders-implementing-undrip-in-canada', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'braiding-legal-orders');
+    set(controller, 'router.currentRouteName', 'braiding-legal-orders-implementing-undrip-in-canada');
     set(controller, 'lightbox.showLightbox', null);
 
     assert.strictEqual(get(controller, 'lightBackground'), false);
@@ -418,9 +418,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'lightBackground'), false);
   });
 
-  test('should have lightBackground=false for /curbing-cultural-appropriation-through-intellectual-property-law', function(assert) {
+  test('should have lightBackground=false for /curbing-cultural-appropriation-through-ip-law', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'curbing-cultural-appropriation-through-intellectual-property-law');
+    set(controller, 'router.currentRouteName', 'curbing-cultural-appropriation-through-ip-law');
     set(controller, 'lightbox.showLightbox', null);
 
     assert.strictEqual(get(controller, 'lightBackground'), false);
@@ -482,9 +482,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'lightBackground'), false);
   });
 
-  test('should have lightBackground=false for /governing-the-digital-public-sphere', function(assert) {
+  test('should have lightBackground=false for /disinformation-and-social-media-a-global-governance-challenge-public-sphere', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'governing-the-digital-public-sphere');
+    set(controller, 'router.currentRouteName', 'disinformation-and-social-media-a-global-governance-challenge-public-sphere');
     set(controller, 'lightbox.showLightbox', null);
 
     assert.strictEqual(get(controller, 'lightBackground'), false);
@@ -493,6 +493,14 @@ module('Unit | Controller | application', function(hooks) {
   test('should have lightBackground=false for /informing-the-debate-around-internet-security-and-trust', function(assert) {
     const controller = this.owner.lookup('controller:application');
     set(controller, 'router.currentRouteName', 'informing-the-debate-around-internet-security-and-trust');
+    set(controller, 'lightbox.showLightbox', null);
+
+    assert.strictEqual(get(controller, 'lightBackground'), false);
+  });
+
+  test('should have lightBackground=false for /innovation-nation-making-canada-a-leader-in-the-global-ideas-economy', function(assert) {
+    const controller = this.owner.lookup('controller:application');
+    set(controller, 'router.currentRouteName', 'innovation-nation-making-canada-a-leader-in-the-global-ideas-economy');
     set(controller, 'lightbox.showLightbox', null);
 
     assert.strictEqual(get(controller, 'lightBackground'), false);
@@ -554,14 +562,6 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'lightBackground'), false);
   });
 
-  test('should have lightBackground=false for /protecting-elections-from-foreign-interference', function(assert) {
-    const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'protecting-elections-from-foreign-interference');
-    set(controller, 'lightbox.showLightbox', null);
-
-    assert.strictEqual(get(controller, 'lightBackground'), false);
-  });
-
   test('should have lightBackground=false for /table-of-contents', function(assert) {
     const controller = this.owner.lookup('controller:application');
     set(controller, 'router.currentRouteName', 'table-of-contents');
@@ -609,9 +609,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'scrollableContentPage'), true);
   });
 
-  test('should have scrollableContentPage=true for /braiding-legal-orders', function(assert) {
+  test('should have scrollableContentPage=true for /braiding-legal-orders-implementing-undrip-in-canada', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'braiding-legal-orders');
+    set(controller, 'router.currentRouteName', 'braiding-legal-orders-implementing-undrip-in-canada');
 
     assert.strictEqual(get(controller, 'scrollableContentPage'), true);
   });
@@ -630,9 +630,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'scrollableContentPage'), true);
   });
 
-  test('should have scrollableContentPage=true for /curbing-cultural-appropriation-through-intellectual-property-law', function(assert) {
+  test('should have scrollableContentPage=true for /curbing-cultural-appropriation-through-ip-law', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'curbing-cultural-appropriation-through-intellectual-property-law');
+    set(controller, 'router.currentRouteName', 'curbing-cultural-appropriation-through-ip-law');
 
     assert.strictEqual(get(controller, 'scrollableContentPage'), true);
   });
@@ -679,9 +679,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'scrollableContentPage'), true);
   });
 
-  test('should have scrollableContentPage=true for /governing-the-digital-public-sphere', function(assert) {
+  test('should have scrollableContentPage=true for /disinformation-and-social-media-a-global-governance-challenge-public-sphere', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'governing-the-digital-public-sphere');
+    set(controller, 'router.currentRouteName', 'disinformation-and-social-media-a-global-governance-challenge-public-sphere');
 
     assert.strictEqual(get(controller, 'scrollableContentPage'), true);
   });
@@ -689,6 +689,13 @@ module('Unit | Controller | application', function(hooks) {
   test('should have scrollableContentPage=true for /informing-the-debate-around-internet-security-and-trust', function(assert) {
     const controller = this.owner.lookup('controller:application');
     set(controller, 'router.currentRouteName', 'informing-the-debate-around-internet-security-and-trust');
+
+    assert.strictEqual(get(controller, 'scrollableContentPage'), true);
+  });
+
+  test('should have scrollableContentPage=true for /innovation-nation-making-canada-a-leader-in-the-global-ideas-economy', function(assert) {
+    const controller = this.owner.lookup('controller:application');
+    set(controller, 'router.currentRouteName', 'innovation-nation-making-canada-a-leader-in-the-global-ideas-economy');
 
     assert.strictEqual(get(controller, 'scrollableContentPage'), true);
   });
@@ -724,13 +731,6 @@ module('Unit | Controller | application', function(hooks) {
   test('should have scrollableContentPage=true for /presidents-message', function(assert) {
     const controller = this.owner.lookup('controller:application');
     set(controller, 'router.currentRouteName', 'presidents-message');
-
-    assert.strictEqual(get(controller, 'scrollableContentPage'), true);
-  });
-
-  test('should have scrollableContentPage=true for /protecting-elections-from-foreign-interference', function(assert) {
-    const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'protecting-elections-from-foreign-interference');
 
     assert.strictEqual(get(controller, 'scrollableContentPage'), true);
   });
@@ -787,9 +787,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'showDotNav'), true);
   });
 
-  test('should have showDotNav=true for /braiding-legal-orders', function(assert) {
+  test('should have showDotNav=true for /braiding-legal-orders-implementing-undrip-in-canada', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'braiding-legal-orders');
+    set(controller, 'router.currentRouteName', 'braiding-legal-orders-implementing-undrip-in-canada');
 
     assert.strictEqual(get(controller, 'showDotNav'), true);
   });
@@ -808,9 +808,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'showDotNav'), true);
   });
 
-  test('should have showDotNav=true for /curbing-cultural-appropriation-through-intellectual-property-law', function(assert) {
+  test('should have showDotNav=true for /curbing-cultural-appropriation-through-ip-law', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'curbing-cultural-appropriation-through-intellectual-property-law');
+    set(controller, 'router.currentRouteName', 'curbing-cultural-appropriation-through-ip-law');
 
     assert.strictEqual(get(controller, 'showDotNav'), true);
   });
@@ -857,9 +857,9 @@ module('Unit | Controller | application', function(hooks) {
     assert.strictEqual(get(controller, 'showDotNav'), true);
   });
 
-  test('should have showDotNav=true for /governing-the-digital-public-sphere', function(assert) {
+  test('should have showDotNav=true for /disinformation-and-social-media-a-global-governance-challenge-public-sphere', function(assert) {
     const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'governing-the-digital-public-sphere');
+    set(controller, 'router.currentRouteName', 'disinformation-and-social-media-a-global-governance-challenge-public-sphere');
 
     assert.strictEqual(get(controller, 'showDotNav'), true);
   });
@@ -867,6 +867,13 @@ module('Unit | Controller | application', function(hooks) {
   test('should have showDotNav=true for /informing-the-debate-around-internet-security-and-trust', function(assert) {
     const controller = this.owner.lookup('controller:application');
     set(controller, 'router.currentRouteName', 'informing-the-debate-around-internet-security-and-trust');
+
+    assert.strictEqual(get(controller, 'showDotNav'), true);
+  });
+
+  test('should have showDotNav=true for /innovation-nation-making-canada-a-leader-in-the-global-ideas-economy', function(assert) {
+    const controller = this.owner.lookup('controller:application');
+    set(controller, 'router.currentRouteName', 'innovation-nation-making-canada-a-leader-in-the-global-ideas-economy');
 
     assert.strictEqual(get(controller, 'showDotNav'), true);
   });
@@ -902,13 +909,6 @@ module('Unit | Controller | application', function(hooks) {
   test('should have showDotNav=true for /presidents-message', function(assert) {
     const controller = this.owner.lookup('controller:application');
     set(controller, 'router.currentRouteName', 'presidents-message');
-
-    assert.strictEqual(get(controller, 'showDotNav'), true);
-  });
-
-  test('should have showDotNav=true for /protecting-elections-from-foreign-interference', function(assert) {
-    const controller = this.owner.lookup('controller:application');
-    set(controller, 'router.currentRouteName', 'protecting-elections-from-foreign-interference');
 
     assert.strictEqual(get(controller, 'showDotNav'), true);
   });

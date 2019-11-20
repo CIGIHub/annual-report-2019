@@ -45,7 +45,7 @@ module('Acceptance | a bretton woods moment for the digital age', function(hooks
     );
   });
 
-  test('should transition to /protecting-elections-from-foreign-interference on scroll-arrow-up-btn-click', async function(assert) {
+  test('should transition to /models-for-data-governance on scroll-arrow-up-btn-click', async function(assert) {
     await visit('/a-bretton-woods-moment-for-the-digital-age');
 
     assert.ok(
@@ -55,7 +55,7 @@ module('Acceptance | a bretton woods moment for the digital age', function(hooks
     await click('.scroll-arrow-up-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/protecting-elections-from-foreign-interference');
+    assert.strictEqual(currentURL(), '/models-for-data-governance');
   });
 
   test('should transition to /informing-the-debate-around-internet-security-and-trust on scroll-arrow-down-btn-click', async function(assert) {

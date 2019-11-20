@@ -14,7 +14,7 @@ export default Service.extend({
       ogUrl: '5891adf417e60b71/slides/a-clarion-call-for-protecting-the-worlds-refugees-og.png',
       thumbnailUrl: '5891adf417e60b71/slides/a-clarion-call-for-protecting-the-worlds-refugees-thumbnail.png',
     },
-    'braiding-legal-orders': {
+    'braiding-legal-orders-implementing-undrip-in-canada': {
       fullSizeUrl: '5891adf417e60b71/slides/braiding-legal-orders.jpg',
       ogUrl: '5891adf417e60b71/slides/braiding-legal-orders-og.jpg',
       thumbnailUrl: '5891adf417e60b71/slides/braiding-legal-orders-thumbnail.jpg',
@@ -29,7 +29,7 @@ export default Service.extend({
       ogUrl: '5891adf417e60b71/slides/chairs-message-og.jpg',
       thumbnailUrl: '5891adf417e60b71/slides/chairs-message-thumbnail.jpg',
     },
-    'curbing-cultural-appropriation-through-intellectual-property-law': {
+    'curbing-cultural-appropriation-through-ip-law': {
       fullSizeUrl: '5891adf417e60b71/slides/curbing-cultural-appropriation-through-intellectual-property-law.jpg',
       ogUrl: '5891adf417e60b71/slides/curbing-cultural-appropriation-through-intellectual-property-law-og.jpg',
       thumbnailUrl: '5891adf417e60b71/slides/curbing-cultural-appropriation-through-intellectual-property-law-thumbnail.jpg',
@@ -63,11 +63,6 @@ export default Service.extend({
       fullSizeUrl: '5891adf417e60b71/slides/presidents-message.jpg',
       ogUrl: '5891adf417e60b71/slides/presidents-message-og.jpg',
       thumbnailUrl: '5891adf417e60b71/slides/presidents-message-thumbnail.jpg',
-    },
-    'protecting-elections-from-foreign-interference': {
-      fullSizeUrl: '5891adf417e60b71/slides/protecting-elections-from-foreign-interference.jpg',
-      ogUrl: '5891adf417e60b71/slides/protecting-elections-from-foreign-interference-og.jpg',
-      thumbnailUrl: '5891adf417e60b71/slides/protecting-elections-from-foreign-interference-thumbnail.jpg',
     },
     'thank-you': {
       fullSizeUrl: '5891adf417e60b71/slides/thank-you.jpg',

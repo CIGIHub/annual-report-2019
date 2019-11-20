@@ -20,17 +20,17 @@ export default Route.extend(GoogleAnalyticsMixin, ResetScrollMixin, {
   },
 
   afterModel() {
-    const title = `${get(this, 'intl').t('governingTheDigitalPublicSphere.title')} | ${get(this, 'intl').t('title')}`;
+    const title = `${get(this, 'intl').t('disinformationAndSocialMedia.title')} | ${get(this, 'intl').t('title')}`;
     set(this, 'headData.title', title);
-    set(this, 'headData.description', get(this, 'intl').t('governingTheDigitalPublicSphere.description'));
-    set(this, 'headData.url', `${ENV.host}${ENV.rootURL}governing-the-digital-public-sphere/`);
-    const backgroundImage = get(this, 'backgroundImage').getSlideBackgroundImage('governing-the-digital-public-sphere');
+    set(this, 'headData.description', get(this, 'intl').t('disinformationAndSocialMedia.description'));
+    set(this, 'headData.url', `${ENV.host}${ENV.rootURL}disinformation-and-social-media-a-global-governance-challenge/`);
+    const backgroundImage = get(this, 'backgroundImage').getSlideBackgroundImage('disinformation-and-social-media-a-global-governance-challenge');
     if (backgroundImage && backgroundImage.ogUrl) {
       set(this, 'headData.image', backgroundImage.ogUrl);
     }
 
     // Load next route background
-    const nextRoute = get(this, 'routeOrder').getNextRoute('governing-the-digital-public-sphere');
+    const nextRoute = get(this, 'routeOrder').getNextRoute('disinformation-and-social-media-a-global-governance-challenge');
     if (nextRoute) {
       const { fullSizeUrl } = get(this, 'backgroundImage').getSlideBackgroundImage(nextRoute);
       if (fullSizeUrl) {

@@ -44,7 +44,7 @@ module('Acceptance | outputs and activities', function(hooks) {
     );
   });
 
-  test('should transition to /curbing-cultural-appropriation-through-intellectual-property-law on scroll-arrow-up-btn click', async function(assert) {
+  test('should transition to /curbing-cultural-appropriation-through-ip-law on scroll-arrow-up-btn click', async function(assert) {
     await visit('/outputs-and-activities');
 
     assert.ok(
@@ -54,7 +54,7 @@ module('Acceptance | outputs and activities', function(hooks) {
     await click('.scroll-arrow-up-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/curbing-cultural-appropriation-through-intellectual-property-law');
+    assert.strictEqual(currentURL(), '/curbing-cultural-appropriation-through-ip-law');
   });
 
   test('should transition to /timeline on scroll-arrow-down-btn click', async function(assert) {
