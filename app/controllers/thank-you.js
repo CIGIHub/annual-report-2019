@@ -25,12 +25,12 @@ export default Controller.extend({
       type: get(this, 'intl').t('telecharger'),
     }, {
       icon: 'envelope',
-      link: '',
+      link: 'https://www.cigionline.org/subscribe',
       title: get(this, 'intl').t('thankYou.link3'),
       type: get(this, 'intl').t('subscribe'),
     }, {
       icon: 'file-alt',
-      link: '',
+      link: 'https://www.cigionline.org/about/partners',
       title: get(this, 'intl').t('thankYou.link4'),
       type: get(this, 'intl').t('partners'),
     }];

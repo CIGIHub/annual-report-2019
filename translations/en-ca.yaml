@@ -441,9 +441,9 @@ thankYou:
   link2: 'Télécharger le Rapport annuel en français (PDF).'
   link3: 'Subscribe to CIGI’s newsletter.'
   link4: 'Learn more about CIGI and its partners.'
-  paragraph1: 'The stories in this year’s annual report highlight only some of the high-quality and innovative work produced by CIGI’s staff and many experts in Canada and around the world.'
-  paragraph2: 'Over the coming year, we will continue to produce timely and relevant work, from launching the final report and recommendations of the WRC, to tackling issues around cyber security in a new essay series. Exploring issues around IP, data governance and AI will remain a major focus, including innovative uses of AI for our own research analysis.'
-  paragraph3: 'Sign up for our newsletter to get the latest updates about new publications, opinion articles, events and multimedia content on topics from across our programs and research areas.'
+  paragraph1: 'This year’s annual report highlights many of the projects, publications and events made possible by the excellent work of CIGI’s staff, fellows and partners.'
+  paragraph2: 'We look forward to the coming year, when we will continue to focus on developing partnerships, with a particular emphasis on governance topics at the heart of our data-driven economy: big data, AI and digital platforms; digital threats to democracy and cyber security; and the role of international institutions in addressing international trade, IP and inequality.'
+  paragraph3: 'CIGI’s newsletter is the best way to stay up to date on our latest publications, opinions, essay series, events and videos on these and other topics. Sign up today at <a href="https://www.cigionline.org/subscribe" target="_blank" rel="noopener">www.cigionline.org/subscribe</a>.'
   staffPhoto: 'CIGI Staff Photo'
   title: 'Thank You'
 timeline:

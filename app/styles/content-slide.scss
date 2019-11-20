@@ -192,6 +192,15 @@
       @media screen and (min-width: $lg-screen-min) {
         margin-left: 1em;
       }
+
+      a {
+        color: $white;
+        text-decoration: underline;
+
+        &:hover {
+          color: $cigi-red;
+        }
+      }
     }
   }
 }
