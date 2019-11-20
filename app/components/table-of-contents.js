@@ -44,7 +44,7 @@ export default Component.extend({
   }),
 
   videoLink: computed(function() {
-    return `${get(this, 'backgroundImage.imageHost')}5891adf417e60b71/slides/table-of-contents.mp4`;
+    return `${get(this, 'backgroundImage.imageHost')}78657d2aac4c3ba0/slides/table-of-contents.mp4`;
   }),
 
   actions: {
