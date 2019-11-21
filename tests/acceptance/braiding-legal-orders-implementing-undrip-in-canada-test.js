@@ -44,7 +44,7 @@ module('Acceptance | braiding legal orders', function(hooks) {
     );
   });
 
-  test('should transition to /media-and-mass-atrocity-the-rwanda-genocide-and-beyond on scroll-arrow-up-btn click', async function(assert) {
+  test('should transition to /innovation-nation-making-canada-a-leader-in-the-global-ideas-economy on scroll-arrow-up-btn click', async function(assert) {
     await visit('/braiding-legal-orders-implementing-undrip-in-canada');
 
     assert.ok(
@@ -54,10 +54,10 @@ module('Acceptance | braiding legal orders', function(hooks) {
     await click('.scroll-arrow-up-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/media-and-mass-atrocity-the-rwanda-genocide-and-beyond');
+    assert.strictEqual(currentURL(), '/innovation-nation-making-canada-a-leader-in-the-global-ideas-economy');
   });
 
-  test('should transition to /models-for-data-governance on scroll-arrow-down-btn click', async function(assert) {
+  test('should transition to /curbing-cultural-appropriation-through-ip-law on scroll-arrow-down-btn click', async function(assert) {
     await visit('/braiding-legal-orders-implementing-undrip-in-canada');
 
     assert.ok(
@@ -67,6 +67,6 @@ module('Acceptance | braiding legal orders', function(hooks) {
     await click('.scroll-arrow-down-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/models-for-data-governance');
+    assert.strictEqual(currentURL(), '/curbing-cultural-appropriation-through-ip-law');
   });
 });

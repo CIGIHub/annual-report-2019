@@ -44,7 +44,7 @@ module('Acceptance | innovation nation making canada a leader in the global idea
     );
   });
 
-  test('should transition to /disinformation-and-social-media-a-global-governance-challenge on scroll-arrow-up-btn click', async function(assert) {
+  test('should transition to /a-clarion-call-for-protecting-the-worlds-refugees on scroll-arrow-up-btn click', async function(assert) {
     await visit('/innovation-nation-making-canada-a-leader-in-the-global-ideas-economy');
 
     assert.ok(
@@ -54,10 +54,10 @@ module('Acceptance | innovation nation making canada a leader in the global idea
     await click('.scroll-arrow-up-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/disinformation-and-social-media-a-global-governance-challenge');
+    assert.strictEqual(currentURL(), '/a-clarion-call-for-protecting-the-worlds-refugees');
   });
 
-  test('should transition to /media-and-mass-atrocity-the-rwanda-genocide-and-beyond on scroll-arrow-down-btn click', async function(assert) {
+  test('should transition to /braiding-legal-orders-implementing-undrip-in-canada on scroll-arrow-down-btn click', async function(assert) {
     await visit('/innovation-nation-making-canada-a-leader-in-the-global-ideas-economy');
 
     assert.ok(
@@ -67,6 +67,6 @@ module('Acceptance | innovation nation making canada a leader in the global idea
     await click('.scroll-arrow-down-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/media-and-mass-atrocity-the-rwanda-genocide-and-beyond');
+    assert.strictEqual(currentURL(), '/braiding-legal-orders-implementing-undrip-in-canada');
   });
 });

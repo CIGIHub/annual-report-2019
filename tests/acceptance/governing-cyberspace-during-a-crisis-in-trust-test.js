@@ -44,7 +44,7 @@ module('Acceptance | governing cyberspace during a crisis in trust', function(ho
     );
   });
 
-  test('should transition to /multilateral-institutions-mark-a-tumultuous-year on scroll-arrow-up-btn click', async function(assert) {
+  test('should transition to /disinformation-and-social-media-a-global-governance-challenge on scroll-arrow-up-btn click', async function(assert) {
     await visit('/governing-cyberspace-during-a-crisis-in-trust');
 
     assert.ok(
@@ -54,10 +54,10 @@ module('Acceptance | governing cyberspace during a crisis in trust', function(ho
     await click('.scroll-arrow-up-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/multilateral-institutions-mark-a-tumultuous-year');
+    assert.strictEqual(currentURL(), '/disinformation-and-social-media-a-global-governance-challenge');
   });
 
-  test('should transition to /disinformation-and-social-media-a-global-governance-challenge on scroll-arrow-down-btn click', async function(assert) {
+  test('should transition to /multilateral-institutions-mark-a-tumultuous-year on scroll-arrow-down-btn click', async function(assert) {
     await visit('/governing-cyberspace-during-a-crisis-in-trust');
 
     assert.ok(
@@ -67,6 +67,6 @@ module('Acceptance | governing cyberspace during a crisis in trust', function(ho
     await click('.scroll-arrow-down-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/disinformation-and-social-media-a-global-governance-challenge');
+    assert.strictEqual(currentURL(), '/multilateral-institutions-mark-a-tumultuous-year');
   });
 });

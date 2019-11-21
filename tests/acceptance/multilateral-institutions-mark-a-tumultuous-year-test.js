@@ -44,7 +44,7 @@ module('Acceptance | multilateral institutions mark a tumultuous year', function
     );
   });
 
-  test('should transition to /a-clarion-call-for-protecting-the-worlds-refugees on scroll-arrow-up-btn click', async function(assert) {
+  test('should transition to /governing-cyberspace-during-a-crisis-in-trust on scroll-arrow-up-btn click', async function(assert) {
     await visit('/multilateral-institutions-mark-a-tumultuous-year');
 
     assert.ok(
@@ -54,10 +54,10 @@ module('Acceptance | multilateral institutions mark a tumultuous year', function
     await click('.scroll-arrow-up-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/a-clarion-call-for-protecting-the-worlds-refugees');
+    assert.strictEqual(currentURL(), '/governing-cyberspace-during-a-crisis-in-trust');
   });
 
-  test('should transition to /governing-cyberspace-during-a-crisis-in-trust on scroll-arrow-down-btn click', async function(assert) {
+  test('should transition to /building-closer-ties-between-canada-and-india on scroll-arrow-down-btn click', async function(assert) {
     await visit('/multilateral-institutions-mark-a-tumultuous-year');
 
     assert.ok(
@@ -67,6 +67,6 @@ module('Acceptance | multilateral institutions mark a tumultuous year', function
     await click('.scroll-arrow-down-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/governing-cyberspace-during-a-crisis-in-trust');
+    assert.strictEqual(currentURL(), '/building-closer-ties-between-canada-and-india');
   });
 });

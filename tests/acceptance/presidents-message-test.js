@@ -57,7 +57,7 @@ module('Acceptance | presidents message', function(hooks) {
     assert.strictEqual(currentURL(), '/chairs-message');
   });
 
-  test('should transition to /building-closer-ties-between-canada-and-india on scroll-arrow-down-btn click', async function(assert) {
+  test('should transition to /disinformation-and-social-media-a-global-governance-challenge on scroll-arrow-down-btn click', async function(assert) {
     await visit('/presidents-message');
 
     assert.ok(
@@ -67,6 +67,6 @@ module('Acceptance | presidents message', function(hooks) {
     await click('.scroll-arrow-down-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/building-closer-ties-between-canada-and-india');
+    assert.strictEqual(currentURL(), '/disinformation-and-social-media-a-global-governance-challenge');
   });
 });

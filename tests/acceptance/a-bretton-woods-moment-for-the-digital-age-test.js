@@ -58,7 +58,7 @@ module('Acceptance | a bretton woods moment for the digital age', function(hooks
     assert.strictEqual(currentURL(), '/models-for-data-governance');
   });
 
-  test('should transition to /informing-the-debate-around-internet-security-and-trust on scroll-arrow-down-btn-click', async function(assert) {
+  test('should transition to /outputs-and-activities on scroll-arrow-down-btn-click', async function(assert) {
     await visit('/a-bretton-woods-moment-for-the-digital-age');
 
     assert.ok(
@@ -68,6 +68,6 @@ module('Acceptance | a bretton woods moment for the digital age', function(hooks
     await click('.scroll-arrow-down-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/informing-the-debate-around-internet-security-and-trust');
+    assert.strictEqual(currentURL(), '/outputs-and-activities');
   });
 });

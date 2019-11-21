@@ -8,7 +8,7 @@ export default Component.extend({
   lightbox: service(),
   router: service(),
 
-  linksBreakAtIndex: 10,
+  linksBreakAtIndex: 9,
 
   leftLinks: computed('routes.[]', 'linksBreakAtIndex', 'router.currentRouteName', function() {
     if (!get(this, 'routes')) {
