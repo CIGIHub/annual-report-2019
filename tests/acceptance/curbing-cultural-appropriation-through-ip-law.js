@@ -44,7 +44,7 @@ module('Acceptance | curbing cultural appropriation through ip law', function(ho
     );
   });
 
-  test('should transition to /exploring-the-four-internets-and-the-geopolitics-of-digital-governance on scroll-arrow-up-btn click', async function(assert) {
+  test('should transition to /braiding-legal-orders-implementing-undrip-in-canada on scroll-arrow-up-btn click', async function(assert) {
     await visit('/curbing-cultural-appropriation-through-ip-law');
 
     assert.ok(
@@ -54,10 +54,10 @@ module('Acceptance | curbing cultural appropriation through ip law', function(ho
     await click('.scroll-arrow-up-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/exploring-the-four-internets-and-the-geopolitics-of-digital-governance');
+    assert.strictEqual(currentURL(), '/braiding-legal-orders-implementing-undrip-in-canada');
   });
 
-  test('should transition to /outputs-and-activities on scroll-arrow-down-btn click', async function(assert) {
+  test('should transition to /media-and-mass-atrocity-the-rwanda-genocide-and-beyond on scroll-arrow-down-btn click', async function(assert) {
     await visit('/curbing-cultural-appropriation-through-ip-law');
 
     assert.ok(
@@ -67,6 +67,6 @@ module('Acceptance | curbing cultural appropriation through ip law', function(ho
     await click('.scroll-arrow-down-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/outputs-and-activities');
+    assert.strictEqual(currentURL(), '/media-and-mass-atrocity-the-rwanda-genocide-and-beyond');
   });
 });

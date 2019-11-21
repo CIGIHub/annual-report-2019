@@ -44,7 +44,7 @@ module('Acceptance | exploring the four internets and the geopolitics of digital
     );
   });
 
-  test('should transition to /informing-the-debate-around-internet-security-and-trust on scroll-arrow-up-btn click', async function(assert) {
+  test('should transition to /media-and-mass-atrocity-the-rwanda-genocide-and-beyond on scroll-arrow-up-btn click', async function(assert) {
     await visit('/exploring-the-four-internets-and-the-geopolitics-of-digital-governance');
 
     assert.ok(
@@ -54,10 +54,10 @@ module('Acceptance | exploring the four internets and the geopolitics of digital
     await click('.scroll-arrow-up-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/informing-the-debate-around-internet-security-and-trust');
+    assert.strictEqual(currentURL(), '/media-and-mass-atrocity-the-rwanda-genocide-and-beyond');
   });
 
-  test('should transition to /curbing-cultural-appropriation-through-ip-law on scroll-arrow-down-btn click', async function(assert) {
+  test('should transition to /informing-the-debate-around-internet-security-and-trust on scroll-arrow-down-btn click', async function(assert) {
     await visit('/exploring-the-four-internets-and-the-geopolitics-of-digital-governance');
 
     assert.ok(
@@ -67,6 +67,6 @@ module('Acceptance | exploring the four internets and the geopolitics of digital
     await click('.scroll-arrow-down-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/curbing-cultural-appropriation-through-ip-law');
+    assert.strictEqual(currentURL(), '/informing-the-debate-around-internet-security-and-trust');
   });
 });

@@ -19,6 +19,18 @@ export default Service.extend({
     subRoutes: [],
     title: 'presidentsMessage.title',
   }, {
+    route: 'disinformation-and-social-media-a-global-governance-challenge',
+    subRoutes: [],
+    title: 'disinformationAndSocialMedia.title',
+  }, {
+    route: 'governing-cyberspace-during-a-crisis-in-trust',
+    subRoutes: [],
+    title: 'governingCyberspaceDuringACrisisInTrust.title',
+  }, {
+    route: 'multilateral-institutions-mark-a-tumultuous-year',
+    subRoutes: [],
+    title: 'multilateralInstitutionsMarkATumultuousYear.title',
+  }, {
     route: 'building-closer-ties-between-canada-and-india',
     subRoutes: [],
     title: 'buildingCloserTiesBetweenCanadaAndIndia.title',
@@ -27,29 +39,29 @@ export default Service.extend({
     subRoutes: [],
     title: 'aClarionCallForProtectingTheWorldsRefugees.title',
   }, {
-    route: 'multilateral-institutions-mark-a-tumultuous-year',
-    subRoutes: [],
-    title: 'multilateralInstitutionsMarkATumultuousYear.title',
-  }, {
-    route: 'governing-cyberspace-during-a-crisis-in-trust',
-    subRoutes: [],
-    title: 'governingCyberspaceDuringACrisisInTrust.title',
-  }, {
-    route: 'disinformation-and-social-media-a-global-governance-challenge',
-    subRoutes: [],
-    title: 'disinformationAndSocialMedia.title',
-  }, {
     route: 'innovation-nation-making-canada-a-leader-in-the-global-ideas-economy',
     subRoutes: [],
     title: 'innovationNation.title',
+  }, {
+    route: 'braiding-legal-orders-implementing-undrip-in-canada',
+    subRoutes: [],
+    title: 'braidingLegalOrders.htmlTitle',
+  }, {
+    route: 'curbing-cultural-appropriation-through-ip-law',
+    subRoutes: [],
+    title: 'curbingCulturalAppropriationThroughIntellectualPropertyLaw.title',
   }, {
     route: 'media-and-mass-atrocity-the-rwanda-genocide-and-beyond',
     subRoutes: [],
     title: 'mediaAndMassAtrocityTheRwandaGenocideAndBeyond.title',
   }, {
-    route: 'braiding-legal-orders-implementing-undrip-in-canada',
+    route: 'exploring-the-four-internets-and-the-geopolitics-of-digital-governance',
     subRoutes: [],
-    title: 'braidingLegalOrders.htmlTitle',
+    title: 'exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.title',
+  }, {
+    route: 'informing-the-debate-around-internet-security-and-trust',
+    subRoutes: [],
+    title: 'informingTheDebateAroundInternetSecurityAndTrust.title',
   }, {
     route: 'models-for-data-governance',
     subRoutes: [],
@@ -58,18 +70,6 @@ export default Service.extend({
     route: 'a-bretton-woods-moment-for-the-digital-age',
     subRoutes: [],
     title: 'aBrettonWoodsMomentForTheDigitalAge.title',
-  }, {
-    route: 'informing-the-debate-around-internet-security-and-trust',
-    subRoutes: [],
-    title: 'informingTheDebateAroundInternetSecurityAndTrust.title',
-  }, {
-    route: 'exploring-the-four-internets-and-the-geopolitics-of-digital-governance',
-    subRoutes: [],
-    title: 'exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.title',
-  }, {
-    route: 'curbing-cultural-appropriation-through-ip-law',
-    subRoutes: [],
-    title: 'curbingCulturalAppropriationThroughIntellectualPropertyLaw.title',
   }, {
     route: 'outputs-and-activities',
     subRoutes: [],

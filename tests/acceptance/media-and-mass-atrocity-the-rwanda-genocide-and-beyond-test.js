@@ -44,7 +44,7 @@ module('Acceptance | media and mass atrocity the rwanda genocide and beyond', fu
     );
   });
 
-  test('should transition to /innovation-nation-making-canada-a-leader-in-the-global-ideas-economy on scroll-arrow-up-btn click', async function(assert) {
+  test('should transition to /curbing-cultural-appropriation-through-ip-law on scroll-arrow-up-btn click', async function(assert) {
     await visit('/media-and-mass-atrocity-the-rwanda-genocide-and-beyond');
 
     assert.ok(
@@ -54,10 +54,10 @@ module('Acceptance | media and mass atrocity the rwanda genocide and beyond', fu
     await click('.scroll-arrow-up-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/innovation-nation-making-canada-a-leader-in-the-global-ideas-economy');
+    assert.strictEqual(currentURL(), '/curbing-cultural-appropriation-through-ip-law');
   });
 
-  test('should transition to /braiding-legal-orders-implementing-undrip-in-canada on scroll-arrow-down-btn click', async function(assert) {
+  test('should transition to /exploring-the-four-internets-and-the-geopolitics-of-digital-governance on scroll-arrow-down-btn click', async function(assert) {
     await visit('/media-and-mass-atrocity-the-rwanda-genocide-and-beyond');
 
     assert.ok(
@@ -67,6 +67,6 @@ module('Acceptance | media and mass atrocity the rwanda genocide and beyond', fu
     await click('.scroll-arrow-down-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/braiding-legal-orders-implementing-undrip-in-canada');
+    assert.strictEqual(currentURL(), '/exploring-the-four-internets-and-the-geopolitics-of-digital-governance');
   });
 });

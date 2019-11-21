@@ -44,7 +44,7 @@ module('Acceptance | models for data governance', function(hooks) {
     );
   });
 
-  test('should transition to /braiding-legal-orders-implementing-undrip-in-canada on scroll-arrow-up-btn click', async function(assert) {
+  test('should transition to /informing-the-debate-around-internet-security-and-trust on scroll-arrow-up-btn click', async function(assert) {
     await visit('/models-for-data-governance');
 
     assert.ok(
@@ -54,7 +54,7 @@ module('Acceptance | models for data governance', function(hooks) {
     await click('.scroll-arrow-up-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/braiding-legal-orders-implementing-undrip-in-canada');
+    assert.strictEqual(currentURL(), '/informing-the-debate-around-internet-security-and-trust');
   });
 
   test('should transition to /a-bretton-woods-moment-for-the-digital-age on scroll-arrow-down-btn click', async function(assert) {

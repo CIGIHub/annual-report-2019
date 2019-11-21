@@ -44,7 +44,7 @@ module('Acceptance | informing the debate around internet security and trust', f
     );
   });
 
-  test('should transition to /a-bretton-woods-moment-for-the-digital-age on scroll-arrow-up-btn click', async function(assert) {
+  test('should transition to /exploring-the-four-internets-and-the-geopolitics-of-digital-governance on scroll-arrow-up-btn click', async function(assert) {
     await visit('/informing-the-debate-around-internet-security-and-trust');
 
     assert.ok(
@@ -54,10 +54,10 @@ module('Acceptance | informing the debate around internet security and trust', f
     await click('.scroll-arrow-up-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/a-bretton-woods-moment-for-the-digital-age');
+    assert.strictEqual(currentURL(), '/exploring-the-four-internets-and-the-geopolitics-of-digital-governance');
   });
 
-  test('should transition to /exploring-the-four-internets-and-the-geopolitics-of-digital-governance on scroll-arrow-down-btn click', async function(assert) {
+  test('should transition to /models-for-data-governance on scroll-arrow-down-btn click', async function(assert) {
     await visit('/informing-the-debate-around-internet-security-and-trust');
 
     assert.ok(
@@ -67,6 +67,6 @@ module('Acceptance | informing the debate around internet security and trust', f
     await click('.scroll-arrow-down-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/exploring-the-four-internets-and-the-geopolitics-of-digital-governance');
+    assert.strictEqual(currentURL(), '/models-for-data-governance');
   });
 });

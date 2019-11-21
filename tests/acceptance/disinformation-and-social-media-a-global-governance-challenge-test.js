@@ -44,7 +44,7 @@ module('Acceptance | disinformation and social media a global governance challen
     );
   });
 
-  test('should transition to /governing-cyberspace-during-a-crisis-in-trust on scroll-arrow-up-btn click', async function(assert) {
+  test('should transition to /presidents-message on scroll-arrow-up-btn click', async function(assert) {
     await visit('/disinformation-and-social-media-a-global-governance-challenge');
 
     assert.ok(
@@ -54,10 +54,10 @@ module('Acceptance | disinformation and social media a global governance challen
     await click('.scroll-arrow-up-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/governing-cyberspace-during-a-crisis-in-trust');
+    assert.strictEqual(currentURL(), '/presidents-message');
   });
 
-  test('should transition to /innovation-nation-making-canada-a-leader-in-the-global-ideas-economy on scroll-arrow-down-btn click', async function(assert) {
+  test('should transition to /governing-cyberspace-during-a-crisis-in-trust on scroll-arrow-down-btn click', async function(assert) {
     await visit('/disinformation-and-social-media-a-global-governance-challenge');
 
     assert.ok(
@@ -67,6 +67,6 @@ module('Acceptance | disinformation and social media a global governance challen
     await click('.scroll-arrow-down-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/innovation-nation-making-canada-a-leader-in-the-global-ideas-economy');
+    assert.strictEqual(currentURL(), '/governing-cyberspace-during-a-crisis-in-trust');
   });
 });
