@@ -34,6 +34,11 @@ export default Service.extend({
       ogUrl: '78657d2aac4c3ba0/slides/curbing-cultural-appropriation-through-intellectual-property-law-og.jpg',
       thumbnailUrl: '78657d2aac4c3ba0/slides/curbing-cultural-appropriation-through-intellectual-property-law-thumbnail.jpg',
     },
+    'disinformation-and-social-media-a-global-governance-challenge': {
+      fullSizeUrl: '78657d2aac4c3ba0/slides/disinformation-and-social-media-a-global-governance-challenge.jpg',
+      ogUrl: '78657d2aac4c3ba0/slides/disinformation-and-social-media-a-global-governance-challenge-og.jpg',
+      thumbnailUrl: '78657d2aac4c3ba0/slides/disinformation-and-social-media-a-global-governance-challenge-thumbnail.jpg',
+    },
     'exploring-the-four-internets-and-the-geopolitics-of-digital-governance': {
       fullSizeUrl: '78657d2aac4c3ba0/slides/exploring-the-four-internets-and-the-geopolitics-of-digital-governance.jpg',
       ogUrl: '78657d2aac4c3ba0/slides/exploring-the-four-internets-and-the-geopolitics-of-digital-governance-og.jpg',
@@ -49,6 +54,11 @@ export default Service.extend({
       ogUrl: '78657d2aac4c3ba0/slides/informing-the-debate-around-internet-security-and-trust-og.jpg',
       thumbnailUrl: '78657d2aac4c3ba0/slides/informing-the-debate-around-internet-security-and-trust-thumbnail.jpg',
     },
+    'innovation-nation-making-canada-a-leader-in-the-global-ideas-economy': {
+      fullSizeUrl: '78657d2aac4c3ba0/slides/innovation-nation-making-canada-a-leader-in-the-global-ideas-economy.jpg',
+      ogUrl: '78657d2aac4c3ba0/slides/innovation-nation-making-canada-a-leader-in-the-global-ideas-economy-og.jpg',
+      thumbnailUrl: '78657d2aac4c3ba0/slides/innovation-nation-making-canada-a-leader-in-the-global-ideas-economy-thumbnail.jpg',
+    },
     'media-and-mass-atrocity-the-rwanda-genocide-and-beyond': {
       fullSizeUrl: '78657d2aac4c3ba0/slides/media-and-mass-atrocity-the-rwanda-genocide-and-beyond.jpg',
       ogUrl: '78657d2aac4c3ba0/slides/media-and-mass-atrocity-the-rwanda-genocide-and-beyond-og.jpg',
@@ -58,6 +68,11 @@ export default Service.extend({
       fullSizeUrl: '78657d2aac4c3ba0/slides/models-for-data-governance.jpg',
       ogUrl: '78657d2aac4c3ba0/slides/models-for-data-governance-og.jpg',
       thumbnailUrl: '78657d2aac4c3ba0/slides/models-for-data-governance-thumbnail.jpg',
+    },
+    'multilateral-institutions-mark-a-tumultuous-year': {
+      fullSizeUrl: '78657d2aac4c3ba0/slides/multilateral-institutions-mark-a-tumultuous-year.jpg',
+      ogUrl: '78657d2aac4c3ba0/slides/multilateral-institutions-mark-a-tumultuous-year-og.jpg',
+      thumbnailUrl: '78657d2aac4c3ba0/slides/multilateral-institutions-mark-a-tumultuous-year-thumbnail.jpg',
     },
     'presidents-message': {
       fullSizeUrl: '78657d2aac4c3ba0/slides/presidents-message.jpg',
