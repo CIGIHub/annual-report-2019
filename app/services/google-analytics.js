@@ -6,7 +6,7 @@ export default Service.extend({
   fastboot: service(),
   gtag: null,
 
-  sendPageView: function({
+  sendPageView({
     pageLocation,
     pagePath,
     pageTitle,

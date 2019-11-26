@@ -20,7 +20,7 @@ export default Service.extend({
     return get(this, 'promises').length || 1;
   }),
 
-  init: function() {
+  init() {
     this._super(...arguments);
     if (!get(this, 'fastboot.isFastBoot') && ENV.environment !== 'test') {
       get(this, 'backgroundImage').getAllBlurImages().forEach((blurImage) => {
@@ -33,7 +33,7 @@ export default Service.extend({
     }
   },
 
-  waitForAssets: function() {
+  waitForAssets() {
     const _this = this;
     return all(get(this, 'promises')).then(() => new Promise((resolve) => {
       later(this, () => resolve(), 150);
@@ -42,7 +42,7 @@ export default Service.extend({
     });
   },
 
-  loadAsset: function(url) {
+  loadAsset(url) {
     if (!get(this, 'fastboot.isFastBoot') && ENV.environment !== 'test') {
       const _this = this;
       return new Promise((resolve) => {

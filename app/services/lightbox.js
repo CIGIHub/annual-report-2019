@@ -5,24 +5,24 @@ export default Service.extend({
   showLightbox: null,
   subType: null,
 
-  closeLightbox: function() {
+  closeLightbox() {
     set(this, 'showLightbox', null);
     set(this, 'subType', null);
   },
 
-  closeTableOfContentsAcknowledgements: function() {
+  closeTableOfContentsAcknowledgements() {
     set(this, 'subType', null);
   },
 
-  showPublicationLightbox: function() {
+  showPublicationLightbox() {
     set(this, 'subType', 'publication');
   },
 
-  showTableOfContents: function() {
+  showTableOfContents() {
     set(this, 'showLightbox', 'tableofcontents');
   },
 
-  showTableOfContentsAcknowledgements: function() {
+  showTableOfContentsAcknowledgements() {
     set(this, 'subType', 'acknowledgements');
   },
 });
