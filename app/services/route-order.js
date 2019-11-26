@@ -47,7 +47,7 @@ export default Service.extend({
     subRoutes: [],
     title: 'braidingLegalOrders.htmlTitle',
   }, {
-    route: 'curbing-cultural-appropriation-through-ip-law',
+    route: 'curbing-cultural-appropriation-through-intellectual-property-law',
     subRoutes: [],
     title: 'curbingCulturalAppropriationThroughIntellectualPropertyLaw.title',
   }, {
