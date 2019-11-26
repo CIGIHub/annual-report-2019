@@ -8,7 +8,7 @@ export default Controller.extend({
   intl: service(),
 
   backgroundStyle: computed(function() {
-    const { fullSizeUrl, thumbnailUrl } = get(this, 'backgroundImage').getSlideBackgroundImage('curbing-cultural-appropriation-through-ip-law');
+    const { fullSizeUrl, thumbnailUrl } = get(this, 'backgroundImage').getSlideBackgroundImage('curbing-cultural-appropriation-through-intellectual-property-law');
     return htmlSafe(`background-image: url('${fullSizeUrl}'), url('${thumbnailUrl}');`);
   }),
 

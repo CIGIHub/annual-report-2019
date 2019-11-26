@@ -57,7 +57,7 @@ module('Acceptance | braiding legal orders', function(hooks) {
     assert.strictEqual(currentURL(), '/innovation-nation-making-canada-a-leader-in-the-global-ideas-economy');
   });
 
-  test('should transition to /curbing-cultural-appropriation-through-ip-law on scroll-arrow-down-btn click', async function(assert) {
+  test('should transition to /curbing-cultural-appropriation-through-intellectual-property on scroll-arrow-down-btn click', async function(assert) {
     await visit('/braiding-legal-orders-implementing-undrip-in-canada');
 
     assert.ok(
@@ -67,6 +67,6 @@ module('Acceptance | braiding legal orders', function(hooks) {
     await click('.scroll-arrow-down-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/curbing-cultural-appropriation-through-ip-law');
+    assert.strictEqual(currentURL(), '/curbing-cultural-appropriation-through-intellectual-property');
   });
 });
