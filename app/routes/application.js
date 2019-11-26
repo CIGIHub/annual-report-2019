@@ -8,12 +8,12 @@ export default Route.extend({
   headData: service(),
   intl: service(),
 
-  beforeModel: function() {
+  beforeModel() {
     this._super(...arguments);
     return this.intl.setLocale('en-ca');
   },
 
-  afterModel: function() {
+  afterModel() {
     set(this, 'headData.title', get(this, 'intl').t('title'));
     set(this, 'headData.siteName', get(this, 'intl').t('title'));
     set(this, 'headData.description', get(this, 'intl').t('description'));

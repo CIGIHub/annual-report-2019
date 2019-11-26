@@ -12,14 +12,14 @@ export default Route.extend(GoogleAnalyticsMixin, ResetScrollMixin, {
   intl: service(),
   routeOrder: service(),
 
-  beforeModel: function() {
+  beforeModel() {
     if (!get(this, 'assetLoader.assetsLoaded')) {
       return get(this, 'assetLoader').waitForAssets();
     }
     return true;
   },
 
-  afterModel: function() {
+  afterModel() {
     const title = `${get(this, 'intl').t('governingCyberspaceDuringACrisisInTrust.title')} | ${get(this, 'intl').t('title')}`;
     set(this, 'headData.title', title);
     set(this, 'headData.description', get(this, 'intl').t('governingCyberspaceDuringACrisisInTrust.description'));

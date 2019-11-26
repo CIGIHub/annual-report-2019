@@ -12,14 +12,14 @@ export default Route.extend(GoogleAnalyticsMixin, ResetScrollMixin, {
   intl: service(),
   routeOrder: service(),
 
-  beforeModel: function() {
+  beforeModel() {
     if (!get(this, 'assetLoader.assetsLoaded')) {
       return get(this, 'assetLoader').waitForAssets();
     }
     return true;
   },
 
-  afterModel: function() {
+  afterModel() {
     set(this, 'headData.title', get(this, 'intl').t('title'));
     set(this, 'headData.description', get(this, 'intl').t('description'));
     set(this, 'headData.url', `${ENV.host}${ENV.rootURL}`);

@@ -31,14 +31,14 @@ export default Route.extend(GoogleAnalyticsMixin, ResetScrollMixin, {
     },
   },
 
-  beforeModel: function() {
+  beforeModel() {
     if (!get(this, 'assetLoader.assetsLoaded')) {
       return get(this, 'assetLoader').waitForAssets();
     }
     return true;
   },
 
-  model: function(params) {
+  model(params) {
     const nodes = publications.concat(opinions, events);
     nodes.sort((a, b) => {
       const aDate = new Date(a.published_date || a.event_date);
@@ -122,7 +122,7 @@ export default Route.extend(GoogleAnalyticsMixin, ResetScrollMixin, {
     });
   },
 
-  afterModel: function() {
+  afterModel() {
     const title = `${get(this, 'intl').t('timeline.title')} | ${get(this, 'intl').t('title')}`;
     set(this, 'headData.title', title);
     set(this, 'headData.description', get(this, 'intl').t('description'));
@@ -139,7 +139,7 @@ export default Route.extend(GoogleAnalyticsMixin, ResetScrollMixin, {
     }
   },
 
-  resetController: function(controller) {
+  resetController(controller) {
     set(controller, 'id', null);
     set(controller, 'search', null);
   },
