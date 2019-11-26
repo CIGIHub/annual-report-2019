@@ -44,7 +44,7 @@ module('Acceptance | media and mass atrocity the rwanda genocide and beyond', fu
     );
   });
 
-  test('should transition to /curbing-cultural-appropriation-through-intellectual-property on scroll-arrow-up-btn click', async function(assert) {
+  test('should transition to /curbing-cultural-appropriation-through-intellectual-property-law on scroll-arrow-up-btn click', async function(assert) {
     await visit('/media-and-mass-atrocity-the-rwanda-genocide-and-beyond');
 
     assert.ok(
@@ -54,7 +54,7 @@ module('Acceptance | media and mass atrocity the rwanda genocide and beyond', fu
     await click('.scroll-arrow-up-btn');
     await finishRender();
 
-    assert.strictEqual(currentURL(), '/curbing-cultural-appropriation-through-intellectual-property');
+    assert.strictEqual(currentURL(), '/curbing-cultural-appropriation-through-intellectual-property-law');
   });
 
   test('should transition to /exploring-the-four-internets-and-the-geopolitics-of-digital-governance on scroll-arrow-down-btn click', async function(assert) {
