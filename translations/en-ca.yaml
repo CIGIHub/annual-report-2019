@@ -175,85 +175,85 @@ financials:
     currentAssets:
       accountsReceivable:
         title: 'Accounts receivable'
-        total2017: '1,230,454'
         total2018: '1,449,886'
+        total2019: '605,813'
       cash:
         title: 'Cash and cash equivalents'
-        total2017: '5,891,186'
         total2018: '5,365,153'
+        total2019: '13,585,353'
       portfolioInvestments:
         title: 'Portfolio investments'
-        total2017: '123,966,744'
         total2018: '121,220,809'
+        total2019: '104,944,494'
       prepaidExpenses:
         title: 'Prepaid expenses'
-        total2017: '1,112,903'
         total2018: '424,190'
+        total2019: '341,326'
       title: 'Current Assets'
-      total2017: '132,201,287'
       total2018: '128,460,038'
+      total2019: '119,476,986'
     currentLiabilities:
       accountsPayable:
         title: 'Accounts payable and accrued liabilities'
-        total2017: '1,160,906'
         total2018: '1,358,661'
+        total2019: '1,690,477'
       deferredRevenue:
         title: 'Deferred revenue'
-        total2017: '285,599'
         total2018: '1,048,783'
+        total2019: '529,616'
       title: 'Current Liabilities'
       unrealizedLoss:
         title: 'Unrealized loss on forward contracts'
-        total2017: '2,546'
         total2018: '174,518'
+        total2019: '-'
     fundBalances:
       capitalAssets:
         title: 'Invested in capital assets'
-        total2017: '59,180,608'
         total2018: '57,285,957'
+        total2019: '55,404,030'
       externallyRestricted:
         title: 'Externally restricted'
-        total2017: '107,825,622'
         total2018: '100,044,972'
+        total2019: '98,755,703'
       internallyRestricted:
         title: 'Internally restricted'
-        total2017: '620,110'
         total2018: '622,601'
+        total2019: '628,827'
       title: 'Fund Balances'
       unrestricted:
         title: 'Unrestricted'
-        total2017: '22,605,814'
         total2018: '25,499,509'
+        total2019: '18,134,997'
     otherAssets:
       leaseInducement:
         title: 'Lease inducement'
-        total2017: '299,310'
         total2018: '289,006'
+        total2019: '262,634'
       property:
         title: 'Property and equipment'
-        total2017: '59,180,608'
         total2018: '57,285,957'
+        total2019: '55,404,030'
       title: 'Other Assets'
-    summarizedBalanceSheet: 'Summarized Balance Sheet as at July 31, 2018'
+    summarizedBalanceSheet: 'Summarized Balance Sheet as at July 31, 2019'
     title: 'Balance Sheet'
-    total2017: '2017 Total'
     total2018: '2018 Total'
+    total2019: '2019 Total'
     totalAssets:
       title: 'Total Assets'
-      total2017: '191,681,205'
       total2018: '186,035,001'
+      total2019: '175,143,650'
     totalFundBalances:
       title: 'Total Fund Balances'
-      total2017: '190,232,154'
       total2018: '183,453,039'
+      total2019: '172,923,557'
     totalLiabilities:
       title: 'Total Liabilities'
-      total2017: '1,449,051'
       total2018: '2,581,962'
+      total2019: '2,220,093'
     totalLiabilitiesAndFundBalances:
       title: 'Total Liabilities and Fund Balances'
-      total2017: '191,681,205'
       total2018: '186,035,001'
+      total2019: '175,143,650'
   notes:
     paragraph1: 'Resources contributed for endowment are included in the Long-Term Endowment Fund. Certain of such resources are to be held for a period of ten years or upon the dissolution, liquidation or winding up of the Organization, whichever occurs later. Certain of such resources contributed by the Federal Government of Canada is restricted in perpetuity. Investment income earned on resources of the Long- Term Endowment Fund is reported in the Operating and Capital Fund.'
     paragraph2: 'The Operating and Capital Funds account for the Organization’s program delivery, administrative activities, and non-campus related capital assets.'
