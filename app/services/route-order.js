@@ -109,8 +109,13 @@ export default Service.extend({
   }),
 
   getNextRoute(currentRouteName) {
-    let ind = get(this, 'routes').findIndex((route) => currentRouteName === route.route
-      || route.subRoutes.includes(currentRouteName));
+    let ind = -1;
+    get(this, 'routes').forEach((route, index) => {
+      if (currentRouteName === route.route
+          || route.subRoutes.includes(currentRouteName)) {
+        ind = index;
+      }
+    });
     ind += 1;
     if (ind > 0 && ind < get(this, 'routes.length')) {
       return get(this, 'routes')[ind].route;
@@ -119,8 +124,13 @@ export default Service.extend({
   },
 
   getPreviousRoute(currentRouteName) {
-    let ind = get(this, 'routes').findIndex((route) => currentRouteName === route.route
-      || route.subRoutes.includes(currentRouteName));
+    let ind = 0;
+    get(this, 'routes').forEeach((route, index) => {
+      if (currentRouteName === route.route
+          || route.subRoutes.includes(currentRouteName)) {
+        ind = index;
+      }
+    });
     ind -= 1;
     if (ind >= 0) {
       return get(this, 'routes')[ind].route;
