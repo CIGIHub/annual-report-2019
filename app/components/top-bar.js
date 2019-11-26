@@ -40,10 +40,10 @@ export default Component.extend({
   }),
 
   actions: {
-    closeMenu: function() {
+    closeMenu() {
       get(this, 'lightbox').closeLightbox();
     },
-    closeSocialMenu: function() {
+    closeSocialMenu() {
       /* istanbul ignore next */
       if (get(this, 'socialAnimationTimeout')) {
         clearTimeout(get(this, 'socialAnimationTimeout'));
@@ -78,17 +78,17 @@ export default Component.extend({
 
       $('.scroll-arrow-up-btn').fadeIn();
     },
-    facebookShare: function() {
+    facebookShare() {
       /* istanbul ignore next */
       FB.ui({
         method: 'share',
         href: get(this, 'shareRoute'),
       });
     },
-    openMenu: function() {
+    openMenu() {
       get(this, 'lightbox').showTableOfContents();
     },
-    openSocialMenu: function() {
+    openSocialMenu() {
       /* istanbul ignore next */
       if (get(this, 'socialAnimationTimeout')) {
         clearTimeout(get(this, 'socialAnimationTimeout'));

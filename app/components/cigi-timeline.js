@@ -27,7 +27,7 @@ export default Component.extend({
     return classNames.toString().replace(/,/g, ' ');
   }),
 
-  init: function() {
+  init() {
     this._super(...arguments);
 
     /* istanbul ignore next */
@@ -36,7 +36,7 @@ export default Component.extend({
     }
   },
 
-  didInsertElement: function() {
+  didInsertElement() {
     this._super(...arguments);
 
     this.drawTimeline();
@@ -55,7 +55,7 @@ export default Component.extend({
     }
   }),
 
-  runSearch: function() {
+  runSearch() {
     /* istanbul ignore next */
     let search = get(this, 'search');
     /* istanbul ignore next */
@@ -98,7 +98,7 @@ export default Component.extend({
     }
   },
 
-  _canDrawCircle: function(matrix, x, y, r) {
+  _canDrawCircle(matrix, x, y, r) {
     /* istanbul ignore next */
     for (let i = x - r; i <= x + r; i += 1) {
       let x2 = i;
@@ -119,7 +119,7 @@ export default Component.extend({
     return true;
   },
 
-  _drawCircle: function(matrix, x, y, r, removeCircle = false) {
+  _drawCircle(matrix, x, y, r, removeCircle = false) {
     /* istanbul ignore next */
     const matrixCopy = matrix;
     /* istanbul ignore next */
@@ -138,7 +138,7 @@ export default Component.extend({
     }
   },
 
-  drawTimeline: function() {
+  drawTimeline() {
     /* istanbul ignore next */
     const self = this;
     /* istanbul ignore next */
@@ -377,11 +377,11 @@ export default Component.extend({
 
       timeline.append(bubble);
 
-      // const nodeCopy = {
-      //   bubble,
-      // };
-      // Object.assign(nodeCopy, node);
-      // get(this, 'timelineNodes').push(nodeCopy);
+      const nodeCopy = {
+        bubble,
+      };
+      Object.assign(nodeCopy, node);
+      get(this, 'timelineNodes').push(nodeCopy);
     });
 
     /* istanbul ignore next */
@@ -391,7 +391,7 @@ export default Component.extend({
     return true;
   },
 
-  showNode: function(ev) {
+  showNode(ev) {
     /* istanbul ignore next */
     set(this, 'nodeId', ev.data);
     /* istanbul ignore next */

@@ -40,12 +40,12 @@ export default Component.extend({
     }
   }),
 
-  init: function() {
+  init() {
     set(this, 'revealToggle', false);
     return this._super();
   },
 
-  mouseEnter: function() {
+  mouseEnter() {
     /* istanbul ignore next */
     if (get(this, 'textRevealTimeout')) {
       clearTimeout(get(this, 'textRevealTimeout'));
@@ -68,7 +68,7 @@ export default Component.extend({
     set(this, 'quoteRevealTimeout', revealResult.quoteRevealTimeout);
   },
 
-  mouseLeave: function() {
+  mouseLeave() {
     /* istanbul ignore next */
     if (get(this, 'quoteRevealTimeout')) {
       clearTimeout(get(this, 'quoteRevealTimeout'));
@@ -85,7 +85,7 @@ export default Component.extend({
     set(this, 'textRevealTimeout', hideResult.textRevealTimeout);
   },
 
-  hide: function() {
+  hide() {
     /* istanbul ignore next */
     $('.hover-reveal').stop(false, false).animate({
       'opacity': 0,
@@ -122,7 +122,7 @@ export default Component.extend({
     };
   },
 
-  reveal: function() {
+  reveal() {
     /* istanbul ignore next */
     $('.hover-reveal').stop(false, false).animate({
       'opacity': 1,
