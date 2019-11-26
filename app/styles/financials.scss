@@ -99,6 +99,7 @@
   p {
     color: $black;
     font-size: 14px;
+    margin-bottom: 0.5rem;
 
     @media screen and (min-width: $lg-screen-min) and (max-width: $lg-screen-max) {
       font-size: 13px;
