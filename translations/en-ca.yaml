@@ -265,65 +265,65 @@ financials:
   revenueAndExpenses:
     excessOfExpensesOverRevenue:
       title: 'Excess of Revenue Over Expenses'
-      total2017: '(10,413,705)'
       total2018: '(6,779,115)'
+      total2019: '(10,529,482)'
     expenses:
       administrative:
         title: 'Administration'
-        total2017: '1,973,594'
         total2018: '2,609,844'
+        total2019: '2,714,092'
       amortization:
         title: 'Amortization'
-        total2017: '2,713,660'
         total2018: '2,084,159'
+        total2019: '2,005,682'
       facilities:
         title: 'Facilities'
-        total2017: '1,179,226'
         total2018: '1,106,231'
+        total2019: '1,097,278'
       research:
         title: 'Research and conferences'
-        total2017: '15,931,107'
         total2018: '15,953,738'
+        total2019: '13,948,486'
       technicalSupport:
         title: 'Technical support'
-        total2017: '781,789'
         total2018: '966,608'
+        total2019: '978,262'
       title: 'Expenses'
-      total2017: '22,579,376'
       total2018: '22,720,580'
+      total2019: '20,743,800'
     fundBalancesBeginning:
       title: 'Fund Balances, Beginning of the Year'
-      total2017: '200,645,859'
       total2018: '190,232,154'
+      total2019: '183,453,039'
     fundBalancesEnd:
       title: 'Fund Balances, End of the Year'
-      total2017: '190,232,154'
       total2018: '183,453,039'
+      total2019: '172,923,557'
     revenue:
       donations: 'Donations and other Revenue'
       grants:
         title: 'Government and other grants'
-        total2017: '3,525,400'
         total2018: '3,973,418'
+        total2019: '3,216,487'
       investmentIncome:
         title: 'Realized investment income'
-        total2017: '9,337,640'
         total2018: '13,729,347'
+        total2019: '3,146,156'
       other:
         title: 'Other'
-        total2017: '1,319,422'
         total2018: '1,411,683'
+        total2019: '1,492,004'
       title: 'Revenue (Losses)'
-      total2017: '12,165,671'
       total2018: '15,941,465'
+      total2019: '10,214,318'
       unrealizedInvestmentIncome:
         title: 'Unrealized investment gains (losses)'
-        total2017: '(2,016,791)'
         total2018: '(3,172,983)'
-    statementOfRevenue: 'Summarized Statement of Revenue, Expenditures and Changes in Fund Balances for the year ended July 31, 2018'
+        total2019: '2,359,671'
+    statementOfRevenue: 'Summarized Statement of Revenue, Expenditures and Changes in Fund Balances for the year ended July 31, 2019'
     title: 'Revenue and Expenses'
-    total2017: '2017 Total'
     total2018: '2018 Total'
+    total2019: '2019 Total'
   title: 'Financials'
 governingCyberspaceDuringACrisisInTrust:
   description: 'It is almost impossible to read the news without coming across a lead story cataloguing the latest cyber breach or misuse of data. The volume of these events lays bare the paradox of the digital economy and cyber security: technology has led to convenience, efficiency and wealth creation, but the push to digitize society quickly and relentlessly has meant building vulnerability into the core of the global economic model.'
