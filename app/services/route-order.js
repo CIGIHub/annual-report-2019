@@ -125,7 +125,7 @@ export default Service.extend({
 
   getPreviousRoute(currentRouteName) {
     let ind = 0;
-    get(this, 'routes').forEeach((route, index) => {
+    get(this, 'routes').forEach((route, index) => {
       if (currentRouteName === route.route
           || route.subRoutes.includes(currentRouteName)) {
         ind = index;
