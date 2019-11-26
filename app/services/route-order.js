@@ -108,12 +108,12 @@ export default Service.extend({
     return get(this, 'routes')[get(this, 'routes').length - 1].subRoutes;
   }),
 
-  getNextRoute: function(currentRouteName) {
+  getNextRoute(currentRouteName) {
     let ind = -1;
     get(this, 'routes').forEach((route, index) => {
       if (currentRouteName === route.route
-        || route.subRoutes.includes(currentRouteName)) {
-          ind = index;
+          || route.subRoutes.includes(currentRouteName)) {
+        ind = index;
       }
     });
     ind += 1;
@@ -123,12 +123,12 @@ export default Service.extend({
     return null;
   },
 
-  getPreviousRoute: function(currentRouteName) {
+  getPreviousRoute(currentRouteName) {
     let ind = 0;
     get(this, 'routes').forEeach((route, index) => {
       if (currentRouteName === route.route
-        || route.subRoutes.includes(currentRouteName)) {
-          ind = index;
+          || route.subRoutes.includes(currentRouteName)) {
+        ind = index;
       }
     });
     ind -= 1;
