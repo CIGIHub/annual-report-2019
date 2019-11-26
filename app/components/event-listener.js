@@ -10,8 +10,8 @@ export default Component.extend({
   transitionBack: null,
   transitionNext: null,
 
-  didInsertElement() {
-    this._super(...arguments);
+  didInsertElement(...args) {
+    this._super(args);
     $(document).on('keydown', $.proxy(this._keypressHandler, this));
 
     $(document).on({

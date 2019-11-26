@@ -20,8 +20,8 @@ export default Service.extend({
     return get(this, 'promises').length || 1;
   }),
 
-  init() {
-    this._super(...arguments);
+  init(...args) {
+    this._super(args);
     if (!get(this, 'fastboot.isFastBoot') && ENV.environment !== 'test') {
       get(this, 'backgroundImage').getAllBlurImages().forEach((blurImage) => {
         get(this, 'promises').push(this.loadAsset(blurImage));

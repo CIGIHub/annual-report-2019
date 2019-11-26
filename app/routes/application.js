@@ -8,8 +8,8 @@ export default Route.extend({
   headData: service(),
   intl: service(),
 
-  beforeModel() {
-    this._super(...arguments);
+  beforeModel(...args) {
+    this._super(args);
     return this.intl.setLocale('en-ca');
   },
 

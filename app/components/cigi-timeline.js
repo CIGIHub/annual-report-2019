@@ -27,8 +27,8 @@ export default Component.extend({
     return classNames.toString().replace(/,/g, ' ');
   }),
 
-  init() {
-    this._super(...arguments);
+  init(...args) {
+    this._super(args);
 
     /* istanbul ignore next */
     if (!get(this, 'fastboot.isFastBoot')) {
@@ -36,8 +36,8 @@ export default Component.extend({
     }
   },
 
-  didInsertElement() {
-    this._super(...arguments);
+  didInsertElement(...args) {
+    this._super(args);
 
     this.drawTimeline();
   },

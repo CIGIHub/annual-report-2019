@@ -4,8 +4,8 @@ import { inject as service } from '@ember/service';
 
 export default Mixin.create({
   fastboot: service(),
-  activate() {
-    this._super(...arguments);
+  activate(...args) {
+    this._super(args);
     if (!get(this, 'fastboot.isFastBoot')) {
       window.scrollTo(0, 0);
     }
