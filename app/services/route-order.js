@@ -108,7 +108,7 @@ export default Service.extend({
     return get(this, 'routes')[get(this, 'routes').length - 1].subRoutes;
   }),
 
-  getNextRoute(currentRouteName) {
+  getNextRoute: function(currentRouteName) {
     let ind = get(this, 'routes').findIndex((route) => currentRouteName === route.route
       || route.subRoutes.includes(currentRouteName));
     ind += 1;
@@ -118,7 +118,7 @@ export default Service.extend({
     return null;
   },
 
-  getPreviousRoute(currentRouteName) {
+  getPreviousRoute: function(currentRouteName) {
     let ind = get(this, 'routes').findIndex((route) => currentRouteName === route.route
       || route.subRoutes.includes(currentRouteName));
     ind -= 1;

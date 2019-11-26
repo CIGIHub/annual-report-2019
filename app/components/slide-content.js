@@ -6,10 +6,10 @@ export default Component.extend({
   lightbox: service(),
 
   actions: {
-    closeLightbox() {
+    closeLightbox: function() {
       get(this, 'lightbox').closeLightbox();
     },
-    showYouTubeLightbox(videoId, videoTitle, videoDescription) {
+    showYouTubeLightbox: function(videoId, videoTitle, videoDescription) {
       get(this, 'lightbox').showYouTubeLightbox(videoId, videoTitle, videoDescription);
     },
   },

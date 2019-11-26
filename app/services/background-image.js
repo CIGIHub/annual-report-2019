@@ -135,11 +135,11 @@ export default Service.extend({
     return 'https://www.cigionline.org/interactives/2019annualreport/static/';
   }),
 
-  getAllBlurImages() {
+  getAllBlurImages: function() {
     return Object.keys(get(this, 'backgroundImages')).map((key) => `${get(this, 'imageHost')}${get(this, 'backgroundImages')[key].thumbnailUrl}`);
   },
 
-  getNodeBackgroundImage(nodeId) {
+  getNodeBackgroundImage: function(nodeId) {
     if (get(this, 'nodesMissingBackground').includes(nodeId)) {
       return get(this, 'defaultBackground');
     }
@@ -149,7 +149,7 @@ export default Service.extend({
     };
   },
 
-  getSlideBackgroundImage(routeName) {
+  getSlideBackgroundImage: function(routeName) {
     if (get(this, 'backgroundImages')[routeName]
         && get(this, 'backgroundImages')[routeName].fullSizeUrl
         && get(this, 'backgroundImages')[routeName].ogUrl

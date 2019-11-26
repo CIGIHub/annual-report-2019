@@ -1,7 +1,7 @@
 import Route from '@ember/routing/route';
 
 export default Route.extend({
-  beforeModel(transition) {
+  beforeModel: function(transition) {
     if (![
       'financials.auditors-report',
       'financials.balance-sheet',

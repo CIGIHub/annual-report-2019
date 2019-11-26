@@ -52,7 +52,7 @@ export default Component.extend({
     }
   }),
 
-  init() {
+  init: function() {
     set(this, 'lightbox.showLightbox', null);
     return this._super();
   },

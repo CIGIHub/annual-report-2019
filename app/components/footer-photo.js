@@ -14,7 +14,7 @@ export default Component.extend({
   }),
 
   actions: {
-    showBackground() {
+    showBackground: function() {
       set(this, 'revealToggle', !get(this, 'revealToggle'));
     },
   },

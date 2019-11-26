@@ -9,7 +9,7 @@ export default Mixin.create({
   router: service(),
 
   actions: {
-    didTransition() {
+    didTransition: function() {
       get(this, 'googleAnalytics').sendPageView({
         pageLocation: get(this, 'headData.url'),
         pagePath: `${ENV.rootURL}${get(this, 'router.currentRouteName').replace('.', '/').replace('index', '')}`,

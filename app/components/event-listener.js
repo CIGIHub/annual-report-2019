@@ -10,8 +10,8 @@ export default Component.extend({
   transitionBack: null,
   transitionNext: null,
 
-  didInsertElement(...args) {
-    this._super(args);
+  didInsertElement: function() {
+    this._super(...arguments);
     $(document).on('keydown', $.proxy(this._keypressHandler, this));
 
     $(document).on({
@@ -32,7 +32,7 @@ export default Component.extend({
     }
   },
 
-  _getTouchCoordinates(e) {
+  _getTouchCoordinates: function(e) {
     /* istanbul ignore next */
     const coordinates = {};
     /* istanbul ignore next */
@@ -44,13 +44,13 @@ export default Component.extend({
     return coordinates;
   },
 
-  _isReallyTouch(e) {
+  _isReallyTouch: function(e) {
     // Don't move for mouse click and drag
     /* istanbul ignore next */
     return typeof e.pointerType === 'undefined' || e.pointerType !== 'mouse';
   },
 
-  _touchStartHandler(ev) {
+  _touchStartHandler: function(ev) {
     /* istanbul ignore if */
     if (Foundation.MediaQuery.atLeast('medium')) {
       const e = ev.originalEvent;
@@ -63,7 +63,7 @@ export default Component.extend({
     }
   },
 
-  _touchMoveHandler(ev) {
+  _touchMoveHandler: function(ev) {
     /* istanbul ignore if */
     if (Foundation.MediaQuery.atLeast('medium')) {
       const e = ev.originalEvent;
@@ -91,7 +91,7 @@ export default Component.extend({
     }
   },
 
-  _keypressHandler(e) {
+  _keypressHandler: function(e) {
     /* istanbul ignore if */
     if (Foundation.MediaQuery.atLeast('medium')) {
       if (!get(this, 'isTransitioning')) {
@@ -104,7 +104,7 @@ export default Component.extend({
     }
   },
 
-  _scrollHandler(e) {
+  _scrollHandler: function(e) {
     /* istanbul ignore if */
     if (Foundation.MediaQuery.atLeast('medium')) {
       const getAverage = (elements, number) => {

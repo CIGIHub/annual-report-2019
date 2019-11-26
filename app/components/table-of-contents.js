@@ -48,11 +48,11 @@ export default Component.extend({
   }),
 
   actions: {
-    hideAcknowledgements() {
+    hideAcknowledgements: function() {
       get(this, 'lightbox').closeTableOfContentsAcknowledgements();
       set(this, 'showAcknowledgements', null);
     },
-    showAcknowledgements() {
+    showAcknowledgements: function() {
       get(this, 'lightbox').showTableOfContentsAcknowledgements();
       set(this, 'showAcknowledgements', true);
     },

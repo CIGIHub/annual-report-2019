@@ -18,14 +18,14 @@ export default Route.extend(GoogleAnalyticsMixin, ResetScrollMixin, {
     },
   },
 
-  beforeModel() {
+  beforeModel: function() {
     if (!get(this, 'assetLoader.assetsLoaded')) {
       return get(this, 'assetLoader').waitForAssets();
     }
     return true;
   },
 
-  afterModel() {
+  afterModel: function() {
     set(this, 'headData.title', get(this, 'intl').t('title'));
     set(this, 'headData.description', get(this, 'intl').t('description'));
     set(this, 'headData.url', `${ENV.host}${ENV.rootURL}table-of-contents/`);

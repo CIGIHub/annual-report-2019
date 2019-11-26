@@ -137,7 +137,7 @@ export default Controller.extend({
   }),
 
   actions: {
-    transitionBack() {
+    transitionBack: function() {
       set(this, 'isTransitioning', true);
       const currentRouteName = get(this, 'router.currentRouteName');
       const previousRoute = get(this, 'routeOrder').getPreviousRoute(currentRouteName);
@@ -150,7 +150,7 @@ export default Controller.extend({
         set(this, 'isTransitioning', false);
       }
     },
-    transitionNext() {
+    transitionNext: function() {
       set(this, 'isTransitioning', true);
       const currentRouteName = get(this, 'router.currentRouteName');
       const nextRoute = get(this, 'routeOrder').getNextRoute(currentRouteName);

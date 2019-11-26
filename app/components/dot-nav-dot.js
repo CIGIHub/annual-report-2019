@@ -5,7 +5,7 @@ import $ from 'jquery';
 export default Component.extend({
   menuItem: null,
 
-  mouseEnter() {
+  mouseEnter: function() {
     /* istanbul ignore next */
     if (!get(this, 'menuItem.current')) {
       /* istanbul ignore next */
@@ -17,7 +17,7 @@ export default Component.extend({
     }
   },
 
-  mouseLeave() {
+  mouseLeave: function() {
     /* istanbul ignore next */
     $('.overlay').stop(false, false).animate({
       'opacity': 0,
