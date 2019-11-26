@@ -74,10 +74,10 @@ export default Controller.extend({
   }),
 
   actions: {
-    clearSearch: function() {
+    clearSearch() {
       set(this, 'search', null);
     },
-    closeNode: function() {
+    closeNode() {
       const self = this;
       $.when($('.timeline').animate({
         'top': '50%',
@@ -89,7 +89,7 @@ export default Controller.extend({
         set(self, 'id', null);
       });
     },
-    previousNode: function() {
+    previousNode() {
       const node = get(this, 'node');
       const filteredNodes = get(this, 'filteredNodes');
 
@@ -108,7 +108,7 @@ export default Controller.extend({
 
       set(this, 'id', filteredNodes[ind].id);
     },
-    nextNode: function() {
+    nextNode() {
       const node = get(this, 'node');
       const filteredNodes = get(this, 'filteredNodes');
 

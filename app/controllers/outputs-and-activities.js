@@ -126,7 +126,7 @@ export default Controller.extend({
   }),
 
   actions: {
-    closePublication: function() {
+    closePublication() {
       const self = this;
       $.when($('.outputs-activities-overlay').animate({
         'opacity': 0,
@@ -134,7 +134,7 @@ export default Controller.extend({
         set(self, 'id', null);
       });
     },
-    nextPage: function() {
+    nextPage() {
       let page = get(this, 'currentPage');
       const totalPages = get(this, 'totalPages');
       page += 1;
@@ -143,10 +143,10 @@ export default Controller.extend({
       }
       set(this, 'page', page);
     },
-    openPublication: function(id) {
+    openPublication(id) {
       set(this, 'id', id);
     },
-    previousPage: function() {
+    previousPage() {
       let page = get(this, 'currentPage');
       page -= 1;
       if (page <= 1) {
@@ -154,10 +154,10 @@ export default Controller.extend({
       }
       set(this, 'page', page);
     },
-    setPage: function(page) {
+    setPage(page) {
       set(this, 'page', Math.min(page, get(this, 'totalPages')));
     },
-    setType: function(type) {
+    setType(type) {
       if (['events', 'opinions', 'publications'].includes(type)) {
         set(this, 'page', null);
         set(this, 'type', type);
