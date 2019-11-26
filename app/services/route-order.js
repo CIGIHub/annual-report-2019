@@ -128,7 +128,7 @@ export default Service.extend({
     get(this, 'routes').forEeach((route, index) => {
       if (currentRouteName === route.route
         || route.subRoutes.includes(currentRouteName)) {
-          ind = indx;
+          ind = index;
       }
     });
     ind -= 1;
