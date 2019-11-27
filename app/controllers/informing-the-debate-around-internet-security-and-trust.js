@@ -40,6 +40,6 @@ export default Controller.extend({
   }),
 
   videoLink: computed(function() {
-    return `${get(this, 'backgroundImage.imageHost')}78657d2aac4c3ba0/slides/informing-the-debate-around-internet-security-and-trust.mp4`;
+    return `${get(this, 'backgroundImage.imageHost')}5ab09e92875a54ff/slides/informing-the-debate-around-internet-security-and-trust.mp4`;
   }),
 });
