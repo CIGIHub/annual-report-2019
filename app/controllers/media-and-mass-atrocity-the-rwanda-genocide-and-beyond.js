@@ -43,7 +43,7 @@ export default Controller.extend({
   }),
 
   title: computed('intl.locale', function() {
-    return get(this, 'intl').t('mediaAndMassAtrocityTheRwandaGenocideAndBeyond.title');
+    return get(this, 'intl').t('mediaAndMassAtrocityTheRwandaGenocideAndBeyond.htmlTitle');
   }),
 
   videoLink: computed(function() {

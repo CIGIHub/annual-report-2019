@@ -53,7 +53,7 @@ export default Service.extend({
   }, {
     route: 'media-and-mass-atrocity-the-rwanda-genocide-and-beyond',
     subRoutes: [],
-    title: 'mediaAndMassAtrocityTheRwandaGenocideAndBeyond.title',
+    title: 'mediaAndMassAtrocityTheRwandaGenocideAndBeyond.htmlTitle',
   }, {
     route: 'exploring-the-four-internets-and-the-geopolitics-of-digital-governance',
     subRoutes: [],
