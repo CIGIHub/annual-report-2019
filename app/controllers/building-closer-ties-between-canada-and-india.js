@@ -29,11 +29,16 @@ export default Controller.extend({
   }),
 
   paragraphs: computed('intl.locale', function() {
-    return [
-      get(this, 'intl').t('buildingCloserTiesBetweenCanadaAndIndia.paragraph1'),
-      get(this, 'intl').t('buildingCloserTiesBetweenCanadaAndIndia.paragraph2'),
-      get(this, 'intl').t('buildingCloserTiesBetweenCanadaAndIndia.paragraph3'),
-    ];
+    return [{
+      isParagraph: true,
+      text: get(this, 'intl').t('buildingCloserTiesBetweenCanadaAndIndia.paragraph1'),
+    }, {
+      isParagraph: true,
+      text: get(this, 'intl').t('buildingCloserTiesBetweenCanadaAndIndia.paragraph2'),
+    }, {
+      isParagraph: true,
+      text: get(this, 'intl').t('buildingCloserTiesBetweenCanadaAndIndia.paragraph3'),
+    }];
   }),
 
   title: computed('intl.locale', function() {

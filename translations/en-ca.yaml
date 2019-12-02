@@ -55,8 +55,8 @@ aClarionCallForProtectingTheWorldsRefugees:
   link1: 'Read <em>A Call to Action: Transforming the Global Refugee System</em>.'
   link2: 'Watch Concrete Solutions to Transform the Global Refugee System.'
   link3: 'Read <em>No Strangers at the Gate: Collective Responsibility and a Region’s Response to the Venezuelan Refugee and Migration Crisis</em>.'
-  paragraph1: 'Launched at the United Nations in New York City, the World Refugee Council’s (WRC’s) report laid out 55 concrete actions to protect refugees and internally displaced persons and support the countries and local communities that host them. WRC Chair Lloyd Axworthy’s calls to ambassadors and international organizations to adopt the report’s recommendations garnered high-profile international media coverage, especially around a push to freeze the assets of those causing conflicts. Council members, including co-chair Jakaya Kikwete, led engaging discussions about this and other issues on social media.'
-  paragraph2: 'In Venezuela, more than four million people have fled the country’s economic and humanitarian crisis. CIGI partnered with the Inter-American Dialogue to create a plan of action for an international response. A timely op-ed in <em>The Washington Post</em>, co-authored by former Global Security & Politics Director Fen Osler Hampson, made a strong case for seizing the assets of corrupt Venezuelan leaders to benefit the county’s citizens.'
+  paragraph1: 'Launched at the United Nations in New York City, the WRC’s report laid out 55 concrete actions to protect refugees and internally displaced persons and support the countries and local communities that host them. WRC Chair Lloyd Axworthy’s calls to ambassadors and international organizations to adopt the report’s recommendations garnered high-profile international media coverage, especially around a push to freeze the assets of those causing conflicts. Council members, including co-chair Jakaya Kikwete, led engaging discussions about this and other issues on social media.'
+  paragraph2: 'In Venezuela, more than four million people have fled the country’s economic and humanitarian crisis. CIGI partnered with the Inter-American Dialogue to create a plan of action for an international response. A timely op-ed in <em>The Washington Post</em>, co-authored by Global Security & Politics Director Fen Osler Hampson, made a strong case for seizing the assets of corrupt Venezuelan leaders to benefit the county’s citizens.'
   quote:
     quote: '“There is an appetite to end the growing impunity and deficit of accountability on the part of those responsible for the conflicts and other actions that are forcing people to flee their homes and countries.”'
     source: 'WRC Chair Lloyd Axworthy'
@@ -118,7 +118,7 @@ disinformationAndSocialMedia:
   description: 'The 2016 US election was marked by malicious uses of technology, including new forms of “fake news” on social media platforms designed to sway voters. Since then, there has been a striking number of cases of commercially and politically driven disinformation, foreign interference in elections, data breaches, cyber attacks, the proliferation of harmful speech, data exploitation and surveillance abuses.'
   link1: 'Read Robert Fay’s call for an international framework for data governance.'
   link2: 'Watch Eric Jardine’s video about the scale, severity and impact of fake news.'
-  link3: 'Jim Balsillie’s remarks to the International Grand Committee ignited social media discussions.'
+  link3: 'Jim Balsillie’s remarks to the IGC ignited social media discussions.'
   paragraph1: 'The 2016 US election was marked by malicious uses of technology, including new forms of “fake news” on social media platforms designed to sway voters. Since then, there has been a striking number of cases of commercially and politically driven disinformation, foreign interference in elections, data breaches, cyber attacks, the proliferation of harmful speech, data exploitation and surveillance abuses.'
   paragraph2: 'At this inflection point — in which democracies are strained by technologies — there is a pressing need for policy makers, civil society and the private sector alike to put forth a coordinated effort to govern the digital public sphere. In response to this gap in regulation, CIGI has led discussions in Canada and internationally on frameworks for social media regulation and the impacts of disinformation. At a May 2019 hearing in Ottawa, CIGI founder and Chair Jim Balsillie and Senior Fellow Taylor Owen appeared before the IGC on Big Data, Privacy and Democracy. Balsillie made specific recommendations designed to address the threats to democracy posed by a “toxic” social media business model.'
   quote:
@@ -133,9 +133,13 @@ events: 'Events'
 exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance:
   description: 'While the internet may have originally been designed to be open and transparent, its entrenchment in our daily lives has led to competing views on the role it should play in society and how it should be governed.'
   link1: 'Read Kieron O’Hara and Wendy Hall’s paper, <em>Four Internets: The Geopolitics of Digital Governance</em>.'
-  link2: 'Kieron O’Hara and Wendy Hall discuss the “four internets” and how geopolitics plays into these competing visions.'
+  link2: 'Kieron O’Hara and Wendy Hall discuss the “four internets” and how geopolitics play into these competing visions.'
   paragraph1: 'While the internet may have originally been designed to be open and transparent, there are now competing views on the role it should play in society and how it should be governed. In <em>Four Internets: The Geopolitics of Digital Governance</em>, authors Kieron O’Hara and Wendy Hall argue that these views have led to at least four competing “internets” — each with its own vision and geopolitical champion:'
-  paragraph2: '•	Silicon Valley’s open internet, which maintains the traditional openness and transparency that the internet’s creators had in mind;<br />•	the European Commission’s “bourgeois” internet, where bad behaviour is minimized and privacy protected;<br />•	China’s authoritarian internet, where surveillance and identification technologies ensure social cohesion and security; and<br />•	Washington, DC’s commercial internet, which views online resources as private property to be monetized and controlled.'
+  paragraph2:
+    bullet1: 'Silicon Valley’s open internet, which maintains the traditional openness and transparency that the internet’s creators had in mind;'
+    bullet2: 'the European Commission’s “bourgeois” internet, where bad behaviour is minimized and privacy protected;'
+    bullet3: 'China’s authoritarian internet, where surveillance and identification technologies ensure social cohesion and security; and'
+    bullet4: 'Washington, DC’s commercial internet, which views online resources as private property to be monetized and controlled.'
   paragraph3: 'The paper has garnered significant attention — including a <em>Financial Times</em> editorial and coverage by BBC News — and has prompted discussion on the challenges of establishing a common digital governance framework.'
   quote:
     quote: '“The internet is not as substantial as it appears — it depends on a precarious balancing act behind the scenes, where technical problems are addressed in the midst of political squalls.”'
@@ -348,7 +352,7 @@ index:
   year9: '9'
 informingTheDebateAroundInternetSecurityAndTrust:
   description: 'Now in its fifth year, the CIGI-Ipsos Global Survey on Internet Security and Trust is the world’s largest and most comprehensive survey of its kind, involving more than 25,000 internet users in over two dozen countries.'
-  link1: 'View the full survey results.'
+  link1: 'View the complete survey results.'
   link2: 'Watch highlights of the 2019 CIGI-Ipsos survey results.'
   paragraph1: 'The CIGI-Ipsos Global Survey on Internet Security and Trust is the world’s largest and most comprehensive survey of its kind, polling more than 25,000 internet users in over two dozen countries. Conducted by Ipsos on behalf of CIGI, in partnership with the Internet Society and the United Nations Conference on Trade and Development, the survey provides invaluable insight into the views of internet users on a range of topics.'
   paragraph2: 'The 2019 survey results made headlines with coverage in Rappler, France 24, <em>The Economic Times</em>, <em>CTV National News</em> and <em>The Globe and Mail</em>, among others. From findings on how many people have fallen for fake news (84 percent said they had at least once) to what is causing people to distrust the internet (75 percent said social media companies, just behind cyber criminals at 81 percent), the survey provided governments, policy makers, industry leaders and others with a host of critical data to inform decisions and advance debate in the internet governance and cyber security space.'
@@ -395,14 +399,14 @@ modelsForDataGovernance:
   title: 'Models for Data Governance'
 multilateralInstitutionsMarkATumultuousYear:
   description: 'In advance of the G20 summit in Buenos Aires, CIGI published an in-depth interview and companion video with former Canadian Prime Minister Paul Martin to discuss the history and future of the G20.'
-  link1: 'Read Randall Henning’s paper on regional financial arrangements and the IMF.'
+  link1: 'Read C. Randall Henning’s paper on regional financial arrangements and the IMF.'
   link2: 'Read James A. Haley’s paper about Trump trade policy, exchange rate surveillance and the IMF.'
   link3: 'On the anniversary of the G20, its architects reflect on “one of the great Canadian inventions.”'
   paragraph1: 'July 2019 marked the seventy-fifth anniversary of the Bretton Woods conference, which established the International Monetary Fund (IMF) and the World Bank; 2019 was also the tenth anniversary of the Group of Twenty (G20) meeting at the leaders’ level. In an era of increasing resentment toward globalization, CIGI’s work continued to demonstrate that strong multilateral cooperation is important for the global economy and essential for middle powers such as Canada.'
   paragraph2: 'CIGI marked the Bretton Woods anniversary with commentary from Senior Fellow James A. Haley on how the IMF should adapt to changing times, as well as a paper from C. Randall Henning on the relationship between the IMF and regional financial agreements. In advance of the G20 summit in Buenos Aires, CIGI published an in-depth interview and companion video with former Canadian Prime Minister Paul Martin discussing the history and future of the G20. CIGI experts were on the ground for both the Buenos Aires and Osaka summits, offering insightful commentary to global and Canadian media outlets, including Agence France-Presse, Bloomberg and the CBC.'
   quote:
     quote: '“People think that borders can keep problems out. But borders can’t keep climate change out. Borders could not keep the 2008 financial crisis out…. The only way this world is going to work is if we work together.”'
-    source: 'Former Canadian Prime Minister Paul Martin in CIGI’s video, “An Inside Look at the G20’s History.”'
+    source: 'Former Canadian Prime Minister Paul Martin in CIGI’s video, “An Inside Look at the G20’s History”'
   title: 'Multilateral Institutions Mark a Tumultuous Year'
 multimedia: 'Multimedia'
 opinion: 'Opinion'

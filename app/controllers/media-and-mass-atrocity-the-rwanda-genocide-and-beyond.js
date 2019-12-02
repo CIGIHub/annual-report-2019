@@ -35,11 +35,16 @@ export default Controller.extend({
   }),
 
   paragraphs: computed('intl.locale', function() {
-    return [
-      get(this, 'intl').t('mediaAndMassAtrocityTheRwandaGenocideAndBeyond.paragraph1'),
-      get(this, 'intl').t('mediaAndMassAtrocityTheRwandaGenocideAndBeyond.paragraph2'),
-      get(this, 'intl').t('mediaAndMassAtrocityTheRwandaGenocideAndBeyond.paragraph3'),
-    ];
+    return [{
+      isParagraph: true,
+      text: get(this, 'intl').t('mediaAndMassAtrocityTheRwandaGenocideAndBeyond.paragraph1'),
+    }, {
+      isParagraph: true,
+      text: get(this, 'intl').t('mediaAndMassAtrocityTheRwandaGenocideAndBeyond.paragraph2'),
+    }, {
+      isParagraph: true,
+      text: get(this, 'intl').t('mediaAndMassAtrocityTheRwandaGenocideAndBeyond.paragraph3'),
+    }];
   }),
 
   title: computed('intl.locale', function() {

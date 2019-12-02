@@ -29,10 +29,13 @@ export default Controller.extend({
   }),
 
   paragraphs: computed('intl.locale', function() {
-    return [
-      get(this, 'intl').t('aBrettonWoodsMomentForTheDigitalAge.paragraph1'),
-      get(this, 'intl').t('aBrettonWoodsMomentForTheDigitalAge.paragraph2'),
-    ];
+    return [{
+      isParagraph: true,
+      text: get(this, 'intl').t('aBrettonWoodsMomentForTheDigitalAge.paragraph1'),
+    }, {
+      isParagraph: true,
+      text: get(this, 'intl').t('aBrettonWoodsMomentForTheDigitalAge.paragraph2'),
+    }];
   }),
 
   title: computed('intl.locale', function() {

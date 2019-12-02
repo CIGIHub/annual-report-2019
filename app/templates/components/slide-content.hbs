@@ -27,9 +27,17 @@
     <div class="cell large-6 paragraphs">
       <div>
         {{#each paragraphs as |paragraph|}}
-          <p>
-            {{{paragraph}}}
-          </p>
+          {{#if paragraph.isParagraph}}
+            <p>
+              {{{paragraph.text}}}
+            </p>
+          {{else if paragraph.isList}}
+            <ul>
+              {{#each paragraph.bullets as |bullet|}}
+                <li>{{{bullet}}}</li>
+              {{/each}}
+            </ul>
+          {{/if}}
         {{/each}}
       </div>
       <div class="content-links-mobile hide-for-large">

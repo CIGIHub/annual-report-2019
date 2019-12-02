@@ -35,10 +35,13 @@ export default Controller.extend({
   }),
 
   paragraphs: computed('intl.locale', function() {
-    return [
-      get(this, 'intl').t('braidingLegalOrders.paragraph1'),
-      get(this, 'intl').t('braidingLegalOrders.paragraph2'),
-    ];
+    return [{
+      isParagraph: true,
+      text: get(this, 'intl').t('braidingLegalOrders.paragraph1'),
+    }, {
+      isParagraph: true,
+      text: get(this, 'intl').t('braidingLegalOrders.paragraph2'),
+    }];
   }),
 
   title: computed('intl.locale', function() {

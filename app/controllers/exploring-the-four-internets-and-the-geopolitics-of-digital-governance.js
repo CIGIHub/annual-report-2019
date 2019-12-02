@@ -29,11 +29,21 @@ export default Controller.extend({
   }),
 
   paragraphs: computed('intl.locale', function() {
-    return [
-      get(this, 'intl').t('exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.paragraph1'),
-      get(this, 'intl').t('exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.paragraph2'),
-      get(this, 'intl').t('exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.paragraph3'),
-    ];
+    return [{
+      isParagraph: true,
+      text: get(this, 'intl').t('exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.paragraph1'),
+    }, {
+      bullets: [
+        get(this, 'intl').t('exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.paragraph2.bullet1'),
+        get(this, 'intl').t('exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.paragraph2.bullet2'),
+        get(this, 'intl').t('exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.paragraph2.bullet3'),
+        get(this, 'intl').t('exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.paragraph2.bullet4'),
+      ],
+      isList: true,
+    }, {
+      isParagraph: true,
+      text: get(this, 'intl').t('exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.paragraph3'),
+    }];
   }),
 
   title: computed('intl.locale', function() {
