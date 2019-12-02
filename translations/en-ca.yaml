@@ -118,7 +118,7 @@ disinformationAndSocialMedia:
   description: 'The 2016 US election was marked by malicious uses of technology, including new forms of “fake news” on social media platforms designed to sway voters. Since then, there has been a striking number of cases of commercially and politically driven disinformation, foreign interference in elections, data breaches, cyber attacks, the proliferation of harmful speech, data exploitation and surveillance abuses.'
   link1: 'Read Robert Fay’s call for an international framework for data governance.'
   link2: 'Watch Eric Jardine’s video about the scale, severity and impact of fake news.'
-  link3: 'Jim Balsillie’s remarks to the International Grand Committee ignited social media discussions.'
+  link3: 'Jim Balsillie’s remarks to the IGC ignited social media discussions.'
   paragraph1: 'The 2016 US election was marked by malicious uses of technology, including new forms of “fake news” on social media platforms designed to sway voters. Since then, there has been a striking number of cases of commercially and politically driven disinformation, foreign interference in elections, data breaches, cyber attacks, the proliferation of harmful speech, data exploitation and surveillance abuses.'
   paragraph2: 'At this inflection point — in which democracies are strained by technologies — there is a pressing need for policy makers, civil society and the private sector alike to put forth a coordinated effort to govern the digital public sphere. In response to this gap in regulation, CIGI has led discussions in Canada and internationally on frameworks for social media regulation and the impacts of disinformation. At a May 2019 hearing in Ottawa, CIGI founder and Chair Jim Balsillie and Senior Fellow Taylor Owen appeared before the IGC on Big Data, Privacy and Democracy. Balsillie made specific recommendations designed to address the threats to democracy posed by a “toxic” social media business model.'
   quote:
@@ -395,14 +395,14 @@ modelsForDataGovernance:
   title: 'Models for Data Governance'
 multilateralInstitutionsMarkATumultuousYear:
   description: 'In advance of the G20 summit in Buenos Aires, CIGI published an in-depth interview and companion video with former Canadian Prime Minister Paul Martin to discuss the history and future of the G20.'
-  link1: 'Read Randall Henning’s paper on regional financial arrangements and the IMF.'
+  link1: 'Read C. Randall Henning’s paper on regional financial arrangements and the IMF.'
   link2: 'Read James A. Haley’s paper about Trump trade policy, exchange rate surveillance and the IMF.'
   link3: 'On the anniversary of the G20, its architects reflect on “one of the great Canadian inventions.”'
   paragraph1: 'July 2019 marked the seventy-fifth anniversary of the Bretton Woods conference, which established the International Monetary Fund (IMF) and the World Bank; 2019 was also the tenth anniversary of the Group of Twenty (G20) meeting at the leaders’ level. In an era of increasing resentment toward globalization, CIGI’s work continued to demonstrate that strong multilateral cooperation is important for the global economy and essential for middle powers such as Canada.'
   paragraph2: 'CIGI marked the Bretton Woods anniversary with commentary from Senior Fellow James A. Haley on how the IMF should adapt to changing times, as well as a paper from C. Randall Henning on the relationship between the IMF and regional financial agreements. In advance of the G20 summit in Buenos Aires, CIGI published an in-depth interview and companion video with former Canadian Prime Minister Paul Martin discussing the history and future of the G20. CIGI experts were on the ground for both the Buenos Aires and Osaka summits, offering insightful commentary to global and Canadian media outlets, including Agence France-Presse, Bloomberg and the CBC.'
   quote:
     quote: '“People think that borders can keep problems out. But borders can’t keep climate change out. Borders could not keep the 2008 financial crisis out…. The only way this world is going to work is if we work together.”'
-    source: 'Former Canadian Prime Minister Paul Martin in CIGI’s video, “An Inside Look at the G20’s History.”'
+    source: 'Former Canadian Prime Minister Paul Martin in CIGI’s video, “An Inside Look at the G20’s History”'
   title: 'Multilateral Institutions Mark a Tumultuous Year'
 multimedia: 'Multimedia'
 opinion: 'Opinion'
