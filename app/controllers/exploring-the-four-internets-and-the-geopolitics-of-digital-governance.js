@@ -29,11 +29,16 @@ export default Controller.extend({
   }),
 
   paragraphs: computed('intl.locale', function() {
-    return [
-      get(this, 'intl').t('exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.paragraph1'),
-      get(this, 'intl').t('exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.paragraph2'),
-      get(this, 'intl').t('exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.paragraph3'),
-    ];
+    return [{
+      isParagraph: true,
+      text: get(this, 'intl').t('exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.paragraph1'),
+    }, {
+      isParagraph: true,
+      text: get(this, 'intl').t('exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.paragraph2'),
+    }, {
+      isParagraph: true,
+      text: get(this, 'intl').t('exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance.paragraph3'),
+    }];
   }),
 
   title: computed('intl.locale', function() {
