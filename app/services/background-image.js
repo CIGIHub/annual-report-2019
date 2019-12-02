@@ -35,9 +35,9 @@ export default Service.extend({
       thumbnailUrl: '5ab09e92875a54ff/slides/curbing-cultural-appropriation-through-intellectual-property-law-thumbnail.jpg',
     },
     'disinformation-and-social-media-a-global-governance-challenge': {
-      fullSizeUrl: '5ab09e92875a54ff/slides/disinformation-and-social-media-a-global-governance-challenge.jpg',
-      ogUrl: '5ab09e92875a54ff/slides/disinformation-and-social-media-a-global-governance-challenge-og.jpg',
-      thumbnailUrl: '5ab09e92875a54ff/slides/disinformation-and-social-media-a-global-governance-challenge-thumbnail.jpg',
+      fullSizeUrl: '76899e7b3da6e86c/slides/disinformation-and-social-media-a-global-governance-challenge.jpg',
+      ogUrl: '76899e7b3da6e86c/slides/disinformation-and-social-media-a-global-governance-challenge-og.jpg',
+      thumbnailUrl: '76899e7b3da6e86c/slides/disinformation-and-social-media-a-global-governance-challenge-thumbnail.jpg',
     },
     'exploring-the-four-internets-and-the-geopolitics-of-digital-governance': {
       fullSizeUrl: '5ab09e92875a54ff/slides/exploring-the-four-internets-and-the-geopolitics-of-digital-governance.jpg',
