@@ -311,23 +311,23 @@ module('Unit | Component | top-bar', function(hooks) {
     );
   });
 
-  test('should have correct share links for /financials/revenue-and-expenses', function(assert) {
+  test('should have correct share links for /financials/summarized-statement-of-revenues-and-expenditures-and-changes-in-fund-balances', function(assert) {
     const component = this.owner.factoryFor('component:top-bar').create();
-    set(component, 'router.currentRouteName', 'financials.revenue-and-expenses');
+    set(component, 'router.currentRouteName', 'financials.summarized-statement-of-revenues-and-expenditures-and-changes-in-fund-balances');
 
     assert.strictEqual(
       get(component, 'shareRoute'),
-      'https://www.cigionline.org/interactives/2019annualreport/financials/revenue-and-expenses',
+      'https://www.cigionline.org/interactives/2019annualreport/financials/summarized-statement-of-revenues-and-expenditures-and-changes-in-fund-balances',
       'should have correct shareRoute',
     );
     assert.strictEqual(
       get(component, 'linkedInShareLink'),
-      'https://www.linkedin.com/shareArticle?mini=true&url=https://www.cigionline.org/interactives/2019annualreport/financials/revenue-and-expenses',
+      'https://www.linkedin.com/shareArticle?mini=true&url=https://www.cigionline.org/interactives/2019annualreport/financials/summarized-statement-of-revenues-and-expenditures-and-changes-in-fund-balances',
       'should have correct linkedInShareLink',
     );
     assert.strictEqual(
       get(component, 'twitterShareLink'),
-      'https://twitter.com/intent/tweet?status=2019+CIGI+Annual+Report+https://www.cigionline.org/interactives/2019annualreport/financials/revenue-and-expenses',
+      'https://twitter.com/intent/tweet?status=2019+CIGI+Annual+Report+https://www.cigionline.org/interactives/2019annualreport/financials/summarized-statement-of-revenues-and-expenditures-and-changes-in-fund-balances',
       'should have correct twitterShareLink',
     );
   });

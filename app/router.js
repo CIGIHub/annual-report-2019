@@ -18,8 +18,8 @@ Router.map(function() {
   this.route('financials', function() {
     this.route('auditors-report');
     this.route('notes');
-    this.route('revenue-and-expenses');
     this.route('summarized-statement-of-financial-position');
+    this.route('summarized-statement-of-revenues-and-expenditures-and-changes-in-fund-balances');
   });
   this.route('governing-cyberspace-during-a-crisis-in-trust');
   this.route('informing-the-debate-around-internet-security-and-trust');
