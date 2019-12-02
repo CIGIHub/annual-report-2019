@@ -32,7 +32,11 @@
               {{{paragraph.text}}}
             </p>
           {{else if paragraph.isList}}
-
+            <ul>
+              {{#each paragraph.bullets as |bullet|}}
+                <li>{{{bullet}}}</li>
+              {{/each}}
+            </ul>
           {{/if}}
         {{/each}}
       </div>

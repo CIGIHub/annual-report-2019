@@ -135,7 +135,11 @@ exploringTheFourInternetsAndTheGeopoliticsOfDigitalGovernance:
   link1: 'Read Kieron O’Hara and Wendy Hall’s paper, <em>Four Internets: The Geopolitics of Digital Governance</em>.'
   link2: 'Kieron O’Hara and Wendy Hall discuss the “four internets” and how geopolitics play into these competing visions.'
   paragraph1: 'While the internet may have originally been designed to be open and transparent, there are now competing views on the role it should play in society and how it should be governed. In <em>Four Internets: The Geopolitics of Digital Governance</em>, authors Kieron O’Hara and Wendy Hall argue that these views have led to at least four competing “internets” — each with its own vision and geopolitical champion:'
-  paragraph2: '•	Silicon Valley’s open internet, which maintains the traditional openness and transparency that the internet’s creators had in mind;<br />•	the European Commission’s “bourgeois” internet, where bad behaviour is minimized and privacy protected;<br />•	China’s authoritarian internet, where surveillance and identification technologies ensure social cohesion and security; and<br />•	Washington, DC’s commercial internet, which views online resources as private property to be monetized and controlled.'
+  paragraph2:
+    bullet1: 'Silicon Valley’s open internet, which maintains the traditional openness and transparency that the internet’s creators had in mind;'
+    bullet2: 'the European Commission’s “bourgeois” internet, where bad behaviour is minimized and privacy protected;'
+    bullet3: 'China’s authoritarian internet, where surveillance and identification technologies ensure social cohesion and security; and'
+    bullet4: 'Washington, DC’s commercial internet, which views online resources as private property to be monetized and controlled.'
   paragraph3: 'The paper has garnered significant attention — including a <em>Financial Times</em> editorial and coverage by BBC News — and has prompted discussion on the challenges of establishing a common digital governance framework.'
   quote:
     quote: '“The internet is not as substantial as it appears — it depends on a precarious balancing act behind the scenes, where technical problems are addressed in the midst of political squalls.”'
