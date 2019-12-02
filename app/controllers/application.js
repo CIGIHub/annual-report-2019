@@ -31,9 +31,9 @@ export default Controller.extend({
     if ([
       'chairs-message',
       'financials.auditors-report',
-      'financials.balance-sheet',
       'financials.notes',
-      'financials.revenue-and-expenses',
+      'financials.summarized-statement-of-financial-position',
+      'financials.summarized-statement-of-revenues-and-expenditures-and-changes-in-fund-balances',
       'outputs-and-activities',
       'presidents-message',
     ].includes(currentRouteName)) {
@@ -54,9 +54,9 @@ export default Controller.extend({
       'chairs-message',
       'outputs-and-activities',
       'financials.auditors-report',
-      'financials.balance-sheet',
       'financials.notes',
-      'financials.revenue-and-expenses',
+      'financials.summarized-statement-of-financial-position',
+      'financials.summarized-statement-of-revenues-and-expenditures-and-changes-in-fund-balances',
       'presidents-message',
       'table-of-contents',
     ].includes(get(this, 'router.currentRouteName'));
@@ -66,9 +66,9 @@ export default Controller.extend({
     const lightBackgroundRoute = [
       'chairs-message',
       'financials.auditors-report',
-      'financials.balance-sheet',
       'financials.notes',
-      'financials.revenue-and-expenses',
+      'financials.summarized-statement-of-financial-position',
+      'financials.summarized-statement-of-revenues-and-expenditures-and-changes-in-fund-balances',
       'outputs-and-activities',
       'presidents-message',
     ].includes(get(this, 'router.currentRouteName'));

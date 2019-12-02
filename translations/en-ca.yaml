@@ -126,7 +126,7 @@ disinformationAndSocialMedia:
     source: 'Global Economy Director Robert Fay'
   title: 'Disinformation and Social Media: A Global Governance Challenge'
 download: 'Download'
-downloadPdf: 'Download PDF'
+downloadPdf: 'PDF'
 essay: 'Essay'
 essaySeries: 'Essay Series'
 events: 'Events'
@@ -234,8 +234,10 @@ financials:
         total2018: '57,285,957'
         total2019: '55,404,030'
       title: 'Other Assets'
-    summarizedBalanceSheet: 'Summarized Balance Sheet as at July 31, 2019'
-    title: 'Balance Sheet'
+      total2018: '57,574,963'
+      total2019: '55,666,664'
+    summarizedBalanceSheet: 'Summarized Statement of Financial Position as at July 31, 2019'
+    title: 'Summarized Statement of Financial Position'
     total2018: '2018 Total'
     total2019: '2019 Total'
     totalAssets:
@@ -255,7 +257,7 @@ financials:
       total2018: '186,035,001'
       total2019: '175,143,650'
   notes:
-    paragraph1: 'Resources contributed for endowment are included in the Long-Term Endowment Fund. Certain of such resources are to be held for a period of ten years or upon the dissolution, liquidation or winding up of the Organization, whichever occurs later. Certain of such resources contributed by the Federal Government of Canada is restricted in perpetuity. Investment income earned on resources of the Long- Term Endowment Fund is reported in the Operating and Capital Fund.'
+    paragraph1: 'Resources contributed for endowment are included in the Long-Term Endowment Fund. Certain of such resources are to be held for a period of ten years or upon the dissolution, liquidation or winding up of the Organization, whichever occurs later. Certain of such resources contributed by the Federal Government of Canada is restricted in perpetuity. Investment income earned on resources of the Long-Term Endowment Fund is reported in the Operating and Capital Fund.'
     paragraph2: 'The Operating and Capital Funds account for the Organization’s program delivery, administrative activities, and non-campus related capital assets.'
     paragraph3: 'The Africa Restricted Fund is focused on the effects of climate change on Africa’s security and socioeconomic development.'
     paragraph4: 'The John Holmes Fund is focused on funding the operations of the library.'
@@ -264,7 +266,7 @@ financials:
     subtitle: 'Notes to the Summary Financial Statements'
   revenueAndExpenses:
     excessOfExpensesOverRevenue:
-      title: 'Excess of Revenue Over Expenses'
+      title: 'Excess of Expenses Over Revenue'
       total2018: '(6,779,115)'
       total2019: '(10,529,482)'
     expenses:
@@ -320,8 +322,8 @@ financials:
         title: 'Unrealized investment gains (losses)'
         total2018: '(3,172,983)'
         total2019: '2,359,671'
-    statementOfRevenue: 'Summarized Statement of Revenue, Expenditures and Changes in Fund Balances for the year ended July 31, 2019'
-    title: 'Revenue and Expenses'
+    statementOfRevenue: 'Summarized Statement of Revenues and Expenditures and Changes in Fund Balances for the year ended July 31, 2019'
+    title: 'Summarized Statement of Revenues and Expenditures and Changes in Fund Balances'
     total2018: '2018 Total'
     total2019: '2019 Total'
   title: 'Financials'
