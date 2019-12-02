@@ -266,7 +266,7 @@ financials:
     subtitle: 'Notes to the Summary Financial Statements'
   revenueAndExpenses:
     excessOfExpensesOverRevenue:
-      title: 'Excess of Revenue Over Expenses'
+      title: 'Excess of Expenses Over Revenue'
       total2018: '(6,779,115)'
       total2019: '(10,529,482)'
     expenses:
