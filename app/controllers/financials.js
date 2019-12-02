@@ -16,8 +16,8 @@ export default Controller.extend({
       linkTo: 'financials.auditors-report',
       title: get(this, 'intl').t('financials.auditorsReport.title'),
     }, {
-      current: currentRouteName === 'financials.balance-sheet',
-      linkTo: 'financials.balance-sheet',
+      current: currentRouteName === 'financials.summarized-statement-of-financial-position',
+      linkTo: 'financials.summarized-statement-of-financial-position',
       title: get(this, 'intl').t('financials.balanceSheet.title'),
     }, {
       current: currentRouteName === 'financials.revenue-and-expenses',

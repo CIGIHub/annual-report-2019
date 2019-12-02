@@ -17,9 +17,9 @@ Router.map(function() {
   this.route('exploring-the-four-internets-and-the-geopolitics-of-digital-governance');
   this.route('financials', function() {
     this.route('auditors-report');
-    this.route('balance-sheet');
     this.route('notes');
     this.route('revenue-and-expenses');
+    this.route('summarized-statement-of-financial-position');
   });
   this.route('governing-cyberspace-during-a-crisis-in-trust');
   this.route('informing-the-debate-around-internet-security-and-trust');

@@ -81,9 +81,9 @@ export default Service.extend({
   }, {
     route: 'financials.auditors-report',
     subRoutes: [
-      'financials.balance-sheet',
       'financials.notes',
       'financials.revenue-and-expenses',
+      'financials.summarized-statement-of-financial-position',
     ],
     title: 'financials.title',
   }, {
