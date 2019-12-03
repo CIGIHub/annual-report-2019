@@ -24,7 +24,7 @@ export default Controller.extend({
       iconPrefix: 'fal',
       link: 'https://www.cigionline.org/articles/patching-our-digital-future-unsustainable-and-dangerous',
       title: get(this, 'intl').t('governingCyberspaceDuringACrisisInTrust.link2'),
-      type: get(this, 'intl').t('opinion'),
+      type: get(this, 'intl').t('essay'),
     }, {
       icon: 'film',
       iconPrefix: 'fal',
