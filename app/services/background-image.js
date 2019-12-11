@@ -5,9 +5,9 @@ import Service from '@ember/service';
 export default Service.extend({
   backgroundImages: {
     'a-bretton-woods-moment-for-the-digital-age': {
-      fullSizeUrl: '5ab09e92875a54ff/slides/a-bretton-woods-moment-for-the-digital-age.jpg',
-      ogUrl: '5ab09e92875a54ff/slides/a-bretton-woods-moment-for-the-digital-age-og.jpg',
-      thumbnailUrl: '5ab09e92875a54ff/slides/a-bretton-woods-moment-for-the-digital-age-thumbnail.jpg',
+      fullSizeUrl: '132a9023kd9f231u/slides/a-bretton-woods-moment-for-the-digital-age.jpg',
+      ogUrl: '132a9023kd9f231u/slides/a-bretton-woods-moment-for-the-digital-age-og.jpg',
+      thumbnailUrl: '132a9023kd9f231u/slides/a-bretton-woods-moment-for-the-digital-age-thumbnail.jpg',
     },
     'a-clarion-call-for-protecting-the-worlds-refugees': {
       fullSizeUrl: '5ab09e92875a54ff/slides/a-clarion-call-for-protecting-the-worlds-refugees.png',
@@ -30,9 +30,9 @@ export default Service.extend({
       thumbnailUrl: '5ab09e92875a54ff/slides/chairs-message-thumbnail.jpg',
     },
     'curbing-cultural-appropriation-through-intellectual-property-law': {
-      fullSizeUrl: '5ab09e92875a54ff/slides/curbing-cultural-appropriation-through-intellectual-property-law.jpg',
-      ogUrl: '5ab09e92875a54ff/slides/curbing-cultural-appropriation-through-intellectual-property-law-og.jpg',
-      thumbnailUrl: '5ab09e92875a54ff/slides/curbing-cultural-appropriation-through-intellectual-property-law-thumbnail.jpg',
+      fullSizeUrl: '132a9023kd9f231u/slides/curbing-cultural-appropriation-through-intellectual-property-law.jpg',
+      ogUrl: '132a9023kd9f231u/slides/curbing-cultural-appropriation-through-intellectual-property-law-og.jpg',
+      thumbnailUrl: '132a9023kd9f231u/slides/curbing-cultural-appropriation-through-intellectual-property-law-thumbnail.jpg',
     },
     'disinformation-and-social-media-a-global-governance-challenge': {
       fullSizeUrl: '76899e7b3da6e86c/slides/disinformation-and-social-media-a-global-governance-challenge.jpg',
