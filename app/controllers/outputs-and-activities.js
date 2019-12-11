@@ -117,12 +117,7 @@ export default Controller.extend({
   }),
 
   shortSummary: computed('publication.summary', /* istanbul ignore next */ function() {
-    let summary = get(this, 'publication.summary');
-    summary = summary.replace(/(\r\n\t|\n|\r\t)/gm, '');
-    if (/^(.*?)[.?!]\s/.test(summary)) {
-      return /^(.*?)[.?!]\s/.exec(summary)[0];
-    }
-    return summary;
+    return get(this, 'publication.summary');
   }),
 
   actions: {

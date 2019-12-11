@@ -61,9 +61,9 @@ export default Route.extend(GoogleAnalyticsMixin, ResetScrollMixin, {
       }
 
       let summary = get(n, 'summary');
-      summary = summary.replace(/(\r\n\t|\n|\r\t)/gm, '');
-      if (/^(.*?)[.?!]\s/.test(summary)) {
-        summary = /^(.*?)[.?!]\s/.exec(summary)[0];
+      if (summary.length > 750) {
+        summary = summary.substring(0, 750);
+        summary += '...';
       }
       set(n, 'summary', summary);
     }
