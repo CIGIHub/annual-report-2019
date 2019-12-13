@@ -4,10 +4,15 @@ import { computed, get } from '@ember/object';
 import { inject as service } from '@ember/service';
 
 export default Controller.extend({
+  backgroundImage: service(),
   intl: service(),
   router: service(),
 
   rootURL: ENV.rootURL,
+
+  downloadPdfLink: computed(function() {
+    return `${get(this, 'backgroundImage.imageHost')}5ab09e92875a54ff/2019-Centre-for-International-Governance-Innovation-FS.pdf`;
+  }),
 
   menuLinks: computed('router.currentRouteName', function() {
     const currentRouteName = get(this, 'router.currentRouteName');
