@@ -10,9 +10,7 @@ export default Controller.extend({
 
   rootURL: ENV.rootURL,
 
-  downloadPdfLink: computed(function() {
-    return `${get(this, 'backgroundImage.imageHost')}5ab09e92875a54ff/2019-Centre-for-International-Governance-Innovation-FS.pdf`;
-  }),
+  downloadPdfLink: 'https://www.cigionline.org/sites/default/files/annual-reports/2019-Centre-for-International-Governance-Innovation-FS.pdf',
 
   menuLinks: computed('router.currentRouteName', function() {
     const currentRouteName = get(this, 'router.currentRouteName');
