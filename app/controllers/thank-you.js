@@ -15,12 +15,12 @@ export default Controller.extend({
   links: computed('intl.locale', function() {
     return [{
       icon: 'download',
-      link: `${get(this, 'backgroundImage.imageHost')}5ab09e92875a54ff/CIGI_AR_2019_EN.pdf`,
+      link: 'https://www.cigionline.org/sites/default/files/annual-reports/CIGI_AR_2019_EN.pdf',
       title: get(this, 'intl').t('thankYou.link1'),
       type: get(this, 'intl').t('download'),
     }, {
       icon: 'download',
-      link: `${get(this, 'backgroundImage.imageHost')}5ab09e92875a54ff/CIGI_AR_2019_FR.pdf`,
+      link: 'https://www.cigionline.org/sites/default/files/annual-reports/CIGI_AR_2019_FR.pdf',
       title: get(this, 'intl').t('thankYou.link2'),
       type: get(this, 'intl').t('telecharger'),
     }, {
