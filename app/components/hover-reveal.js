@@ -105,7 +105,7 @@ export default Component.extend({
       'width': 0,
     }, 500);
     /* istanbul ignore next */
-    $('.cigi-top-bar, .dot-nav, .scroll-arrow, .hover-reveal-hide').stop(false, false).animate({
+    $('.cigi-top-bar, .dot-nav, .scroll-arrow, .hover-reveal-hide, .vertical-title').stop(false, false).animate({
       'opacity': 1,
     }, 500);
     /* istanbul ignore next */
@@ -135,7 +135,7 @@ export default Component.extend({
       'top': '50%',
     }, 750);
     /* istanbul ignore next */
-    $('.cigi-top-bar, .dot-nav, .scroll-arrow, .hover-reveal-hide').stop(false, false).animate({
+    $('.cigi-top-bar, .dot-nav, .scroll-arrow, .hover-reveal-hide, .vertical-title').stop(false, false).animate({
       'opacity': 0,
     }, 500);
     /* istanbul ignore next */
