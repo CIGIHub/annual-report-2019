@@ -44,6 +44,10 @@ export default Controller.extend({
     }];
   }),
 
+  photoCredit: computed('intl.locale', function() {
+    return get(this, 'intl').t('braidingLegalOrders.photoCredit');
+  }),
+
   title: computed('intl.locale', function() {
     return get(this, 'intl').t('braidingLegalOrders.htmlTitle');
   }),
