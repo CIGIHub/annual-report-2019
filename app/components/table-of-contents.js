@@ -16,9 +16,9 @@ export default Component.extend({
     }
     const currentRouteName = get(this, 'router.currentRouteName');
     const links = get(this, 'routes').slice(0, get(this, 'linksBreakAtIndex'));
-    return links.map((link, index) => ({
+    return links.map((link) => ({
       current: link.route === currentRouteName,
-      number: (index + 1).toString().padStart(2, '0'),
+      number: link.number,
       route: link.route,
       title: get(this, 'intl').t(link.title),
     }));
@@ -30,9 +30,9 @@ export default Component.extend({
     }
     const currentRouteName = get(this, 'router.currentRouteName');
     const links = get(this, 'routes').slice(get(this, 'linksBreakAtIndex'));
-    return links.map((link, index) => ({
+    return links.map((link) => ({
       current: link.route === currentRouteName,
-      number: (index + get(this, 'linksBreakAtIndex') + 1).toString().padStart(2, '0'),
+      number: link.number,
       route: link.route,
       title: get(this, 'intl').t(link.title),
     }));
