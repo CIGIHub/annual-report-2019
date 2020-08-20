@@ -46,7 +46,7 @@ http {
 		}
 
 		<% if ENV['STATIC_PROXY'] %>
-			location /static/ {
+			location /interactives/2019annualreport/static/ {
 				proxy_pass http://<%= ENV['STATIC_PROXY'] %>/interactives/2019annualreport/static/;
 				proxy_set_header X-Real-IP $remote_addr;
 				proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
