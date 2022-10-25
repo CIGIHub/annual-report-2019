@@ -1,0 +1,7 @@
+{
+  "proxies": {
+    "/interactives/2019annualreport/static/": {
+      "origin": "https://${STATIC_PROXY}/"
+    }
+  }
+}
