@@ -24,9 +24,9 @@
   "devDependencies": {
     "@ember/jquery": "1.1.0",
     "@ember/optional-features": "1.1.0",
-    "@fortawesome/ember-fontawesome": "0.2.1",
-    "@fortawesome/free-brands-svg-icons": "5.11.2",
-    "@fortawesome/pro-light-svg-icons": "5.11.2",
+    "@fortawesome/ember-fontawesome": "1.0.0",
+    "@fortawesome/free-brands-svg-icons": "6.5.0",
+    "@fortawesome/pro-light-svg-icons": "6.5.0",
     "aws-sdk": "2.563.0",
     "broccoli-asset-rev": "3.0.0",
     "coveralls": "3.0.6",
@@ -71,11 +71,11 @@
     "qunit-dom": "0.9.0",
     "sass": "1.22.12",
     "sass-lint": "1.13.1",
-    "sharp": "0.23.2",
+    "sharp": "0.29.0",
     "winston": "^3.2.1"
   },
   "engines": {
     "node": "12.17.0",
-    "npm": "6.14.4"
+    "npm": "6.14.10"
   }
 }
