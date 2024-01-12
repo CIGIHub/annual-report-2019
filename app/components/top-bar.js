@@ -27,7 +27,7 @@ export default Component.extend({
     const shareRoute = get(this, 'shareRoute');
     let shareTitle = get(this, 'intl').t('title');
     shareTitle = shareTitle.replace(/ /g, '+');
-    return `https://twitter.com/intent/tweet?status=${shareTitle}+${shareRoute}`;
+    return `https://twitter.com/intent/tweet?text=${shareTitle}+${shareRoute}`;
   }),
 
   menuIsOpen: computed('lightbox.showLightbox', function() {
