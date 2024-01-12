@@ -26,7 +26,7 @@ export default Controller.extend({
       title: get(this, 'intl').t('disinformationAndSocialMedia.link2'),
       type: get(this, 'intl').t('video'),
     }, {
-      icon: 'twitter',
+      icon: 'x-twitter',
       iconPrefix: 'fab',
       link: 'https://twitter.com/cattunneycbc/status/1133353482981924869?s=20',
       title: get(this, 'intl').t('disinformationAndSocialMedia.link3'),

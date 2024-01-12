@@ -26,7 +26,7 @@ export default Controller.extend({
       title: get(this, 'intl').t('braidingLegalOrders.link2'),
       type: get(this, 'intl').t('video'),
     }, {
-      icon: 'twitter',
+      icon: 'x-twitter',
       iconPrefix: 'fab',
       link: 'https://twitter.com/CIGIonline/status/869957715375869952',
       title: get(this, 'intl').t('braidingLegalOrders.link3'),

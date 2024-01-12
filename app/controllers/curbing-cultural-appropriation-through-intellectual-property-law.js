@@ -20,7 +20,7 @@ export default Controller.extend({
       title: get(this, 'intl').t('curbingCulturalAppropriationThroughIntellectualPropertyLaw.link1'),
       type: get(this, 'intl').t('publication'),
     }, {
-      icon: 'twitter',
+      icon: 'x-twitter',
       iconPrefix: 'fab',
       link: 'https://twitter.com/CIGIonline/status/1113450942664511488',
       title: get(this, 'intl').t('curbingCulturalAppropriationThroughIntellectualPropertyLaw.link2'),

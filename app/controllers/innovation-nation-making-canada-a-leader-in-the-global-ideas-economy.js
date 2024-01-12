@@ -26,7 +26,7 @@ export default Controller.extend({
       title: get(this, 'intl').t('innovationNation.link2'),
       type: get(this, 'intl').t('opinion'),
     }, {
-      icon: 'twitter',
+      icon: 'x-twitter',
       iconPrefix: 'fab',
       link: 'https://twitter.com/CIGIonline/status/1091043474344943616',
       title: get(this, 'intl').t('innovationNation.link3'),

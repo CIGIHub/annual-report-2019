@@ -20,7 +20,7 @@ export default Controller.extend({
       title: get(this, 'intl').t('informingTheDebateAroundInternetSecurityAndTrust.link1'),
       type: get(this, 'intl').t('survey'),
     }, {
-      icon: 'twitter',
+      icon: 'x-twitter',
       iconPrefix: 'fab',
       link: 'https://twitter.com/CIGIonline/status/1143232825413554177',
       title: get(this, 'intl').t('informingTheDebateAroundInternetSecurityAndTrust.link2'),
