@@ -32,13 +32,13 @@
   <div class="grid-container">
     <div class="grid-x grid-margin-x">
       <div class="cell medium-4 timeline-search">
-        {{fa-icon "search" prefix="fal" size="sm"}}
+        <FaIcon @icon="search" @prefix="fal" @size="sm"/>
         {{input placeholder="search" value=search}}
       </div>
       {{#if search}}
         <div class="cell medium-2">
           <button class="clear-button" {{action "clearSearch"}}>
-            {{fa-icon "times" prefix="fal" size="sm"}}
+            <FaIcon @icon="times" @prefix="fal" @size="sm"/>
             {{t "clear"}}
           </button>
         </div>
@@ -97,7 +97,7 @@
             <div class="cell medium-10">
               <a class="clearfix read-link" href={{node.url_landing_page}} target="_blank" rel="noopener">
                 <div class="float-left read-link-icon">
-                  {{fa-icon "file-alt" prefix="fal" size="lg"}}
+                  <FaIcon @icon="file-alt" @prefix="fal" @size="lg"/>
                 </div>
                 <p>
                   <span class="underline">

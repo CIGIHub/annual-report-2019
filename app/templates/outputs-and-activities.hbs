@@ -36,7 +36,7 @@
           </div>
           <div class="outputs-activities-pagination">
             <button class="page-arrow {{if disablePrevious "disabled"}}" {{action "previousPage"}}>
-              {{fa-icon "chevron-left" prefix="fal" size="sm"}}
+              <FaIcon @icon="chevron-left" @prefix="fal" @size="sm"/>
             </button>
             {{#each paginationPages as |paginationPage|}}
               {{#if paginationPage.disabled}}
@@ -50,7 +50,7 @@
               {{/if}}
             {{/each}}
             <button class="page-arrow {{if disableNext "disabled"}}" {{action "nextPage"}}>
-              {{fa-icon "chevron-right" prefix="fal" size="sm"}}
+              <FaIcon @icon="chevron-right" @prefix="fal" @size="sm"/>
             </button>
           </div>
         </div>
@@ -146,7 +146,7 @@
           <div class="cell medium-10">
             <a class="clearfix read-link" href={{publication.url_landing_page}} target="_blank" rel="noopener">
               <div class="float-left read-link-icon">
-                {{fa-icon "file-alt" prefix="fal" size="lg"}}
+                <FaIcon @icon="file-alt" @prefix="fal" @size="lg"/>
               </div>
               <p>
                 <span class="underline">
